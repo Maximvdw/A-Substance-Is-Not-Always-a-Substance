@@ -1,0 +1,27 @@
+{
+  "PropertyTable": {
+    "Properties": [
+      {
+        "CID": 135853621,
+        "InChIKey": "ATAHBSHPDKSOKS-UHFFFAOYSA-L"
+      },
+      {
+        "CID": 136628869,
+        "InChIKey": "KELLRFNNAYIXIC-UHFFFAOYSA-H"
+      },
+      {
+        "CID": 163368,
+        "InChIKey": "ZRYPIWFQJDFOHK-UHFFFAOYSA-K"
+      },
+      {
+        "CID": 136252385,
+        "InChIKey": "ATAHBSHPDKSOKS-UHFFFAOYSA-K"
+      },
+      {
+        "CID": 171035467,
+        "InChIKey": "ATAHBSHPDKSOKS-UHFFFAOYSA-L"
+      }
+    ]
+  }
+}
+

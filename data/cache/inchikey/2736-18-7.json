@@ -1,0 +1,27 @@
+{
+  "PropertyTable": {
+    "Properties": [
+      {
+        "CID": 23671635,
+        "InChIKey": "SYWDUFAVIVYDMX-UHFFFAOYSA-M"
+      },
+      {
+        "CID": 23713876,
+        "InChIKey": "SYWDUFAVIVYDMX-UHFFFAOYSA-M"
+      },
+      {
+        "CID": 136404778,
+        "InChIKey": "AXCGIKGRPLMUDF-UHFFFAOYSA-N"
+      },
+      {
+        "CID": 135421449,
+        "InChIKey": "YKUDHBLDJYZZQS-UHFFFAOYSA-N"
+      },
+      {
+        "CID": 135729068,
+        "InChIKey": "SYWDUFAVIVYDMX-UHFFFAOYSA-N"
+      }
+    ]
+  }
+}
+
