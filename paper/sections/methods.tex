@@ -1,0 +1,20 @@
+% methods.tex
+
+\subsection{Data}
+De dataset bestaat uit [X] requesten over de periode [jaar]--[jaar],
+gekoppeld aan lijsten met chemische stoffen. Elke request bevat minimaal
+een CAS-nummer en een datum. De referentielijsten omvatten [noem de lijsten].
+
+\subsection{Dataverwerking}
+Alle analyses zijn uitgevoerd in R (versie \ldots) \citep{RCoreTeam2024}.
+CAS-nummers zijn genormaliseerd naar het formaat \texttt{XXXXXX-XX-X}.
+Koppeling tussen requesten en referentielijsten is gedaan op basis van
+het CAS-nummer.
+
+\subsection{Analyse}
+\begin{itemize}
+  \item Frequentieanalyse van stoffen over alle requesten.
+  \item Vergelijking van aangevraagde stoffen met referentielijsten
+        (REACH, SVHC, \ldots).
+  \item Tijdreeksanalyse van het aantal requesten per jaar.
+\end{itemize}

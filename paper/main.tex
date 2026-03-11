@@ -1,0 +1,86 @@
+% ==============================================================================
+% main.tex — A Substance Is Not Always a Substance
+% ==============================================================================
+
+\documentclass[12pt, a4paper]{article}
+
+% ------------------------------------------------------------------------------
+% Pakketten
+% ------------------------------------------------------------------------------
+\usepackage[dutch]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+
+\usepackage[margin=2.5cm]{geometry}
+\usepackage{setspace}
+\onehalfspacing
+
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage{longtable}
+\usepackage{tabularx}
+\usepackage{siunitx}
+
+\usepackage[hidelinks]{hyperref}
+\usepackage{cleveref}
+
+\usepackage{natbib}
+\bibliographystyle{apalike}
+
+% Figuren en tabellen uit de output-map
+\graphicspath{{../output/figures/}}
+
+% ------------------------------------------------------------------------------
+% Metadata
+% ------------------------------------------------------------------------------
+\title{\textbf{A Substance Is Not Always a Substance}\\
+       \large Analyse van chemische stoffen in aanvragen en referentielijsten}
+\author{%
+  \normalsize Auteur \\
+  \small Instelling
+}
+\date{\today}
+
+% ==============================================================================
+\begin{document}
+% ==============================================================================
+
+\maketitle
+\begin{abstract}
+  \input{sections/abstract}
+\end{abstract}
+
+\tableofcontents
+\newpage
+
+% ------------------------------------------------------------------------------
+\section{Inleiding}
+\label{sec:intro}
+\input{sections/introduction}
+
+% ------------------------------------------------------------------------------
+\section{Data en methoden}
+\label{sec:methods}
+\input{sections/methods}
+
+% ------------------------------------------------------------------------------
+\section{Resultaten}
+\label{sec:results}
+\input{sections/results}
+
+% ------------------------------------------------------------------------------
+\section{Discussie}
+\label{sec:discussion}
+\input{sections/discussion}
+
+% ------------------------------------------------------------------------------
+\section{Conclusie}
+\label{sec:conclusion}
+\input{sections/conclusion}
+
+% ------------------------------------------------------------------------------
+\bibliography{references}
+
+\end{document}
