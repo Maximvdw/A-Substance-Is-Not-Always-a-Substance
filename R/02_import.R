@@ -229,3 +229,19 @@ write.csv(all_substances, here("data", "processed", "all_substances.csv"))
 #colnames(all_substances)
 
 message("01_import.R completed")
+
+# ------------------------------------------------------------------------------
+# ChemOnt classification hierarchy
+# ------------------------------------------------------------------------------
+
+chemont_csv <- here("data", "source", "chemont", "ChemOnt_2_1.csv")
+chemont_rds <- here("data", "source", "ChemOnt_2_1.rds")
+
+if (!file.exists(chemont_rds)) {
+  message("ChemOnt CSV not found, running chemont_obo_to_owl.sh ...")
+  system2("bash", args = here("bash", "chemont_obo_to_owl.sh"),
+          stdout = TRUE, stderr = TRUE)
+  chemont <- read.csv(chemont_csv, stringsAsFactors = FALSE)
+  saveRDS(chemont, chemont_rds)
+}
+chemont <- readRDS(chemont_rds)

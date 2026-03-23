@@ -16,6 +16,8 @@ library(uwot)
 library(Rtsne)
 library(ggrepel)
 library(stringr)
+library(cluster)
+library(purrr)
 
 # ------------------------------------------------------------------------------
 # Load clean data
@@ -419,7 +421,7 @@ print(p7)
 
 
 # ==============================================================================
-# Analysis 8: Embedding + clustering of "Unclassified" substance names
+# Analysis 8: Embedding + clustering of "non_structure" substance names
 # Uses sentence-transformers (Python) via reticulate → UMAP + k-means
 # Requirements:
 #   pip install sentence-transformers
@@ -432,50 +434,120 @@ print(p7)
 # 8a: Embed substance names with sentence-transformers
 # ------------------------------------------------------------------------------
 
-embeddings_file <- here("data", "processed", "embeddings.rds")
+embeddings_file <- here("data", "processed", "embeddings_echa.rds")
 
 if (!file.exists(embeddings_file)) {
   
-  unclassified <- all_substances |>
-    filter(entity_type == "Unclassified") |>
+  non_structure <- all_substances |>
+    #filter(entity_type == "non_structure") |>
+    filter(is.na(inchikey)) |>
     distinct(substance_name) |>
-    filter(!is.na(substance_name), nzchar(substance_name))
+    filter(!is.na(substance_name), nzchar(substance_name)) 
   
-  message(sprintf("Analysis 8: embedding %d unclassified substance names", nrow(unclassified)))
+  message(sprintf("Analysis 8: embedding %d non_structure substance names", nrow(non_structure)))
   
   st <- reticulate::import("sentence_transformers")
   model <- st$SentenceTransformer("all-MiniLM-L6-v2")
   
-  embeddings <- model$encode(
-    unclassified$substance_name,
+  embeddings_echa <- model$encode(
+    non_structure$substance_name,
     show_progress_bar = TRUE,
     convert_to_numpy   = TRUE
   )
   
-  saveRDS(embeddings, embeddings_file)
+  saveRDS(embeddings_echa, embeddings_file)
   
   
-} else { 
-  # load
-  embeddings <- readRDS(embeddings_file) 
-}
+} 
+
+# load
+embeddings_echa <- readRDS(embeddings_file) 
+
 
 # embeddings is an (n × 384) numpy matrix
-emb_matrix <- as.matrix(embeddings)
+emb_matrix <- as.matrix(embeddings_echa)
 
 # ------------------------------------------------------------------------------
-# 8b: k-means clustering on the embedding space
+# 8b: Optimal k via silhouette score (k = 2 … 12)
 # ------------------------------------------------------------------------------
+
+
 
 set.seed(42)
-k <- 8L   # adjust after inspecting the UMAP plot
+k_vals     <- 2:12
+sil_scores <- sapply(k_vals, function(k) {
+  km  <- kmeans(emb_matrix, centers = k, nstart = 10, iter.max = 100)
+  sil <- silhouette(km$cluster, dist(emb_matrix))
+  mean(sil[, 3])
+})
+
+sil_df <- data.frame(k = k_vals, silhouette = sil_scores)
+k_opt  <- sil_df$k[which.max(sil_df$silhouette)]
+message(sprintf("Optimal k = %d  (mean silhouette = %.3f)", k_opt, max(sil_scores)))
+
+p8_sil <- ggplot(sil_df, aes(x = k, y = silhouette)) +
+  geom_line(colour = "#4a90d9", linewidth = 0.8) +
+  geom_point(size = 2.5, colour = "#4a90d9") +
+  geom_vline(xintercept = k_opt, linetype = "dashed", colour = "#e05c5c") +
+  geom_label(
+    data    = sil_df[sil_df$k == k_opt, ],
+    aes(label = paste0("k = ", k, "\n(", round(silhouette, 3), ")")),
+    nudge_x = 0.4, size = 3.5, colour = "#e05c5c", label.size = 0.3
+  ) +
+  scale_x_continuous(breaks = k_vals) +
+  labs(
+    title    = "Analysis 8b: Silhouette score by number of clusters",
+    subtitle = "Higher is better — dashed line marks the optimal k",
+    x        = "Number of clusters (k)",
+    y        = "Mean silhouette score"
+  ) +
+  theme_minimal(base_size = 12) +
+  theme(plot.subtitle = element_text(colour = "grey40"))
+
+print(p8_sil)
+
+ggsave(p8_sil, 
+       filename = here("output", "figures", "Analysis_8b_silhouette_score.pdf"),
+       device = "pdf",
+       height = 5, width = 10, units = "in")
+
+# ------------------------------------------------------------------------------
+# 8c: k-means clustering with optimal k
+# ------------------------------------------------------------------------------
+
+# ------------------------------------------------------------------------------
+# 6 clusters
+# ------------------------------------------------------------------------------
+k_opt = 6L
+
+
+set.seed(42)
+k  <- k_opt
 
 km <- kmeans(emb_matrix, centers = k, nstart = 25, iter.max = 100)
-unclassified$cluster <- factor(km$cluster)
+non_structure$cluster <- factor(km$cluster)
 
 # ------------------------------------------------------------------------------
-# 8c: UMAP for 2-D visualisation
+# 8d: UMAP for 2-D visualisation
 # ------------------------------------------------------------------------------
+
+
+cluster_labels_manual <- c(
+  # Cluster 1: All "Reaction mass of..." — defined mixtures of isomers/intermediates
+  "Reaction masses",
+  # Cluster 2: Complex individual substances — dyes, metal complexes, C8-18 surfactants
+  "Complex substances (UVCB with structure)",
+  # Cluster 3: Petroleum & coal tar fractions — UVCB hydrocarbons with Cn-Cm ranges
+  "Petroleum & coal tar fractions",
+  # Cluster 4: Inorganic compounds, metal salts, spinels, slags, nanomaterials
+  "Inorganic compounds & metal salts",
+  # Cluster 5: Trade names, alphanumeric codes, plant extracts, micro-organisms
+  "Trade names, codes & biological materials",
+  # Cluster 6: Polymers, fatty acid derivatives, ethoxylated surfactants
+  "Polymers, fatty acids & surfactants"
+)
+
+
 
 umap_coords <- uwot::umap(
   emb_matrix,
@@ -485,35 +557,43 @@ umap_coords <- uwot::umap(
   seed        = 42L
 )
 
-unclassified$umap1 <- umap_coords[, 1]
-unclassified$umap2 <- umap_coords[, 2]
+non_structure$umap1 <- umap_coords[, 1]
+non_structure$umap2 <- umap_coords[, 2]
 
-# Per-cluster label: the substance name closest to each cluster centroid
-cluster_labels <- unclassified |>
-  group_by(cluster) |>
-  slice_sample(n = 1) |>          # replace with centroid-nearest if preferred
-  ungroup() |>
-  select(cluster, label = substance_name)
 
-plot_data_umap <- unclassified |>
-  left_join(cluster_labels, by = "cluster")
+# Create lookup table
+cluster_map <- data.frame(
+  cluster = factor(1:length(cluster_labels_manual)),
+  manual_label = cluster_labels_manual
+)
+
+plot_data_umap <- plot_data_umap |>
+  left_join(cluster_map, by = "cluster")
+
+
 
 p8_umap <- ggplot(plot_data_umap, aes(x = umap1, y = umap2, colour = cluster)) +
   geom_point(size = 1.2, alpha = 0.6) +
   geom_label_repel(
-    data          = plot_data_umap |> group_by(cluster) |>
-      summarise(umap1 = median(umap1), umap2 = median(umap2),
-                label = first(label), .groups = "drop"),
-    aes(label = paste0("C", cluster, ": ", str_trunc(label, 40))),
-    size          = 3,
-    label.padding = unit(0.2, "lines"),
-    show.legend   = FALSE
+    data = plot_data_umap |>
+      group_by(cluster, manual_label) |>
+      summarise(
+        umap1 = median(umap1),
+        umap2 = median(umap2),
+        .groups = "drop"
+      ),
+    aes(label = paste0(manual_label, " (C", cluster, ")")),
+    size = 3,
+    show.legend = FALSE
   ) +
-  scale_colour_brewer(palette = "Set1") +
+  scale_colour_brewer(
+    palette = "Set1",
+    labels = cluster_labels_manual
+  ) +
   labs(
-    title    = "Analysis 8a: UMAP of unclassified substance names (sentence embeddings)",
+    title    = "UMAP of substance names without inchikey (sentence embeddings)",
     subtitle = paste0(
-      nrow(unclassified), " substance names \u2192 all-MiniLM-L6-v2 embeddings \u2192 ",
+      nrow(non_structure), " substance names \u2192 all-MiniLM-L6-v2 embeddings \u2192 ",
       k, " k-means clusters"
     ),
     x        = "UMAP 1",
@@ -528,8 +608,13 @@ p8_umap <- ggplot(plot_data_umap, aes(x = umap1, y = umap2, colour = cluster)) +
 
 print(p8_umap)
 
+ggsave(p8_umap, 
+       filename = here("output", "figures", "Analysis_8d_UMAP.pdf"),
+       device = "pdf",
+       height = 25, width = 50, units = "cm")
+
 # ------------------------------------------------------------------------------
-# 8d: t-SNE for comparison / validation
+# 8e: t-SNE for comparison / validation
 # ------------------------------------------------------------------------------
 
 set.seed(42)
@@ -542,14 +627,14 @@ tsne_out <- Rtsne::Rtsne(
   verbose      = FALSE
 )
 
-unclassified$tsne1 <- tsne_out$Y[, 1]
-unclassified$tsne2 <- tsne_out$Y[, 2]
+non_structure$tsne1 <- tsne_out$Y[, 1]
+non_structure$tsne2 <- tsne_out$Y[, 2]
 
-p8_tsne <- ggplot(unclassified, aes(x = tsne1, y = tsne2, colour = cluster)) +
+p8_tsne <- ggplot(non_structure, aes(x = tsne1, y = tsne2, colour = cluster)) +
   geom_point(size = 1.2, alpha = 0.6) +
   scale_colour_brewer(palette = "Set1") +
   labs(
-    title    = "Analysis 8b: t-SNE of unclassified substance names (sentence embeddings)",
+    title    = "Analysis 8e: t-SNE of non_structure substance names (sentence embeddings)",
     subtitle = "Same clusters as UMAP — t-SNE preserves local neighbourhood structure",
     x        = "t-SNE 1",
     y        = "t-SNE 2",
@@ -563,13 +648,21 @@ p8_tsne <- ggplot(unclassified, aes(x = tsne1, y = tsne2, colour = cluster)) +
 
 print(p8_tsne)
 
+  
+
+unclassified2 <- merge(unclassified,cluster_map,by="cluster") |> 
+  select('substance_name', 'manual_label') |>
+  rename(cluster = manual_label)
+
+all_substances <- merge(unclassified2,all_substances,by="substance_name") 
+
 # ------------------------------------------------------------------------------
-# 8e: Top terms per cluster (most central substance names)
+# 8f: Top terms per cluster (most central substance names)
 # ------------------------------------------------------------------------------
 
-top_per_cluster <- unclassified |>
+top_per_cluster <- non_structure |>
   group_by(cluster) |>
-  slice_sample(n = 10) |>
+  slice_sample(n = 100) |>
   summarise(examples = paste(substance_name, collapse = "\n  "), .groups = "drop")
 
 message("\n=== Analysis 8: top examples per cluster ===")
@@ -578,5 +671,249 @@ for (i in seq_len(nrow(top_per_cluster))) {
                   top_per_cluster$cluster[i],
                   top_per_cluster$examples[i]))
 }
+
+
+# ==============================================================================
+# Analysis 9: Embedding of chemont
+# ==============================================================================
+
+chemont_rds <- here("data", "source", "ChemOnt_2_1.rds")
+
+chemont <- readRDS(chemont_rds)
+
+chemont$substance_name <- paste(
+  chemont$label,
+  chemont$definition,
+  chemont$altLabel
+) 
+
+chemont <- chemont |> select('substance', 'substance_name')
+
+
+# ------------------------------------------------------------------------------
+# 9a: Embed substance names with sentence-transformers
+# ------------------------------------------------------------------------------
+
+chemont_embeddings_file <- here("data", "processed", "embeddings_chemont.rds")
+
+if (!file.exists(chemont_embeddings_file)) {
+  
+  message(sprintf("Analysis 9: embedding %d chemont substance names", nrow(chemont)))
+  
+  st <- reticulate::import("sentence_transformers")
+  model_chemont <- st$SentenceTransformer("all-MiniLM-L6-v2")
+  
+  embeddings_chemont <- model_chemont$encode(
+    chemont$substance_name,
+    show_progress_bar = TRUE,
+    convert_to_numpy   = TRUE
+  )
+  
+  saveRDS(embeddings_chemont, chemont_embeddings_file)
+  
+  
+} 
+
+# load
+embeddings_chemont <- readRDS(chemont_embeddings_file) 
+
+
+# embeddings is an (n × 384) numpy matrix
+emb_chemont_matrix <- as.matrix(embeddings_chemont)
+
+
+# ------------------------------------------------------------------------------
+# 9b: Cosine similarity
+# ------------------------------------------------------------------------------
+
+# normalise
+normalize <- function(x) {
+  x / sqrt(rowSums(x^2))
+}
+
+chemont_norm <- normalize(embeddings_chemont)
+echa_norm    <- normalize(embeddings_echa)
+
+# cosine similarity = matrix multiplication
+sim_matrix <- echa_norm %*% t(chemont_norm)
+
+# ------------------------------------------------------------------------------
+# 9c: Beste match per substance
+# ------------------------------------------------------------------------------
+
+best_idx   <- max.col(sim_matrix)
+best_score <- sim_matrix[cbind(1:nrow(sim_matrix), best_idx)]
+
+matches <- tibble(
+  substance_name     = non_structure$substance_name,
+  chemont_label = chemont$substance_name[best_idx],
+  score         = best_score
+)
+
+# ------------------------------------------------------------------------------
+# 9d: filter
+# ------------------------------------------------------------------------------
+
+matches <- matches %>%
+  mutate(
+    matchable = !str_detect(
+      substance_name,
+      regex("reaction mass|petroleum|distillate|UVCB", ignore_case = TRUE)
+    )
+  )
+
+# ------------------------------------------------------------------------------
+# 9e:  Score distribution
+# ------------------------------------------------------------------------------
+
+ggplot(matches, aes(score)) +
+  geom_histogram(bins = 60) +
+  theme_minimal() +
+  labs(title = "Similarity score distribution")
+
+# ------------------------------------------------------------------------------
+# 9f: Threshold tuning (coverage)
+# ------------------------------------------------------------------------------
+thresholds <- seq(0.3, 0.9, by = 0.02)
+
+
+coverage <- map_df(thresholds, function(t) { 
+   tibble( 
+     threshold = t, 
+     n_matches = sum(matches$score >= t), 
+     coverage = mean(matches$score >= t) 
+     ) 
+  }
+)
+
+
+ggplot(coverage, aes(threshold, coverage)) +
+  geom_line() +
+  geom_point() +
+  theme_minimal() +
+  labs(
+    title = "Coverage vs threshold",
+    x = "Similarity threshold",
+    y = "Fraction matched"
+  )
+
+# ------------------------------------------------------------------------------
+# 9g: Precision estimation
+# ------------------------------------------------------------------------------
+
+ggplot(matches, aes(x = score)) +
+  stat_ecdf() +
+  theme_minimal() +
+  labs(title = "ECDF of similarity scores")
+
+# ------------------------------------------------------------------------------
+# 9h: Final output with threshold
+# ------------------------------------------------------------------------------
+
+threshold <- 0.7
+
+final_matches <- matches %>%
+  filter(score >= threshold)#, matchable)
+
+head(final_matches, 20)
+
+# ------------------------------------------------------------------------------
+# 9i: Top-3 matches
+# ------------------------------------------------------------------------------
+
+top_k <- 3
+
+top_idx <- t(apply(sim_matrix, 1, function(x) {
+  order(x, decreasing = TRUE)[1:top_k]
+}))
+
+top_scores <- t(apply(sim_matrix, 1, function(x) {
+  sort(x, decreasing = TRUE)[1:top_k]
+}))
+
+top_matches <- map_dfr(1:nrow(top_idx), function(i) {
+  tibble(
+    substance_name = non_structure$substance_name[i],
+    chemont_label = chemont$substance_name[top_idx[i, ]],
+    score = top_scores[i, ]
+  )
+})
+
+threshold <- 0.65
+
+final_top_matches <- top_matches %>%
+  filter(score >= threshold)
+
+best_matches <- top_matches %>%
+  group_by(substance_name) %>%
+  slice_max(score, n = 1) %>%
+  ungroup()
+
+# ------------------------------------------------------------------------------
+# 9j: Ranking per substance
+# ------------------------------------------------------------------------------
+
+
+top_ranked <- top_matches %>%
+  group_by(substance_name) %>%
+  arrange(desc(score)) %>%
+  mutate(rank = row_number()) %>%
+  ungroup()
+
+top_wide <- top_ranked %>%
+  select(substance_name, rank, score, chemont_label) %>%
+  pivot_wider(
+    names_from = rank,
+    values_from = c(score, chemont_label),
+    names_sep = "_"
+  )
+# ------------------------------------------------------------------------------
+# 9k: Consistenty metrics
+# ------------------------------------------------------------------------------
+top_wide <- top_wide %>%
+  mutate(
+    gap_12 = score_1 - score_2,
+    gap_23 = score_2 - score_3,
+    mean_top3 = (score_1 + score_2 + score_3) / 3
+  )
+# ------------------------------------------------------------------------------
+# 9l: Confidence score
+# ------------------------------------------------------------------------------
+
+top_wide <- top_wide %>%
+  mutate(
+    confidence =
+      score_1 * 0.6 +      # absolute strength
+      gap_12 * 0.3 +       # separation
+      gap_23 * 0.1         # stability
+  )
+
+# ------------------------------------------------------------------------------
+# 9m: Filters
+# ------------------------------------------------------------------------------
+filtered <- top_wide %>%
+  filter(
+    score_1 > 0.6,     # minimale kwaliteit
+    gap_12 > 0.05      # duidelijk verschil
+  )
+
+# ------------------------------------------------------------------------------
+# 9n: Visualisation
+# ------------------------------------------------------------------------------
+
+ggplot(top_wide, aes(x = gap_12, y = score_1)) +
+  geom_point(alpha = 0.4) +
+  theme_minimal() +
+  labs(
+    title = "Match quality landscape",
+    x = "Gap between top 1 and 2",
+    y = "Top score"
+  )
+# ------------------------------------------------------------------------------
+# 9: join
+# ------------------------------------------------------------------------------
+
+#unclassified2 <- merge(final_matches,chemont,by=c("chemont")
+
 
 message("02_analysis.R completed")

@@ -1,0 +1,20 @@
+PREFIX rdfs:  <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX owl:   <http://www.w3.org/2002/07/owl#>
+
+SELECT ?substance ?label ?definition
+    (GROUP_CONCAT(DISTINCT ?altLabel; separator=" | ") AS ?altLabels)
+WHERE {
+    ?substance a owl:Class ;
+        rdfs:label ?la .
+
+    OPTIONAL {
+        ?substance <http://purl.obolibrary.org/obo/IAO_0000115> ?definition .
+    }
+
+    OPTIONAL {
+        ?substance <http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> ?altLabel .
+    }
+
+    BIND(STRLANG(?la, "en") AS ?label)
+}
+GROUP BY ?substance ?label ?definition
