@@ -1,0 +1,22 @@
+prefix skos:    <http://www.w3.org/2004/02/skos/core#>
+prefix dbo:     <http://dbpedia.org/ontology/>
+prefix dbp:     <http://dbpedia.org/property/>
+prefix chebi:   <http://purl.obolibrary.org/obo/chebi/>
+prefix csc:     <https://data.omgeving.vlaanderen.be/id/concept/chemical_substance/>
+PREFIX dct: <http://purl.org/dc/terms/>
+PREFIX obo: <http://purl.obolibrary.org/obo/>
+PREFIX chemrof:  <https://w3id.org/chemrof/>
+
+construct
+{
+    ?stof skos:exactMatch ?chebi ; skos:note ?note ; dct:type ?type .
+    ?chebi ?p ?o.
+}
+where
+{
+    ?stof a dbo:ChemicalSubstance ; dbp:inchikey ?inchikey .
+    ?chebi chemrof:inchi_key_string ?inchikey ; ?p ?o .
+    optional {?chebi obo:IAO_0000115 ?def}
+    BIND(STRLANG(?def, "en") AS ?note)
+}
+
