@@ -1,0 +1,30 @@
+bio_group,list_group,n
+Pesticidal,Pesticides (list),204
+Pesticidal,Harmonisation / CLP,190
+Carcinogenic / Mutagenic,Harmonisation / CLP,87
+Allergy / Sensitisation,Harmonisation / CLP,51
+Carcinogenic / Mutagenic,Pesticides (list),20
+Carcinogenic / Mutagenic,SVHC / Candidate,19
+Neurotoxic,Harmonisation / CLP,19
+POP / Environmental,Harmonisation / CLP,16
+Reproductive / Developmental toxicity,Harmonisation / CLP,10
+Allergy / Sensitisation,Pesticides (list),9
+Carcinogenic / Mutagenic,Restriction,9
+POP / Environmental,Pesticides (list),9
+Allergy / Sensitisation,SVHC / Candidate,8
+POP / Environmental,POPs,8
+Neurotoxic,Pesticides (list),7
+Allergy / Sensitisation,Authorisation,6
+Allergy / Sensitisation,PBT / ED,6
+Carcinogenic / Mutagenic,Authorisation,6
+Carcinogenic / Mutagenic,PBT / ED,6
+Neurotoxic,SVHC / Candidate,5
+Pesticidal,PBT / ED,5
+Neurotoxic,Restriction,4
+POP / Environmental,PBT / ED,4
+POP / Environmental,SVHC / Candidate,4
+Carcinogenic / Mutagenic,POPs,3
+Neurotoxic,Authorisation,3
+Reproductive / Developmental toxicity,Authorisation,3
+Reproductive / Developmental toxicity,Pesticides (list),3
+Reproductive / Developmental toxicity,SVHC / Candidate,3

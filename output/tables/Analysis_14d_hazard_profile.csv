@@ -1,0 +1,15 @@
+bio_activity_label,impact_domain,hazard_weight,n_substances,pct_of_scored
+herbicide,Environmental,1,139,26.63
+allergen,Human health,2,76,14.56
+carcinogenic agent,Human health,3,67,12.84
+acaricide,Environmental,1,64,12.26
+insecticide,Environmental,1,43,8.24
+mutagen,Human health,3,35,6.7
+antimicrobial agent,Human health,1,34,6.51
+neurotoxin,Human health,2,30,5.75
+drug allergen,Human health,2,27,5.17
+genotoxin,Human health,3,20,3.83
+fungicide,Environmental,1,17,3.26
+persistent organic pollutant,Environmental,3,16,3.07
+teratogenic agent,Human health,3,16,3.07
+endocrine disruptor,Environmental,3,5,0.96

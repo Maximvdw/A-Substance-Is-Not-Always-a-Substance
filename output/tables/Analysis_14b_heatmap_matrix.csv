@@ -1,0 +1,51 @@
+substance_name,priority_score,Authorisation list,Candidate list,CLH process,ED assessment,Harmonised list,PBT assessment,Pesticides,POPs list,Restriction list,SVHC ident.,n_lists_concern
+"2,2-bis(4-hydroxyphenyl)propane",33,0,1,1,1,1,0,0,0,1,1,6
+Dibutyl phthalate,29,1,1,1,0,1,1,0,0,0,1,6
+"2-(2H-benzotriazol-2-yl)-4,6-di-tert-pentylphenol",27,1,1,0,0,0,1,0,1,0,1,5
+Trixylyl phosphate,26,1,1,1,0,1,1,0,0,0,1,6
+"4,4'- Diaminodiphenylmethane (MDA)",26,1,1,0,0,1,0,0,0,0,1,4
+"1,3,5-triazine-2,4,6-triamine; melamine",25,0,1,1,1,1,1,0,0,0,1,6
+Acrylamide,25,0,1,0,0,1,0,0,0,1,1,4
+1-Methyl-2-pyrrolidone (NMP),25,0,1,1,0,1,0,0,0,1,1,5
+"N,N-dimethylacetamide",25,0,1,1,0,1,0,0,0,1,1,5
+Diisobutyl phthalate,24,1,1,1,0,1,0,0,0,0,1,5
+"N,N-dimethylformamide",24,0,1,0,0,1,0,0,0,1,1,4
+"1,4-dioxane",24,0,1,1,0,1,1,0,0,0,1,5
+"1,2-Dichloroethane",24,1,1,0,0,1,0,1,0,0,1,5
+"2-ethylhexyl 10-ethyl-4,4-dioctyl-7-oxo-8-oxa-3,5-dithia-4-stannatetradecanoate",23,1,1,1,0,1,0,0,0,0,1,5
+"4,4'-sulfonyldiphenol",23,0,1,1,1,1,0,0,0,0,1,5
+BBP; benzyl butyl phthalate e,23,1,1,1,0,1,0,0,0,0,1,5
+Dicyclohexyl phthalate,23,0,1,1,1,1,0,0,0,0,1,5
+"5-tert-butyl-2,4,6-trinitro-m-xylene",22,1,1,0,0,1,0,0,0,0,1,4
+Potassium chromate,22,1,1,0,0,1,0,0,0,0,1,4
+"2,4-dinitrotoluene",22,1,1,0,0,1,0,0,0,0,1,4
+Bis(pentabromophenyl) ether,22,0,1,0,0,0,0,0,1,0,1,3
+Sodium chromate,22,1,1,0,0,1,0,0,0,0,1,4
+"2,2',6,6'-tetrabromo-4,4'-isopropylidenediphenol",22,0,1,1,1,1,1,0,0,0,1,6
+4-tert-butylphenol,22,0,1,1,1,1,0,0,0,0,1,5
+"Diphenyl(2,4,6-trimethylbenzoyl)phosphine oxide",22,0,1,1,0,1,1,0,0,0,1,5
+Lead chromate,22,1,1,0,0,1,0,0,0,0,1,4
+Bis (2-ethylhexyl)phthalate (DEHP),22,1,1,1,0,1,0,0,0,0,1,5
+Octamethylcyclotetrasiloxane,22,0,1,1,0,1,1,0,0,0,1,5
+1-bromopropane,22,1,1,0,0,1,0,0,0,0,1,4
+Sodium peroxometaborate,21,1,1,1,0,1,0,0,0,0,1,5
+Cadmium nitrate,21,0,1,1,0,1,0,0,0,0,1,4
+Potassium dichromate,21,1,1,0,0,1,0,0,0,0,1,4
+2-methyl-1-(4-methylthiophenyl)-2-morpholinopropan-1-one,21,0,1,1,1,1,0,0,0,0,1,5
+"2,2'-dichloro-4,4'-methylenedianiline",21,1,1,0,0,1,0,0,0,0,1,4
+2-ethoxyethanol,21,0,1,1,0,1,0,0,0,0,1,4
+Dihexyl phthalate,21,1,1,1,0,1,0,0,0,0,1,5
+"2,4-di-tert-butyl-6-(5-chlorobenzotriazol-2-yl)phenol",21,1,1,0,0,0,1,0,0,0,1,4
+Chromium trioxide,20,1,1,0,0,1,0,0,0,0,1,4
+Hexane,20,0,1,1,0,1,0,1,0,0,1,5
+Diarsenic trioxide,20,1,1,0,0,1,0,0,0,0,1,4
+Boric acid,20,0,1,1,0,1,0,1,0,0,1,5
+Bis(2-methoxyethyl) phthalate,20,1,1,0,0,1,0,0,0,0,1,4
+Pentadecafluorooctanoic acid,20,0,1,1,0,1,0,0,0,0,1,4
+"1,5-pentandial (glutaraldehyde)",20,0,1,1,0,1,0,1,0,0,1,5
+C.I. Pigment Red 104 (or: lead chromate/molybdate/sulfate; C.I. No. 77605),20,1,1,0,0,1,0,0,0,0,1,4
+Trichloroethylene,20,1,1,0,0,1,0,0,0,0,1,4
+2-(2H-benzotriazol-2-yl)-4-(tert-butyl)-6-(sec-butyl)phenol,20,1,1,0,0,0,1,0,0,0,1,4
+Tris(2-chloroethyl) phosphate,20,1,1,0,0,1,0,0,0,0,1,4
+"Bis(α,α-dimethylbenzyl) peroxide",20,0,1,1,0,1,1,0,0,0,1,5
+Strontium chromate,20,1,1,0,0,1,0,0,0,0,1,4

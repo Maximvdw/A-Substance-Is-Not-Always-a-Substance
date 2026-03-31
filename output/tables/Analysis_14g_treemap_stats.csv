@@ -1,0 +1,7 @@
+bio_group,n_substances,mean_priority,median_priority,sd_priority,min_priority,max_priority
+POP / Environmental,20,12.33,11,7.32,3,33
+Reproductive / Developmental toxicity,16,11.56,10.5,7.39,3,29
+Carcinogenic / Mutagenic,108,9.64,8,5.92,3,26
+Neurotoxic,30,8.73,6,6.92,2,25
+Allergy / Sensitisation,103,5.67,4,5.15,2,26
+Pesticidal,245,5.25,5,2.14,1,16
