@@ -1,0 +1,30 @@
+
+\documentclass{IOS-Book-Article}
+
+\usepackage{mathptmx}
+\usepackage{soul}\setuldepth{article}
+\usepackage{misc/mermaid}
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage{float}
+\graphicspath{{../output/figures/}}
+%\usepackage{times}
+%\normalfont
+%\usepackage[T1]{fontenc}
+%\usepackage[mtplusscr,mtbold]{mathtime}
+%
+\def\hb{\hbox to 11.5 cm{}}
+% Inline placeholder for missing numbers; replace with actual values before submission
+\newcommand{\TODO}[1]{\textbf{[\textit{TODO: #1}]}}
+
+\begin{document}
+
+\input{sections/00_frontmatter}
+\input{sections/10_introduction}
+\input{sections/20_methods}
+\input{sections/30_results}
+\input{sections/40_discussion}
+\input{sections/50_conclusion}
+\input{sections/90_bibliography}
+
+\end{document}
