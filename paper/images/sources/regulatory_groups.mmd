@@ -1,0 +1,22 @@
+flowchart TB
+
+    U[Universe of chemical molecules]
+
+    U --> PFOS[PFOS molecule]
+    U --> PFBA[PFBA molecule]
+    U --> PFBS[PFBS molecule]
+    U --> OTHER[Other fluorinated molecules]
+
+    subgraph PFAS_group["Regulatory group: PFAS"]
+        PFOS
+        PFBA
+        PFBS
+        OTHER
+    end
+
+    subgraph Analytical_parameter["Analytical parameter"]
+        SUM[Sum PFOS + PFBA]
+    end
+
+    PFOS --> SUM
+    PFBA --> SUM

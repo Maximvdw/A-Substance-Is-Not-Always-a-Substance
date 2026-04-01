@@ -74,8 +74,8 @@
 # -------
 # output/figures/Analysis_1_What_is_a_substance.pdf
 # output/figures/Analysis_2_interoperability_differs_by_regulation.pdf
-# output/figures/Analysis_3a_CAS↔InChIKey_inconsistencies_multiple_INCHIKEYS.pdf
-# output/figures/Analysis_3b_CAS↔InChIKey_inconsistencies_multiple_CAS_numbers.pdf
+# output/figures/Analysis_3a_CAS-InChIKey_inconsistencies_multiple_INCHIKEYS.pdf
+# output/figures/Analysis_3b_CAS-InChIKey_inconsistencies_multiple_CAS_numbers.pdf
 # output/tables/Analysis_1_structure_vs_nonstructure.csv
 # output/tables/Analysis_2_interoperability_per_source.csv
 # output/tables/Analysis_3a_cas_to_inchikey.csv
@@ -252,7 +252,7 @@ p3a <- ggplot(cas_to_inchi, aes(x = n_inchikeys)) +
 print(p3a)
 ggsave(p3a,
        filename = here("output", "figures",
-                       "Analysis_3a_CAS\u2194InChIKey_inconsistencies_multiple_INCHIKEYS.pdf"),
+                       "Analysis_3a_CAS-InChIKey_inconsistencies_multiple_INCHIKEYS.pdf"),
        device = "pdf",
        height = 5, width = 10, units = "in")
 
@@ -285,7 +285,7 @@ p3b <- ggplot(inchi_to_cas, aes(x = n_cas)) +
 print(p3b)
 ggsave(p3b,
        filename = here("output", "figures",
-                       "Analysis_3b_CAS\u2194InChIKey_inconsistencies_multiple_CAS_numbers.pdf"),
+                       "Analysis_3b_CAS-InChIKey_inconsistencies_multiple_CAS_numbers.pdf"),
        device = "pdf",
        height = 5, width = 10, units = "in")
 

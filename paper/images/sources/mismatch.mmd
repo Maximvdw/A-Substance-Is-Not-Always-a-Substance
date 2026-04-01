@@ -1,0 +1,24 @@
+flowchart TB
+
+    subgraph Chemistry
+        A[Molecule]
+        B[Structure representation<br/>atoms + bonds]
+        C[Structure identifiers<br/>InChI / InChIKey]
+
+        A --> B
+        B --> C
+    end
+
+    subgraph Regulatory datasets
+        D["Substance"]
+
+        D --> E[Individual molecule]
+        D --> F[Mixture]
+        D --> G[Substance group]
+        D --> H[Analytical parameter]
+
+        E --> E1[Example: PFOS]
+        F --> F1[Example: commercial PFAS mixture]
+        G --> G1[Example: Perfluorinated compounds]
+        H --> H1[Example: Sum PFOS + PFBA]
+    end

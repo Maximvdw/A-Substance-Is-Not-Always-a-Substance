@@ -289,6 +289,9 @@ chebi <- chebi_raw |>
   group_by(substance) |>
   summarise(
     substance_name      = first(substance_name),
+    inchikey            = first(inchikey),
+    casNumbers          = paste(unique(na.omit(casNumbers)), collapse = "|"),
+    ecNumbers           = paste(unique(na.omit(ecNumbers)),  collapse = "|"),
     bio_activity_labels = paste(unique(na.omit(bio_activity_labels)), collapse = "|"),
     echa_lists          = paste(unique(na.omit(echa_lists)),          collapse = "|"),
     .groups = "drop"
@@ -970,7 +973,8 @@ dir.create(here("output", "tables"), showWarnings = FALSE, recursive = TRUE)
 
 priority |>
   select(
-    substance, substance_name, priority_score, list_score, bio_score,
+    substance, substance_name, inchikey, casNumbers, ecNumbers,
+    priority_score, list_score, bio_score,
     n_lists, top_list_cat, echa_lists, bio_activity_labels
   ) |>
   write_csv(here("output", "tables", "prioritization.csv"))

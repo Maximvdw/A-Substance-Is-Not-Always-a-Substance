@@ -85,7 +85,7 @@
 # -------
 # output/figures/Analysis_4a_Overall_distribution_of_entity_types.pdf
 # output/figures/Analysis_4b_Entity_type_breakdown_per_source.pdf
-# output/figures/Analysis_4d_Linkable-taxonomie—general_overview_of_the_complete_ECHA-dataset.pdf
+# output/figures/Analysis_4d_Linkability_taxonomy_general_overview.pdf
 # output/tables/Analysis_4a_entity_type_distribution.csv
 # output/tables/Analysis_4b_entity_type_per_source.csv
 # output/tables/Analysis_4c_parent_compound_lookup.csv
@@ -446,7 +446,7 @@ p4d <- ggplot(df4d,
 print(p4d)
 ggsave(p4d,
        filename = here("output", "figures",
-                       "Analysis_4d_Linkable-taxonomie\u2014general_overview_of_the_complete_ECHA-dataset.pdf"),
+                       "Analysis_4d_Linkability_taxonomy_general_overview.pdf"),
        device = "pdf",
        height = 5, width = 10, units = "in")
 
