@@ -262,6 +262,7 @@ library(treemapify)
 library(purrr)
 library(forcats)
 library(stringr)
+library(writexl)
 
 # ------------------------------------------------------------------------------
 # Load and prepare data
@@ -971,13 +972,16 @@ chebi_bio_long |>
 
 dir.create(here("output", "tables"), showWarnings = FALSE, recursive = TRUE)
 
-priority |>
+prioritization <- priority |>
   select(
     substance, substance_name, inchikey, casNumbers, ecNumbers,
     priority_score, list_score, bio_score,
     n_lists, top_list_cat, echa_lists, bio_activity_labels
-  ) |>
-  write_csv(here("output", "tables", "prioritization.csv"))
+  ) 
+
+write_csv(prioritization, here("output", "tables", "prioritization.csv"))
+write_xlsx(prioritization, here("output", "tables", "prioritization.xlsx"))
+
 
 message(sprintf(
   "Analysis 14 complete: %d unique substances scored | Top substance: '%s' (score: %g) | CSV saved",

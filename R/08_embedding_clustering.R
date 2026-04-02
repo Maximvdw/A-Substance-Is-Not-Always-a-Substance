@@ -579,6 +579,9 @@ write_csv(tc_results,
 
 saveRDS(plot_data_umap,
         here("data", "processed", "non_structure_clusters.rds"))
+
+write_csv(plot_data_umap, here("data", "processed", "non_structure_clusters.csv"))
+
 message("Analysis 8: cluster assignments saved to data/processed/non_structure_clusters.rds")
 
 message("08_embedding_clustering.R: analysis 8 completed")

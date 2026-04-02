@@ -255,7 +255,7 @@ p9f <- ggplot(coverage, aes(threshold, coverage)) +
   geom_point(size = 2, colour = "#4a90d9") +
   theme_minimal(base_size = 12) +
   labs(
-    title    = "Analysis 9f: Coverage vs threshold",
+    title    = "Coverage vs threshold",
     subtitle = "Fraction of substance names matched at each cosine similarity threshold",
     x        = "Similarity threshold",
     y        = "Fraction matched"

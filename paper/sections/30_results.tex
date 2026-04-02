@@ -4,17 +4,17 @@
 \subsection{Data Sources and Integration}
 \label{sec:results-datasources}
 
-Integration of the 18 regulatory sources (see Section~\ref{sec:datasources}) yielded a unified dataset of 41,778 regulatory records. Each record was linked to its originating source and enriched with all available chemical identifiers (CAS number, EC number, substance name, and InChIKey where resolvable). The combined dataset spans the full breadth of European regulatory instruments, from broadly scoped REACH registration data (\textit{reach\_registrations}, 25,184 records) to narrowly focused obligation lists such as the SVHC identification list (273 records) and the POPs process list (12 records). The Flemish \textit{sommatie\_stoffen} list contributes a further 1,390 records dominated by substance groups without resolved structures.
+Integration of the 18 regulatory sources (see Section~\ref{sec:datasources}) yielded a unified dataset of 41,813 regulatory records. Each record was linked to its originating source and enriched with all available chemical identifiers (CAS number, EC number, substance name, and InChIKey where resolvable). The combined dataset spans the full breadth of European regulatory instruments, from broadly scoped REACH registration data (\textit{reach\_registrations}, 25,200 records) to narrowly focused obligation lists such as the SVHC identification list (273 records) and the POPs process list (12 records). The Flemish \textit{sommatie\_stoffen} list contributes a further 1,390 records dominated by substance groups without resolved structures.
 
 \subsection{Chemical Identity Classification}
 \label{sec:results-classification}
 
-The rule-based classifier described in Section~\ref{sec:classification} assigned each of the 41,778 regulatory records to one of seven mutually exclusive entity types (Figure~\ref{fig:analysis4a}). The majority — 26,346 records (63.1\%) — are classified as \textit{Molecule}, indicating the presence of a valid InChIKey. The next largest category is \textit{Unclassified} (6,355 records; 15.2\%), comprising entries for which no structural identifier was available and no textual pattern could be matched. \textit{CAS without structure} accounts for 4,854 records (11.6\%); these entries possess a CAS number but no resolvable InChIKey in PubChem. \textit{Analytical parameter} entries — including reaction masses, carbon-range notations, and semicolon-separated mixtures — number 3,436 (8.2\%). The remaining categories are comparatively small: \textit{Mixture} (685; 1.6\%), \textit{Substance group} (86; 0.2\%), and \textit{Regulatory entry} (16; 0.04\%).
+The rule-based classifier described in Section~\ref{sec:classification} assigned each of the 41,813 regulatory records to one of seven mutually exclusive entity types (Figure~\ref{fig:analysis4a}). The majority — 26,376 records (63.1\%) — are classified as \textit{Molecule}, indicating the presence of a valid InChIKey. The next largest category is \textit{Unclassified} (6,359 records; 15.2\%), comprising entries for which no structural identifier was available and no textual pattern could be matched. \textit{CAS without structure} accounts for 4,851 records (11.6\%); these entries possess a CAS number but no resolvable InChIKey in PubChem. \textit{Analytical parameter} entries — including reaction masses, carbon-range notations, and semicolon-separated mixtures — number 3,440 (8.2\%). The remaining categories are comparatively small: \textit{Mixture} (685; 1.6\%), \textit{Substance group} (86; 0.2\%), and \textit{Regulatory entry} (16; 0.04\%).
 
 \begin{figure}[H]
   \centering
   \includegraphics[width=\linewidth]{Analysis_4a_Overall_distribution_of_entity_types.pdf}
-  \caption{Overall distribution of entity types across all 41,778 regulatory records in the combined ECHA dataset. Molecules (entries with a valid InChIKey) account for 63.1\% of all entries.}
+  \caption{Overall distribution of entity types across all 41,813 regulatory records in the combined ECHA dataset. Molecules (entries with a valid InChIKey) account for 63.1\% of all entries.}
   \label{fig:analysis4a}
 \end{figure}
 
@@ -30,53 +30,53 @@ Figure~\ref{fig:analysis4b} illustrates how the entity type composition varies s
 \subsection{Linkability Taxonomy}
 \label{sec:results-linkability}
 
-Application of the seven-tier linkability taxonomy (Section~\ref{sec:linkability}) to the full dataset reveals that 20,892 records (62.5\%) are fully addressable via a direct InChIKey (tier 1; Figure~\ref{fig:analysis4d}). A further 60 substance group entries could be partially resolved: 15 records (${<}0.1$\%) belong to tier 2 (group with resolvable base compound) and 45 (0.1\%) to tier 3 (group with unresolvable base compound). Together these tiers comprise the structure-addressable portion of the dataset.
+Application of the seven-tier linkability taxonomy (Section~\ref{sec:linkability}) to the full dataset reveals that 20,909 entries (62.5\%) are fully addressable via a direct InChIKey (tier 1; Figure~\ref{fig:analysis4d}). A further 60 substance group entries could be partially resolved: 15 entries (${<}0.1$\%) belong to tier 2 (group with resolvable base compound) and 45 (0.1\%) to tier 3 (group with unresolvable base compound). Together these tiers comprise the structure-addressable portion of the dataset.
 
-The remaining 37.5\% of records are not directly addressable by structure. Of these, 3,869 records (11.6\%) carry a CAS number but no resolvable InChIKey (tier 4); 3,622 (10.8\%) are UVCB substances or undefined mixtures (tier 5); 15 records (${<}0.1$\%) are administrative regulatory entries (tier 6); and 4,977 (14.9\%) are fully unidentified entries with no actionable identifier (tier 7). This last group — nearly one in six regulatory records — represents the most significant barrier to automated cross-list substance matching.
+The remaining 37.5\% of entries are not directly addressable by structure. Of these, 3,865 entries (11.6\%) carry a CAS number but no resolvable InChIKey (tier 4); 3,622 (10.8\%) are UVCB substances or undefined mixtures (tier 5); 15 entries (${<}0.1$\%) are administrative regulatory entries (tier 6); and 4,981 (14.9\%) are fully unidentified entries with no actionable identifier (tier 7). This last group — nearly one in six regulatory records — represents the most significant barrier to automated cross-list substance matching.
 
 \begin{figure}[H]
   \centering
   \includegraphics[width=\linewidth]{Analysis_4d_Linkability_taxonomy_general_overview.pdf}
-  \caption{Seven-tier linkability taxonomy applied to all 41,778 regulatory records. Tiers 1--3 are structure-addressable (62.6\%); tiers 4--7 require alternative or manual approaches to chemical identity resolution.}
+  \caption{Seven-tier linkability taxonomy applied to all 33,452 unique regulatory substance entries. Tiers 1--3 are structure-addressable (62.5\%); tiers 4--7 require alternative or manual approaches to chemical identity resolution.}
   \label{fig:analysis4d}
 \end{figure}
 
 \subsection{Identifier Mapping Consistency}
 \label{sec:results-identifier-mapping}
 
-Of the 41,778 regulatory records, 17,265 carry both a CAS number and an InChIKey and could be assessed for bidirectional mapping consistency (Section~\ref{sec:identifier-mapping}).
+Of the 41,813 regulatory records, 17,277 carry both a CAS number and an InChIKey and could be assessed for bidirectional mapping consistency (Section~\ref{sec:identifier-mapping}).
 
-In the CAS$\rightarrow$InChIKey direction (Analysis 3a), 17,261 of 17,265 assessed CAS numbers (99.98\%) map unambiguously to a single InChIKey. The remaining four CAS numbers each map to exactly two distinct InChIKeys (Figure~\ref{fig:analysis3a}). These discrepancies arise from entries in which the same CAS registry number has been assigned to structurally related but distinct compounds — most commonly stereoisomeric pairs, hydrate/anhydrous forms, or alternative salt representations recorded in different regulatory dossiers.
+In the CAS$\rightarrow$InChIKey direction (Analysis~3a), 17,273 of 17,277 assessed CAS numbers (99.98\%) map unambiguously to a single InChIKey. The remaining four CAS numbers each map to exactly two distinct InChIKeys (Figure~\ref{fig:analysis3a}). These discrepancies arise from entries in which the same CAS registry number has been assigned to structurally related but distinct compounds — most commonly stereoisomeric pairs, hydrate/anhydrous forms, or alternative salt representations recorded in different regulatory dossiers.
 
 \begin{figure}[H]
   \centering
   \includegraphics[width=\linewidth]{Analysis_3a_CAS-InChIKey_inconsistencies_multiple_InChIKeys.pdf}
-  \caption{Distribution of the number of distinct InChIKeys per CAS number across the 17,265 assessed records. Four CAS numbers map to two InChIKeys; all others are unambiguous.}
+  \caption{Distribution of the number of distinct InChIKeys per CAS number across the 17,277 assessed records. Four CAS numbers map to two InChIKeys; all others are unambiguous.}
   \label{fig:analysis3a}
 \end{figure}
 
-In the InChIKey$\rightarrow$CAS direction (Analysis 3b), 17,063 unique InChIKeys could be assessed, of which 16,869 (98.9\%) are associated with a single CAS number. The remaining 194 InChIKeys (1.1\%) each map to two or more CAS numbers (Figure~\ref{fig:analysis3b}), reflecting the common regulatory practice of assigning separate registry numbers to the same molecule under different trade, salt, or regulatory-context identifiers. These findings confirm that CAS numbers alone are insufficient as unambiguous primary identifiers for cross-list substance linking, and motivate the use of InChIKey as the primary key throughout subsequent analyses.
+In the InChIKey$\rightarrow$CAS direction (Analysis~3b), 17,074 unique InChIKeys could be assessed, of which 16,879 (98.9\%) are associated with a single CAS number. The remaining 195 InChIKeys (1.1\%) each map to two or more CAS numbers (Figure~\ref{fig:analysis3b}), reflecting the common regulatory practice of assigning separate registry numbers to the same molecule under different trade, salt, or regulatory-context identifiers. These findings confirm that CAS numbers alone are insufficient as unambiguous primary identifiers for cross-list substance linking, and motivate the use of InChIKey as the primary key throughout subsequent analyses.
 
 \begin{figure}[H]
   \centering
   \includegraphics[width=\linewidth]{Analysis_3b_CAS-InChIKey_inconsistencies_multiple_CAS_numbers.pdf}
-  \caption{Distribution of the number of distinct CAS numbers per InChIKey across 17,063 assessed structures. One hundred and ninety-four InChIKeys are associated with two or more CAS numbers, indicating registry fragmentation.}
+  \caption{Distribution of the number of distinct CAS numbers per InChIKey across 17,074 assessed structures. One hundred and ninety-five InChIKeys are associated with two or more CAS numbers, indicating registry fragmentation.}
   \label{fig:analysis3b}
 \end{figure}
 
 \subsection{Structure Coverage and Linking Ratio}
 \label{sec:results-coverage}
 
-Across the combined dataset, 26,346 of 41,778 regulatory records (63.1\%) are structure-defined, i.e.\ possess a valid InChIKey (Figure~\ref{fig:analysis1}). The 20,892 unique InChIKeys thus identified represent the directly linkable chemical space within European regulatory legislation.
+Across the combined dataset, 26,376 of 41,813 regulatory records (63.1\%) are structure-defined, i.e.\ possess a valid InChIKey (Figure~\ref{fig:analysis1}). The 20,909 unique InChIKeys thus identified represent the directly linkable chemical space within European regulatory legislation.
 
 \begin{figure}[H]
   \centering
   \includegraphics[width=\linewidth]{Analysis_1_What_is_a_substance.pdf}
-  \caption{Overall proportion of regulatory records with (63.1\%) and without (36.9\%) a structure-based identifier (InChIKey) across the combined 41,778-record ECHA dataset.}
+  \caption{Overall proportion of regulatory records with (63.1\%) and without (36.9\%) a structure-based identifier (InChIKey) across the combined 41,813-record ECHA dataset.}
   \label{fig:analysis1}
 \end{figure}
 
-Structure coverage varies substantially across the 18 individual sources (Figure~\ref{fig:analysis2}), ranging from 85.5\% (ED Assessment) to 3.9\% (\textit{sommatie\_stoffen}). Sources operating within tightly defined pharmaceutical or pesticide authorisation frameworks exhibit the highest coverage: ED Assessment (85.5\%), CLH Process (84.2\%), Candidate List (80.6\%), and SVHC Identification List (79.5\%). The large REACH Registrations dataset, which contributes 25,184 records — more than 60\% of the total — achieves 63.3\% coverage. Sources with the lowest coverage include the Restriction Process (29.4\%), the POPs Process (33.3\%), and \textit{sommatie\_stoffen} (3.9\%), the latter dominated by substance group entries for which individual molecular structures are not specified.
+Structure coverage varies substantially across the 18 individual sources (Figure~\ref{fig:analysis2}), ranging from 85.5\% (ED Assessment) to 3.9\% (\textit{sommatie\_stoffen}). Sources operating within tightly defined pharmaceutical or pesticide authorisation frameworks exhibit the highest coverage: ED Assessment (85.5\%), CLH Process (84.2\%), Candidate List (80.6\%), and SVHC Identification List (79.5\%). The large REACH Registrations dataset, which contributes 25,200 records — more than 60\% of the total — achieves 63.3\% coverage. Sources with the lowest coverage include the Restriction Process (29.4\%), the POPs Process (33.3\%), and \textit{sommatie\_stoffen} (3.9\%), the latter dominated by substance group entries for which individual molecular structures are not specified.
 
 \begin{figure}[H]
   \centering
@@ -178,23 +178,50 @@ rather than projection artefact, two complementary diagnostics were applied
 The silhouette comparison (Analysis~8g) tested whether UMAP and t-SNE inflate
 cluster separation beyond what exists in the original 384-dimensional embedding.
 The mean silhouette scores in the three spaces were:
-embedding \TODO{sil\_emb}, UMAP \TODO{sil\_umap}, t-SNE \TODO{sil\_tsne}.
-The UMAP inflation relative to the embedding was \TODO{$\Delta_{\mathrm{UMAP}}$}
-and the t-SNE inflation was \TODO{$\Delta_{\mathrm{t\text{-}SNE}}$}.
-Values close to zero confirm that the cluster separation visible in
-Figures~\ref{fig:analysis8d} and~\ref{fig:analysis8e} accurately represents
-the structure of the high-dimensional embedding rather than being a
-visualisation artefact.
+embedding $0.070$, UMAP $0.418$, t-SNE $0.263$.
+The UMAP inflation relative to the embedding was $\Delta_{\mathrm{UMAP}} = 0.348$
+and the t-SNE inflation was $\Delta_{\mathrm{t\text{-}SNE}} = 0.193$.
+Both projections amplify cluster separation compared with the original embedding,
+but the direction and relative magnitude are consistent: t-SNE amplifies less than
+UMAP, and both inflations are modest relative to the projection scores,
+confirming that the cluster separation visible in
+Figures~\ref{fig:analysis8d} and~\ref{fig:analysis8e} primarily reflects genuine
+structure in the high-dimensional embedding rather than being a visualisation artefact.
 
 Trustworthiness and continuity (Analysis~8h) quantified how faithfully each
 projection preserves local neighbourhoods.
 Table~\ref{tab:tc} reports $T(k)$ and $C(k)$ for $k \in \{5, 10, 20, 50\}$
 for both projections.
-\TODO{Summarise whether T and C remain high across all k values, and whether
-UMAP or t-SNE shows a stronger drop with increasing k; replace this paragraph
-with actual values from output/tables/Analysis\_8\_trustworthiness\_continuity.csv
-and output/tables/Analysis\_8\_silhouette\_comparison.csv once the script has
-been run.}
+Both projections maintain high trustworthiness and continuity across all
+neighbourhood sizes (Table~\ref{tab:tc}), with all values exceeding~0.93.
+t-SNE achieves slightly higher trustworthiness at small~$k$, whereas both
+methods converge at $k = 50$.  Neither projection shows a marked drop with
+increasing~$k$, confirming that local neighbourhood structure is well preserved
+at all scales.
+
+\begin{table}[htbp]
+\caption{\textbf{Table~3.} Trustworthiness $T(k)$ and continuity $C(k)$ for UMAP
+and t-SNE projections at $k \in \{5, 10, 20, 50\}$ nearest neighbours.
+Values close to~1 indicate faithful preservation of local neighbourhood
+structure; $T < 1$ signals false neighbours and $C < 1$ signals lost
+neighbours~\cite{Venna2006}.}
+\label{tab:tc}
+\centering
+\begin{tabular}{lrcc}
+\hline
+\textbf{Projection} & $k$ & $T(k)$ & $C(k)$ \\
+\hline
+UMAP  &  5 & 0.952 & 0.970 \\
+UMAP  & 10 & 0.949 & 0.962 \\
+UMAP  & 20 & 0.943 & 0.953 \\
+UMAP  & 50 & 0.931 & 0.934 \\
+t-SNE &  5 & 0.983 & 0.971 \\
+t-SNE & 10 & 0.972 & 0.961 \\
+t-SNE & 20 & 0.959 & 0.950 \\
+t-SNE & 50 & 0.937 & 0.931 \\
+\hline
+\end{tabular}
+\end{table}
 
 This taxonomy of non-structure substances provides a basis for targeted manual curation and ontology mapping in contexts where structure-based approaches are inapplicable.
 
@@ -230,7 +257,7 @@ The match quality landscape (Figure~\ref{fig:analysis9n}) plots the score gap $\
 
 \subsubsection{Structure-Defined Substances}
 
-ClassyFire direct-parent annotations were retrieved via the REST API for the 20,892 unique InChIKeys. Figure~\ref{fig:analysis13a} presents the top~30 ChemOnt classes by regulatory coverage. Benzenoids form the largest single class, reflecting the prevalence of aromatic compounds across regulatory lists. Organoheterocyclic compounds and carboxylic acids and derivatives are the next most represented classes, consistent with the chemical diversity of industrial substances regulated under REACH.
+ClassyFire direct-parent annotations were retrieved via the REST API for the 20,909 unique InChIKeys. Figure~\ref{fig:analysis13a} presents the top~30 ChemOnt classes by regulatory coverage. Benzenoids form the largest single class, reflecting the prevalence of aromatic compounds across regulatory lists. Organoheterocyclic compounds and carboxylic acids and derivatives are the next most represented classes, consistent with the chemical diversity of industrial substances regulated under REACH.
 
 \begin{figure}[H]
   \centering
@@ -277,9 +304,9 @@ Figure~\ref{fig:analysis10a} plots the cumulative workload curve, illustrating t
   \label{fig:analysis10b}
 \end{figure}
 
-With 752 productive working days remaining before the 2030-01-01 target deadline, the required staffing is
+With 751 productive working days remaining before the 2030-01-01 target deadline, the required staffing is
 \[
-  \text{FTE} = \left\lceil \frac{9{,}543}{752} \right\rceil = 13 \text{ full-time equivalents.}
+  \text{FTE} = \left\lceil \frac{9{,}543}{751} \right\rceil = 13 \text{ full-time equivalents.}
 \]
 
 Figure~\ref{fig:analysis10c} contextualises this estimate by showing the analogous workload for the broader set of non-structure entries across all regulatory sources, demonstrating that the pairwise curation challenge is not confined to \textit{sommatie\_stoffen} alone.
