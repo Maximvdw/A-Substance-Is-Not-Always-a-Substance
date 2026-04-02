@@ -14,29 +14,29 @@ candidate_list,CAS without structure,15,0.05813953488372093
 candidate_list,Molecule,208,0.8062015503875969
 candidate_list,Substance group,8,0.031007751937984496
 candidate_list,Unclassified,22,0.08527131782945736
-clh_process,Analytical parameter,56,0.06313416009019165
-clh_process,CAS without structure,46,0.05186020293122886
-clh_process,Mixture,4,0.004509582863585118
-clh_process,Molecule,747,0.84216459977452085
-clh_process,Regulatory entry,1,0.0011273957158962795
-clh_process,Substance group,3,0.0033821871476888386
-clh_process,Unclassified,30,0.033821871476888386
-dossier_evaluation,Analytical parameter,359,0.0819634703196347
-dossier_evaluation,CAS without structure,740,0.1689497716894977
-dossier_evaluation,Mixture,30,0.00684931506849315
-dossier_evaluation,Molecule,2748,0.6273972602739726
-dossier_evaluation,Regulatory entry,1,2.2831050228310502e-4
-dossier_evaluation,Substance group,1,2.2831050228310502e-4
-dossier_evaluation,Unclassified,501,0.11438356164383562
+clh_process,Analytical parameter,57,0.06390134529147982
+clh_process,CAS without structure,46,0.0515695067264574
+clh_process,Mixture,4,0.004484304932735426
+clh_process,Molecule,751,0.8419282511210763
+clh_process,Regulatory entry,1,0.0011210762331838565
+clh_process,Substance group,3,0.0033632286995515697
+clh_process,Unclassified,30,0.033632286995515695
+dossier_evaluation,Analytical parameter,360,0.08207934336525308
+dossier_evaluation,CAS without structure,742,0.1691746466028272
+dossier_evaluation,Mixture,30,0.006839945280437756
+dossier_evaluation,Molecule,2751,0.6272229822161423
+dossier_evaluation,Regulatory entry,1,2.2799817601459188e-4
+dossier_evaluation,Substance group,1,2.2799817601459188e-4
+dossier_evaluation,Unclassified,501,0.11422708618331054
 ed_assessment,Analytical parameter,5,0.036231884057971016
 ed_assessment,CAS without structure,9,0.06521739130434782
 ed_assessment,Molecule,118,0.855072463768116
 ed_assessment,Substance group,1,0.007246376811594203
 ed_assessment,Unclassified,5,0.036231884057971016
 eu_positive_list,Analytical parameter,138,0.06845238095238096
-eu_positive_list,CAS without structure,309,0.15327380952380953
+eu_positive_list,CAS without structure,306,0.15178571428571427
 eu_positive_list,Mixture,7,0.003472222222222222
-eu_positive_list,Molecule,1197,0.59375
+eu_positive_list,Molecule,1200,0.5952380952380952
 eu_positive_list,Regulatory entry,1,4.96031746031746e-4
 eu_positive_list,Substance group,7,0.003472222222222222
 eu_positive_list,Unclassified,357,0.17708333333333334
@@ -46,9 +46,9 @@ harmonised_list,Molecule,3349,0.7043112513144059
 harmonised_list,Substance group,2,4.206098843322818e-4
 harmonised_list,Unclassified,270,0.056782334384858045
 pbt_assessment,Analytical parameter,20,0.08064516129032258
-pbt_assessment,CAS without structure,35,0.14112903225806453
+pbt_assessment,CAS without structure,34,0.13709677419354838
 pbt_assessment,Mixture,3,0.012096774193548387
-pbt_assessment,Molecule,160,0.6451612903225806
+pbt_assessment,Molecule,161,0.6491935483870968
 pbt_assessment,Substance group,2,0.008064516129032258
 pbt_assessment,Unclassified,28,0.11290322580645161
 pesticides,Analytical parameter,3,0.002028397565922921
@@ -56,21 +56,21 @@ pesticides,CAS without structure,37,0.025016903313049357
 pesticides,Molecule,1083,0.7322515212981744
 pesticides,Substance group,5,0.0033806626098715348
 pesticides,Unclassified,351,0.23732251521298176
-pops_list,CAS without structure,1,0.030303030303030304
-pops_list,Molecule,18,0.5454545454545454
-pops_list,Substance group,9,0.2727272727272727
-pops_list,Unclassified,5,0.15151515151515152
+pops_list,CAS without structure,1,0.029411764705882353
+pops_list,Molecule,18,0.5294117647058824
+pops_list,Substance group,9,0.2647058823529412
+pops_list,Unclassified,6,0.17647058823529413
 pops_process,Analytical parameter,1,0.08333333333333333
 pops_process,Molecule,4,0.3333333333333333
 pops_process,Substance group,2,0.16666666666666666
 pops_process,Unclassified,5,0.4166666666666667
-reach_registrations,Analytical parameter,1797,0.07135482846251588
-reach_registrations,CAS without structure,2628,0.10435196950444726
-reach_registrations,Mixture,136,0.0054002541296060995
-reach_registrations,Molecule,15934,0.6327033036848793
-reach_registrations,Regulatory entry,1,3.9707750952986025e-5
-reach_registrations,Substance group,9,3.573697585768742e-4
-reach_registrations,Unclassified,4679,0.1857925667090216
+reach_registrations,Analytical parameter,1798,0.07134920634920634
+reach_registrations,CAS without structure,2627,0.10424603174603174
+reach_registrations,Mixture,136,0.005396825396825397
+reach_registrations,Molecule,15947,0.6328174603174603
+reach_registrations,Regulatory entry,1,3.968253968253968e-5
+reach_registrations,Substance group,9,3.5714285714285714e-4
+reach_registrations,Unclassified,4682,0.1857936507936508
 restriction_list,Analytical parameter,3,0.038461538461538464
 restriction_list,CAS without structure,1,0.01282051282051282
 restriction_list,Mixture,2,0.02564102564102564
@@ -89,11 +89,11 @@ sommatie_stoffen,CAS without structure,831,0.597841726618705
 sommatie_stoffen,Mixture,499,0.35899280575539566
 sommatie_stoffen,Molecule,54,0.03884892086330935
 sommatie_stoffen,Unclassified,1,7.194244604316547e-4
-substance_evaluation,Analytical parameter,29,0.06971153846153846
-substance_evaluation,CAS without structure,34,0.08173076923076923
-substance_evaluation,Mixture,3,0.007211538461538462
-substance_evaluation,Molecule,322,0.7740384615384616
-substance_evaluation,Unclassified,28,0.0673076923076923
+substance_evaluation,Analytical parameter,30,0.07092198581560284
+substance_evaluation,CAS without structure,34,0.08037825059101655
+substance_evaluation,Mixture,3,0.0070921985815602835
+substance_evaluation,Molecule,328,0.7754137115839244
+substance_evaluation,Unclassified,28,0.06619385342789598
 svhc_identification,Analytical parameter,5,0.018315018315018316
 svhc_identification,CAS without structure,19,0.0695970695970696
 svhc_identification,Molecule,217,0.7948717948717948

@@ -124,7 +124,7 @@ p1 <- ggplot(df1, aes(x = label, y = n, fill = has_inchikey)) +
   scale_fill_manual(values = c("FALSE" = "#e05c5c", "TRUE" = "#4a90d9")) +
   scale_y_continuous(expand = expansion(mult = c(0, 0.12))) +
   labs(
-    title    = "Analysis 1: What is a 'substance'?",
+    title    = "What is a 'substance'?",
     subtitle = "A large proportion of regulatory entries are not chemically identifiable substances",
     x        = NULL,
     y        = "Number of records"

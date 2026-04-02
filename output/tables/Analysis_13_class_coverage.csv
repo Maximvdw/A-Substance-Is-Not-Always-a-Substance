@@ -1,0 +1,1404 @@
+direct_parent_id,direct_parent_lbl,n_inchikeys,n_sources
+CHEMONTID:0000324,Fatty acid esters,269,9
+CHEMONTID:0000369,Diphenylmethanes,233,17
+CHEMONTID:0003601,2-naphthalene sulfonates,204,4
+CHEMONTID:0002279,Benzene and substituted derivatives,186,8
+CHEMONTID:0002811,Phenylpropanes,186,11
+CHEMONTID:0000346,Dicarboxylic acids and derivatives,172,12
+CHEMONTID:0004298,Alkyl-phenylketones,169,10
+CHEMONTID:0001350,Benzoic acid esters,161,13
+CHEMONTID:0003086,Medium-chain fatty acids,150,7
+CHEMONTID:0000036,Nitrobenzenes,144,12
+CHEMONTID:0001238,Carboxylic acid esters,133,9
+CHEMONTID:0001167,Dialkyl ethers,128,14
+CHEMONTID:0002341,Phenol ethers,126,11
+CHEMONTID:0000151,Anthraquinones,107,8
+CHEMONTID:0000023,Naphthalenes,104,10
+CHEMONTID:0003370,Azobenzenes,104,6
+CHEMONTID:0001722,Fatty alcohol esters,102,8
+CHEMONTID:0002564,Dichlorobenzenes,100,12
+CHEMONTID:0000032,Benzenesulfonic acids and derivatives,99,5
+CHEMONTID:0002239,Trialkylamines,97,9
+CHEMONTID:0002966,Tetracarboxylic acids and derivatives,94,7
+CHEMONTID:0000120,Benzophenones,91,10
+CHEMONTID:0003140,Trialkoxysilanes,91,9
+CHEMONTID:0000041,Biphenyls and derivatives,87,11
+CHEMONTID:0000060,Alpha amino acids and derivatives,84,5
+CHEMONTID:0001986,Tricarboxylic acids and derivatives,81,7
+CHEMONTID:0000031,Benzenesulfonamides,78,6
+CHEMONTID:0004551,Trifluoromethylbenzenes,78,5
+CHEMONTID:0001334,Fatty alcohols,77,8
+CHEMONTID:0001897,"1,2-aminoalcohols",77,6
+CHEMONTID:0000394,Alpha amino acid esters,71,5
+CHEMONTID:0004155,Diphenylethers,71,9
+CHEMONTID:0002309,Alpha amino acid amides,70,7
+CHEMONTID:0000284,Aniline and substituted anilines,67,7
+CHEMONTID:0002949,Long-chain fatty acids,66,7
+CHEMONTID:0001099,Chlorobenzenes,65,12
+CHEMONTID:0003600,1-naphthalene sulfonates,65,3
+CHEMONTID:0000118,Ketones,59,7
+CHEMONTID:0000285,Anilides,59,6
+CHEMONTID:0001096,N-acyl amines,59,4
+CHEMONTID:0002404,Alpha amino acids,59,4
+CHEMONTID:0000185,Phenylmethylamines,58,5
+CHEMONTID:0000195,Piperidines,58,6
+CHEMONTID:0000538,Transition metal oxides,58,11
+CHEMONTID:0001179,Organosulfonic acids,58,7
+CHEMONTID:0001270,Miscellaneous mixed metal/non-metals,57,10
+CHEMONTID:0001100,Fluorobenzenes,56,4
+CHEMONTID:0001516,Organochlorides,56,12
+CHEMONTID:0004713,Benzanilides,56,7
+CHEMONTID:0000311,Benzothiazoles,55,9
+CHEMONTID:0000469,Monoalkylamines,54,10
+CHEMONTID:0002441,Naphthols and derivatives,53,6
+CHEMONTID:0001097,Benzyloxycarbonyls,52,6
+CHEMONTID:0000138,Anisoles,51,5
+CHEMONTID:0002019,Phenylpyrazoles,51,5
+CHEMONTID:0000286,Primary alcohols,50,9
+CHEMONTID:0000294,Benzimidazoles,49,7
+CHEMONTID:0000362,Nitriles,49,5
+CHEMONTID:0001022,Acyl chlorides,49,2
+CHEMONTID:0001205,Carboxylic acids,49,9
+CHEMONTID:0004225,Tetraalkylammonium salts,49,8
+CHEMONTID:0001127,Acyclic monoterpenoids,47,7
+CHEMONTID:0003626,Enoate esters,47,8
+CHEMONTID:0003901,Dialkylarylamines,47,6
+CHEMONTID:0004479,Trialkylheterosilanes,47,8
+CHEMONTID:0001564,Bicyclic monoterpenoids,46,10
+CHEMONTID:0003487,Cyclic ketones,46,4
+CHEMONTID:0000588,Transition metal chlorides,45,9
+CHEMONTID:0002565,Benzoic acids,45,11
+CHEMONTID:0000364,Organic carbonic acids and derivatives,44,5
+CHEMONTID:0000392,Morpholines,44,6
+CHEMONTID:0001515,Organobromides,44,8
+CHEMONTID:0001992,Nitrobenzoic acids and derivatives,44,3
+CHEMONTID:0001521,Organic carbonic acids,43,9
+CHEMONTID:0001550,Sesquiterpenoids,43,8
+CHEMONTID:0002228,Dialkylamines,43,7
+CHEMONTID:0004524,Triphenyl compounds,43,12
+CHEMONTID:0000159,Epoxides,42,10
+CHEMONTID:0000253,Stilbenes,41,10
+CHEMONTID:0001401,Menthane monoterpenoids,41,6
+CHEMONTID:0001468,"Gluco/mineralocorticoids, progestogins and derivatives",40,1
+CHEMONTID:0001517,Organofluorides,40,6
+CHEMONTID:0001530,Benzonitriles,39,3
+CHEMONTID:0001670,Tertiary alcohols,39,6
+CHEMONTID:0004472,Ketals,39,5
+CHEMONTID:0004671,Nitrophenyl ethers,39,7
+CHEMONTID:0000020,Fluorenes,38,5
+CHEMONTID:0000089,Pyridines and derivatives,38,5
+CHEMONTID:0001814,Phenylphosphines and derivatives,38,5
+CHEMONTID:0003265,Alkoxysilanes,38,5
+CHEMONTID:0001166,Carboxylic acid salts,37,5
+CHEMONTID:0001661,Secondary alcohols,37,5
+CHEMONTID:0004233,Benzenesulfonyl compounds,37,11
+CHEMONTID:0004452,Acrylic acid esters,36,8
+CHEMONTID:0004620,Branched alkanes,35,6
+CHEMONTID:0001925,Aminobenzenesulfonamides,34,3
+CHEMONTID:0002319,Phenol esters,34,5
+CHEMONTID:0003964,Aminotoluenes,34,7
+CHEMONTID:0000048,Tetralins,33,8
+CHEMONTID:0000176,Benzoic acids and derivatives,33,11
+CHEMONTID:0002229,Medium-chain aldehydes,33,4
+CHEMONTID:0003416,Methyl esters,33,3
+CHEMONTID:0004111,Dimethoxybenzenes,33,4
+CHEMONTID:0000321,Benzoyl derivatives,32,5
+CHEMONTID:0002421,Naphthalenecarboxylic acids,32,4
+CHEMONTID:0004742,Phenoxy compounds,32,8
+CHEMONTID:0002674,Cyclohexylamines,31,7
+CHEMONTID:0003417,Fatty acid methyl esters,31,5
+CHEMONTID:0004099,Organic alkali metal salts,31,5
+CHEMONTID:0004785,Sulfonated stilbenes,31,5
+CHEMONTID:0000025,Phenanthrenes and derivatives,30,8
+CHEMONTID:0000200,Xanthenes,30,5
+CHEMONTID:0000858,Transition metal sulfates,30,10
+CHEMONTID:0004444,Organochlorosilanes,30,6
+CHEMONTID:0000323,Organooxygen compounds,29,6
+CHEMONTID:0001656,Acetals,29,8
+CHEMONTID:0001935,N-phenylureas,29,7
+CHEMONTID:0002542,Benzylethers,29,6
+CHEMONTID:0003899,Aralkylamines,29,3
+CHEMONTID:0004687,Naphthalene-2-carboxanilides,29,4
+CHEMONTID:0000037,Styrenes,28,6
+CHEMONTID:0001185,Sulfuric acid monoesters,28,6
+CHEMONTID:0001611,Carbonic acid diesters,28,5
+CHEMONTID:0002414,Pyridinecarboxylic acids,28,4
+CHEMONTID:0004297,Aryl-phenylketones,28,4
+CHEMONTID:0004714,Phenylcarbamic acid esters,28,4
+CHEMONTID:0000038,Sulfanilides,27,5
+CHEMONTID:0000355,Cumenes,27,7
+CHEMONTID:0000426,Homogeneous transition metal compounds,27,13
+CHEMONTID:0001091,Toluenes,27,8
+CHEMONTID:0001114,Beta-keto acids and derivatives,27,3
+CHEMONTID:0001302,Organic phosphonic acids,27,6
+CHEMONTID:0003097,Halobenzoic acids,27,4
+CHEMONTID:0003971,Polyhalopyridines,27,4
+CHEMONTID:0004323,Glutamic acid and derivatives,27,4
+CHEMONTID:0004476,Unsaturated aliphatic hydrocarbons,27,6
+CHEMONTID:0000190,Methoxyphenols,26,8
+CHEMONTID:0001212,Alkylthiols,26,7
+CHEMONTID:0004631,Aryl thioethers,26,4
+CHEMONTID:0004670,Aminophenyl ethers,26,8
+CHEMONTID:0004749,Phthalimides,26,8
+CHEMONTID:0000128,Alkyl aryl ethers,25,4
+CHEMONTID:0000141,Nitrophenols,25,2
+CHEMONTID:0000320,Dibenzazepines,25,2
+CHEMONTID:0001467,Androgens and derivatives,25,3
+CHEMONTID:0002948,Aminobenzoic acids,25,2
+CHEMONTID:0003956,"3,3'-disubstituted benzidines",25,7
+CHEMONTID:0003997,Organic transition metal salts,25,8
+CHEMONTID:0000296,Benzodioxoles,24,6
+CHEMONTID:0001563,Monocyclic monoterpenoids,24,4
+CHEMONTID:0003322,Wax monoesters,24,2
+CHEMONTID:0000283,Aminopyridines and derivatives,23,3
+CHEMONTID:0000303,Phenylpiperidines,23,3
+CHEMONTID:0001645,Depsides and depsidones,23,4
+CHEMONTID:0001893,Halopyrimidines,23,3
+CHEMONTID:0001984,Phenylpiperazines,23,2
+CHEMONTID:0002012,Oxanes,23,4
+CHEMONTID:0003864,Diarylthioethers,23,8
+CHEMONTID:0003919,Acetate salts,23,7
+CHEMONTID:0004325,Cyclohexenones,23,7
+CHEMONTID:0000188,Amphetamines and derivatives,22,4
+CHEMONTID:0000291,Pyrimidones,22,4
+CHEMONTID:0000501,Isocyanates,22,5
+CHEMONTID:0001245,Gamma butyrolactones,22,4
+CHEMONTID:0002311,N-substituted imidazoles,22,7
+CHEMONTID:0002463,Diarylethers,22,7
+CHEMONTID:0003001,Alpha-halocarboxylic acid derivatives,22,3
+CHEMONTID:0004097,"1,4-benzodiazepines",22,1
+CHEMONTID:0000051,Aromatic monoterpenoids,21,6
+CHEMONTID:0000417,Phenoxyacetic acid derivatives,21,4
+CHEMONTID:0000843,Transition metal nitrates,21,8
+CHEMONTID:0001549,Monoterpenoids,21,6
+CHEMONTID:0001713,Beta hydroxy acids and derivatives,21,4
+CHEMONTID:0001878,Beta amino acids and derivatives,21,3
+CHEMONTID:0002861,Vinyl fluorides,21,6
+CHEMONTID:0003000,Alpha-halocarboxylic acids,21,6
+CHEMONTID:0004204,Phenylbenzamines,21,6
+CHEMONTID:0004309,Benzenesulfonate esters,21,5
+CHEMONTID:0000442,Metalloid salts,20,5
+CHEMONTID:0000546,Alkaline earth metal oxides,20,5
+CHEMONTID:0001664,Tertiary carboxylic acid amides,20,12
+CHEMONTID:0002500,Alkanes,20,9
+CHEMONTID:0002863,Vinyl chlorides,20,12
+CHEMONTID:0004146,L-alpha-amino acids,20,4
+CHEMONTID:0004482,Dialkyl alkylphosphonates,20,6
+CHEMONTID:0004532,2-halopyridines,20,4
+CHEMONTID:0004622,Branched unsaturated hydrocarbons,20,6
+CHEMONTID:0004748,Phenyl thiophosphates,20,9
+CHEMONTID:0000018,Anthracenes,19,5
+CHEMONTID:0000310,Phenothiazines,19,4
+CHEMONTID:0000402,Organic phosphoric acids and derivatives,19,5
+CHEMONTID:0001314,"1,3-dioxanes",19,4
+CHEMONTID:0001518,Organoiodides,19,2
+CHEMONTID:0001846,Acetanilides,19,3
+CHEMONTID:0002411,Piperidinecarboxylic acids,19,2
+CHEMONTID:0002647,Cyclohexanols,19,4
+CHEMONTID:0002648,Tetrahydrofurans,19,6
+CHEMONTID:0004144,Heteroaromatic compounds,19,8
+CHEMONTID:0004152,Methylpyridines,19,3
+CHEMONTID:0004196,3-alkylindoles,19,3
+CHEMONTID:0004830,Dipeptides,19,2
+CHEMONTID:0000087,Pyrazoles,18,7
+CHEMONTID:0000485,Quinazolines,18,6
+CHEMONTID:0000517,Ureas,18,5
+CHEMONTID:0000854,Transition metal phosphates,18,7
+CHEMONTID:0001189,N-acyl-alpha amino acids and derivatives,18,3
+CHEMONTID:0001363,Enones,18,9
+CHEMONTID:0002345,O-methoxybenzoic acids and derivatives,18,5
+CHEMONTID:0002402,N-acyl-alpha amino acids,18,4
+CHEMONTID:0002448,Benzenoids,18,6
+CHEMONTID:0003449,N-alkylpyrrolidines,18,10
+CHEMONTID:0003459,Dialkyl phosphates,18,4
+CHEMONTID:0003924,Phenylalkylamines,18,6
+CHEMONTID:0003940,Organic oxides,18,3
+CHEMONTID:0003965,Diaminotoluenes,18,8
+CHEMONTID:0004164,Dithiophosphate O-esters,18,4
+CHEMONTID:0004322,Proline and derivatives,18,2
+CHEMONTID:0004361,Acylaminobenzoic acid and derivatives,18,3
+CHEMONTID:0004491,Organic metal halides,18,3
+CHEMONTID:0004662,"Phosphorodithioic acid O,O-diesters",18,3
+CHEMONTID:0004700,o-Hydroxybenzoic acid esters,18,7
+CHEMONTID:0000130,Azaspirodecane derivatives,17,3
+CHEMONTID:0000210,Carbazoles,17,2
+CHEMONTID:0000215,Sugar acids and derivatives,17,4
+CHEMONTID:0000534,Metalloid oxides,17,11
+CHEMONTID:0001244,Delta valerolactones,17,3
+CHEMONTID:0001565,Iridoids and derivatives,17,6
+CHEMONTID:0001663,Secondary carboxylic acid amides,17,5
+CHEMONTID:0002334,Phenylpyrroles,17,7
+CHEMONTID:0002457,Triarylamines,17,4
+CHEMONTID:0003357,N-alkylpiperazines,17,5
+CHEMONTID:0004157,Halomethanes,17,9
+CHEMONTID:0004450,Acrylic acids and derivatives,17,7
+CHEMONTID:0004647,1-hydroxy-4-unsubstituted benzenoids,17,6
+CHEMONTID:0004702,p-Hydroxybenzoic acid alkyl esters,17,10
+CHEMONTID:0004712,Aromatic anilides,17,4
+CHEMONTID:0000033,Benzyl alcohols,16,6
+CHEMONTID:0000247,Xanthines,16,4
+CHEMONTID:0000526,Alkali metal oxides,16,6
+CHEMONTID:0000564,Alkali metal fluorides,16,7
+CHEMONTID:0001012,Cholines,16,4
+CHEMONTID:0001373,Ynones,16,4
+CHEMONTID:0001691,Steroid esters,16,2
+CHEMONTID:0001764,Pyridinium derivatives,16,6
+CHEMONTID:0001920,Triazinones,16,8
+CHEMONTID:0003278,p-Methylbenzenesulfonates,16,4
+CHEMONTID:0003480,Cinnamic acid esters,16,7
+CHEMONTID:0003968,Dinitroanilines,16,4
+CHEMONTID:0004188,Phthalocyanines,16,3
+CHEMONTID:0000027,Indanes,15,4
+CHEMONTID:0000058,Morphinans,15,1
+CHEMONTID:0000099,Triazoles,15,7
+CHEMONTID:0000178,Benzamides,15,4
+CHEMONTID:0000437,Other non-metal halides,15,6
+CHEMONTID:0000537,Transition metal nitrides,15,5
+CHEMONTID:0000554,Other non-metal oxides,15,9
+CHEMONTID:0000584,Metalloid fluorides,15,6
+CHEMONTID:0002273,Hydantoins,15,4
+CHEMONTID:0002552,Quinoline carboxylic acids,15,3
+CHEMONTID:0002622,N-benzylpiperidines,15,2
+CHEMONTID:0002651,Linear diarylheptanoids,15,9
+CHEMONTID:0003100,4-halobenzoic acids and derivatives,15,3
+CHEMONTID:0003314,"Phenyl-1,2,4-triazoles",15,4
+CHEMONTID:0003315,"Phenyl-1,2,3-triazoles",15,13
+CHEMONTID:0003410,1-benzopyrans,15,3
+CHEMONTID:0003460,Trialkyl phosphates,15,13
+CHEMONTID:0003862,Dialkylthioethers,15,5
+CHEMONTID:0000113,Phenylhydrazines,14,4
+CHEMONTID:0000326,Bipyridines and oligopyridines,14,4
+CHEMONTID:0000375,Guanidines,14,6
+CHEMONTID:0000530,Post-transition metal oxides,14,7
+CHEMONTID:0001716,Hydroquinolones,14,3
+CHEMONTID:0002951,Long-chain fatty alcohols,14,5
+CHEMONTID:0003031,Pyrrolidine-2-ones,14,5
+CHEMONTID:0004505,Dinitrophenols,14,7
+CHEMONTID:0004612,Nitroaromatic compounds,14,4
+CHEMONTID:0004646,1-hydroxy-2-unsubstituted benzenoids,14,7
+CHEMONTID:0000078,Imidazoles,13,8
+CHEMONTID:0000108,Oxazolidines,13,5
+CHEMONTID:0000145,Coumarins and derivatives,13,4
+CHEMONTID:0000147,Macrolides and analogues,13,5
+CHEMONTID:0000316,Benzopyrenes,13,5
+CHEMONTID:0000539,Transition metal sulfides,13,7
+CHEMONTID:0000656,Alkali metal phosphates,13,2
+CHEMONTID:0000739,Post-transition metal sulfates,13,10
+CHEMONTID:0000764,Lanthanide nitrates,13,2
+CHEMONTID:0000837,Transition metal hydroxides,13,8
+CHEMONTID:0000941,Post-transition metal silicates,13,7
+CHEMONTID:0001098,Bromobenzenes,13,2
+CHEMONTID:0001135,Triacylglycerols,13,4
+CHEMONTID:0001160,Pyridinones,13,1
+CHEMONTID:0001274,Ortho cresols,13,5
+CHEMONTID:0001396,Benzoxazines,13,4
+CHEMONTID:0001461,Pyrethroids,13,5
+CHEMONTID:0001820,Isoindolones,13,7
+CHEMONTID:0001855,Phenoxazines,13,3
+CHEMONTID:0002317,Phenylpyridines,13,3
+CHEMONTID:0002551,Phenylpropanoic acids,13,3
+CHEMONTID:0002995,Pentacarboxylic acids and derivatives,13,5
+CHEMONTID:0003980,Benzyl chlorides,13,3
+CHEMONTID:0003998,Organic metalloid salts,13,3
+CHEMONTID:0004117,C-nitro compounds,13,7
+CHEMONTID:0004150,Hydrocarbon derivatives,13,3
+CHEMONTID:0004160,Trihalomethanes,13,7
+CHEMONTID:0004234,Benzenesulfonyl chlorides,13,2
+CHEMONTID:0004705,Pyrimidinyl-2-sulfonylureas,13,4
+CHEMONTID:0000163,Caprolactams,12,4
+CHEMONTID:0000186,Phenethylamines,12,2
+CHEMONTID:0000306,Phenyltetrazoles and derivatives,12,5
+CHEMONTID:0000315,Benzotriazoles,12,7
+CHEMONTID:0000434,Homogeneous other non-metal compounds,12,9
+CHEMONTID:0000444,Post-transition metal salts,12,6
+CHEMONTID:0000463,Organic oxoanionic compounds,12,4
+CHEMONTID:0000505,Sulfones,12,4
+CHEMONTID:0001162,Carbamate esters,12,2
+CHEMONTID:0001438,Organothiophosphorus compounds,12,4
+CHEMONTID:0002126,P-terphenyls,12,1
+CHEMONTID:0002207,O-glycosyl compounds,12,5
+CHEMONTID:0002223,Butenolides,12,7
+CHEMONTID:0002308,Phenylpyrimidines,12,2
+CHEMONTID:0002406,Indolecarboxylic acids,12,2
+CHEMONTID:0002445,Peroxycarboxylic acids and derivatives,12,5
+CHEMONTID:0002484,Carboximidic acids,12,8
+CHEMONTID:0003095,21-hydroxysteroids,12,1
+CHEMONTID:0003544,Methyl-branched fatty acids,12,3
+CHEMONTID:0003570,Estrogens and derivatives,12,1
+CHEMONTID:0003653,"1,1'-azonaphthalenes",12,1
+CHEMONTID:0003671,Aryl alkyl ketones,12,3
+CHEMONTID:0003951,Dialkyl peroxides,12,7
+CHEMONTID:0003962,Perfluoroalkyl carboxylic acid and derivatives,12,8
+CHEMONTID:0003978,Hydroxybenzaldehydes,12,2
+CHEMONTID:0004012,p-Phthalate esters,12,4
+CHEMONTID:0004310,Valine and derivatives,12,2
+CHEMONTID:0004317,Aspartic acid and derivatives,12,3
+CHEMONTID:0004446,Siloxanes,12,7
+CHEMONTID:0004478,Acetylides,12,4
+CHEMONTID:0004480,Trialkylchlorosilanes,12,1
+CHEMONTID:0004734,"1,3,5-triazine-2,4-diamines",12,5
+CHEMONTID:0000040,Indanediones,11,4
+CHEMONTID:0000080,Indazoles,11,2
+CHEMONTID:0000181,Tetracyclines,11,2
+CHEMONTID:0000282,Aminoglycosides,11,4
+CHEMONTID:0000301,Benzofurans,11,1
+CHEMONTID:0000304,Pyrazolopyridines,11,1
+CHEMONTID:0000327,Bisphosphonates,11,3
+CHEMONTID:0000370,Phenylmorpholines,11,1
+CHEMONTID:0000550,Halogen oxides,11,6
+CHEMONTID:0000583,Metalloid chlorides,11,5
+CHEMONTID:0000695,Alkaline earth metal phosphates,11,4
+CHEMONTID:0000895,Alkali metal borates,11,11
+CHEMONTID:0001016,Cycloalkanes,11,7
+CHEMONTID:0001146,Indolines,11,3
+CHEMONTID:0001248,Hydroxybenzoic acid derivatives,11,6
+CHEMONTID:0001262,Aminopyrimidines and derivatives,11,4
+CHEMONTID:0001498,Hexoses,11,3
+CHEMONTID:0001852,"1,3-aminoalcohols",11,2
+CHEMONTID:0002017,Thiophene carboxylic acids and derivatives,11,5
+CHEMONTID:0002054,Isoquinolones and derivatives,11,2
+CHEMONTID:0002327,Phenylimidazoles,11,4
+CHEMONTID:0002434,Alpha-hydrogen aldehydes,11,9
+CHEMONTID:0002926,Ortho esters,11,1
+CHEMONTID:0003408,Isobenzofurans,11,7
+CHEMONTID:0004149,Polycyclic hydrocarbons,11,6
+CHEMONTID:0004531,2-halopyrimidines,11,1
+CHEMONTID:0004581,Trifluoromethanesulfonates,11,1
+CHEMONTID:0000004,Organosulfur compounds,10,6
+CHEMONTID:0000196,Oxazolidinones,10,3
+CHEMONTID:0000218,Pyrrolidines,10,3
+CHEMONTID:0000563,Alkali metal chlorides,10,4
+CHEMONTID:0000574,Post-transition metal fluorides,10,6
+CHEMONTID:0000589,Transition metal fluorides,10,5
+CHEMONTID:0001030,Aryl chlorides,10,4
+CHEMONTID:0001101,Iodobenzenes,10,3
+CHEMONTID:0001253,Quinolines and derivatives,10,4
+CHEMONTID:0001368,Thiocarbamic acid derivatives,10,4
+CHEMONTID:0001551,Diterpenoids,10,3
+CHEMONTID:0001585,Organosulfonamides,10,2
+CHEMONTID:0001861,Pyridinesulfonamides,10,4
+CHEMONTID:0001892,Biphenylcarbonitriles,10,2
+CHEMONTID:0002514,Salicylic acids,10,6
+CHEMONTID:0002798,"1,3,5-triazinanes",10,7
+CHEMONTID:0003079,Ketoximes,10,6
+CHEMONTID:0003359,N-arylpiperazines,10,2
+CHEMONTID:0003955,Benzidines,10,4
+CHEMONTID:0004010,m-Phthalate esters,10,4
+CHEMONTID:0004293,1-benzothiophenes,10,2
+CHEMONTID:0004484,Trialkylphosphites,10,3
+CHEMONTID:0004619,Aryl phosphotriesters,10,12
+CHEMONTID:0000143,Bisphenols,9,13
+CHEMONTID:0000153,Naphthoquinones,9,4
+CHEMONTID:0000486,Quinoxalines,9,4
+CHEMONTID:0000503,Quaternary ammonium salts,9,5
+CHEMONTID:0000573,Post-transition metal chlorides,9,5
+CHEMONTID:0001106,M-phthalic acid and derivatives,9,4
+CHEMONTID:0001115,Gamma-keto acids and derivatives,9,3
+CHEMONTID:0001145,N-acylethanolamines,9,2
+CHEMONTID:0001149,Imidazolidinones,9,4
+CHEMONTID:0001204,Organic phosphoramides,9,4
+CHEMONTID:0001220,Benzyl cyanides,9,1
+CHEMONTID:0001316,"1,3-dioxolanes",9,6
+CHEMONTID:0001359,Alpha hydroxy acids and derivatives,9,6
+CHEMONTID:0001553,Triterpenoids,9,3
+CHEMONTID:0001597,1-monoacylglycerols,9,3
+CHEMONTID:0001715,Hydroquinolines,9,1
+CHEMONTID:0001917,Aminobenzamides,9,1
+CHEMONTID:0002253,Nicotinamides,9,5
+CHEMONTID:0002515,Salicylamides,9,1
+CHEMONTID:0002634,"2,4-disubstituted thiazoles",9,2
+CHEMONTID:0002761,3-sulfobenzoic acids,9,3
+CHEMONTID:0002950,Very long-chain fatty acids,9,3
+CHEMONTID:0003214,2-phenylindoles,9,3
+CHEMONTID:0003338,Polyethylene glycols,9,4
+CHEMONTID:0003886,Imidolactams,9,3
+CHEMONTID:0003922,Acetamides,9,1
+CHEMONTID:0003969,Dinitrotoluenes,9,7
+CHEMONTID:0004189,Coumarans,9,4
+CHEMONTID:0004209,m-Xylenes,9,5
+CHEMONTID:0004319,Tyrosine and derivatives,9,1
+CHEMONTID:0004321,Phenylalanine and derivatives,9,1
+CHEMONTID:0004445,Organoheterosilanes,9,9
+CHEMONTID:0004485,Cyclohexyl halides,9,3
+CHEMONTID:0004640,Phenyl methylcarbamates,9,3
+CHEMONTID:0004698,N-silyl compounds,9,3
+CHEMONTID:0004778,Organic O-nitroso compounds,9,2
+CHEMONTID:0004809,Alpha-chloroketones,9,2
+CHEMONTID:0000019,Dibenzocycloheptenes,8,1
+CHEMONTID:0000029,Cinnamaldehydes,8,5
+CHEMONTID:0000055,Dibenzothiazepines,8,2
+CHEMONTID:0000093,Thiadiazoles,8,4
+CHEMONTID:0000095,Thiazoles,8,5
+CHEMONTID:0000111,Tetrazoles,8,3
+CHEMONTID:0000139,Tyrosols and derivatives,8,2
+CHEMONTID:0000211,Indoles and derivatives,8,2
+CHEMONTID:0000246,Hypoxanthines,8,2
+CHEMONTID:0000273,Miscellaneous chromates,8,6
+CHEMONTID:0000331,Fatty amides,8,3
+CHEMONTID:0000400,Organophosphorus compounds,8,3
+CHEMONTID:0000429,Homogeneous lanthanide compounds,8,2
+CHEMONTID:0000717,Post-transition metal hydroxides,8,4
+CHEMONTID:0000999,Transition metal silicates,8,3
+CHEMONTID:0001109,Phthalic anhydrides,8,9
+CHEMONTID:0001178,Organosulfonic acid esters,8,2
+CHEMONTID:0001180,Organic sulfuric acids,8,3
+CHEMONTID:0001194,Oxosteroids,8,2
+CHEMONTID:0001273,Meta cresols,8,6
+CHEMONTID:0001662,Primary carboxylic acid amides,8,7
+CHEMONTID:0001729,Oxepanes,8,5
+CHEMONTID:0001763,Pyridoacridines,8,3
+CHEMONTID:0002006,Pyrazolylpyridines,8,3
+CHEMONTID:0002314,Quinazolinamines,8,4
+CHEMONTID:0002357,Aminopiperidines,8,3
+CHEMONTID:0002413,Pyrazine carboxylic acids,8,2
+CHEMONTID:0002424,Anthracenecarboxylic acids,8,1
+CHEMONTID:0002499,Thiochromenes,8,3
+CHEMONTID:0002609,Fluorohydrins,8,2
+CHEMONTID:0002840,Cyclic olefins,8,2
+CHEMONTID:0003358,N-methylpiperazines,8,4
+CHEMONTID:0003926,Beta-diketones,8,6
+CHEMONTID:0003961,Perfluoroalkyl sulfonic acid and derivatives,8,4
+CHEMONTID:0003972,3-pyridinecarbonitriles,8,2
+CHEMONTID:0004008,Chloroquinolines,8,2
+CHEMONTID:0004091,Alkyl nitrates,8,4
+CHEMONTID:0004161,Hydroxypyrimidines,8,4
+CHEMONTID:0004210,o-Xylenes,8,7
+CHEMONTID:0004327,Tetraalkylphosphonium compounds,8,3
+CHEMONTID:0004537,4-aminoquinolines,8,1
+CHEMONTID:0004569,Alkylaluminium halides,8,2
+CHEMONTID:0004610,Metal p-nitrophenoxides,8,5
+CHEMONTID:0004623,Aryl thiophosphates,8,5
+CHEMONTID:0004676,2-phenoxypropionic acids,8,4
+CHEMONTID:0004706,S-triazinyl-2-sulfonylureas,8,4
+CHEMONTID:0004768,Cyanoacrylates,8,3
+CHEMONTID:0000014,Phenylbutylamines,7,5
+CHEMONTID:0000017,Cycloalkenes,7,3
+CHEMONTID:0000064,Macrolactams,7,3
+CHEMONTID:0000137,Resorcinols,7,8
+CHEMONTID:0000189,Piperazines,7,4
+CHEMONTID:0000213,Pyrrolopyridines,7,1
+CHEMONTID:0000242,Nitroimidazoles,7,1
+CHEMONTID:0000252,Quinuclidines,7,1
+CHEMONTID:0000293,Benzazepines,7,1
+CHEMONTID:0000333,Straight chain fatty acids,7,6
+CHEMONTID:0000410,Azo compounds,7,8
+CHEMONTID:0000427,Homogeneous post-transition metal compounds,7,8
+CHEMONTID:0000432,Homogeneous halogens,7,4
+CHEMONTID:0000483,Halogenated fatty acids,7,1
+CHEMONTID:0000548,Halogen hydrides,7,5
+CHEMONTID:0000590,Transition metal iodides,7,5
+CHEMONTID:0000660,Alkali metal sulfates,7,3
+CHEMONTID:0000855,Transition metal pyrophosphates,7,5
+CHEMONTID:0001042,Sulfonyl chlorides,7,1
+CHEMONTID:0001077,Non-metal sulfates,7,5
+CHEMONTID:0001151,Indanones,7,1
+CHEMONTID:0001290,Indolyl carboxylic acids and derivatives,7,2
+CHEMONTID:0001527,Diphenylacetonitriles,7,3
+CHEMONTID:0001693,Aminotriazines,7,5
+CHEMONTID:0001845,Bromodiphenyl ethers,7,7
+CHEMONTID:0001880,Gamma amino acids and derivatives,7,3
+CHEMONTID:0001976,Pyridinylpiperazines,7,1
+CHEMONTID:0002007,Thiazolecarboxylic acids and derivatives,7,1
+CHEMONTID:0002044,Phenylnaphthalenes,7,5
+CHEMONTID:0002349,Naphthalenecarboxamides,7,3
+CHEMONTID:0002497,Indoles,7,5
+CHEMONTID:0002524,Cyclopropanecarboxylic acids and derivatives,7,2
+CHEMONTID:0003098,2-halobenzoic acids and derivatives,7,1
+CHEMONTID:0003196,Alkylarylsilanes,7,2
+CHEMONTID:0003263,Monoalkylglycerols,7,3
+CHEMONTID:0003381,alpha-Mercaptocarboxylic acids,7,3
+CHEMONTID:0003457,Alkyl phosphates,7,2
+CHEMONTID:0003861,Fatty acyl glycosides of mono- and disaccharides,7,1
+CHEMONTID:0003867,Trialkylsilanes,7,1
+CHEMONTID:0003960,Perfluorooctane sulfonic acid and derivatives,7,2
+CHEMONTID:0003999,Methoxyanilines,7,1
+CHEMONTID:0004162,Hydroxyindoles,7,3
+CHEMONTID:0004415,"Pyrrolo[2,3-d]pyrimidines",7,1
+CHEMONTID:0004488,Organic lithium salts,7,2
+CHEMONTID:0004517,P-toluenesulfonamides,7,2
+CHEMONTID:0004525,Chlorophenoxyacetates,7,4
+CHEMONTID:0004609,Tris(ketoximino)silanes,7,5
+CHEMONTID:0004674,Aryloxyphenoxypropionic acids,7,2
+CHEMONTID:0004677,2-phenoxypropionic acid esters,7,4
+CHEMONTID:0004735,Methylthio-s-triazines,7,5
+CHEMONTID:0000052,Brominated biphenyls,6,1
+CHEMONTID:0000070,Oxetanes,6,3
+CHEMONTID:0000133,"1,3-dicarbonyl compounds",6,2
+CHEMONTID:0000158,N-organohydroxylamines,6,4
+CHEMONTID:0000226,Thiazolidines,6,4
+CHEMONTID:0000335,N-acylpiperidines,6,5
+CHEMONTID:0000386,Acyl cholines,6,2
+CHEMONTID:0000403,Organic sulfuric acids and derivatives,6,3
+CHEMONTID:0000416,Phenazines and derivatives,6,3
+CHEMONTID:0000431,Homogeneous metalloid compounds,6,5
+CHEMONTID:0000481,Pyranones and derivatives,6,2
+CHEMONTID:0000525,Alkali metal nitrides,6,3
+CHEMONTID:0000569,Alkaline earth metal fluorides,6,5
+CHEMONTID:0000587,Transition metal bromides,6,3
+CHEMONTID:0000638,Alkali metal hydroxides,6,4
+CHEMONTID:0000901,Alkali metal silicates,6,6
+CHEMONTID:0001113,Alpha-keto acids and derivatives,6,1
+CHEMONTID:0001275,Para cresols,6,6
+CHEMONTID:0001423,Thia fatty acids,6,4
+CHEMONTID:0001443,Triazolopyrimidines,6,3
+CHEMONTID:0001572,Thiophosphoric acid esters,6,4
+CHEMONTID:0001606,Retinoids,6,2
+CHEMONTID:0002013,Indolecarboxylic acids and derivatives,6,1
+CHEMONTID:0002099,Cyclohexylphenols,6,2
+CHEMONTID:0002210,Sugar alcohols,6,4
+CHEMONTID:0002212,Pyridine carboxaldehydes,6,1
+CHEMONTID:0002350,Pyrazole carboxylic acids and derivatives,6,4
+CHEMONTID:0002354,Enol esters,6,6
+CHEMONTID:0002363,Phenylacetamides,6,4
+CHEMONTID:0002415,Pyrimidinecarboxylic acids,6,2
+CHEMONTID:0002467,"1,2-diols",6,5
+CHEMONTID:0002611,Dichlorobenzoic acids,6,3
+CHEMONTID:0002749,Strychnos alkaloids,6,2
+CHEMONTID:0002762,4-sulfobenzoic acids,6,3
+CHEMONTID:0002772,P-chlorophenols,6,3
+CHEMONTID:0002907,4-hydroxycoumarins,6,4
+CHEMONTID:0002955,Tetrahydroisoquinolines,6,1
+CHEMONTID:0003099,3-halobenzoic acids and derivatives,6,3
+CHEMONTID:0003213,Aryl-aldehydes,6,5
+CHEMONTID:0003282,N-arylamides,6,2
+CHEMONTID:0003384,Thiophosphate triesters,6,3
+CHEMONTID:0003458,Monoalkyl phosphates,6,3
+CHEMONTID:0003467,"Linear 1,3-diarylpropanoids",6,4
+CHEMONTID:0003977,Alkyldimethylbenzylammonium chlorides,6,3
+CHEMONTID:0003979,Benzyl bromides,6,2
+CHEMONTID:0004072,Trialkyltins,6,5
+CHEMONTID:0004090,Dialkyltin salts,6,5
+CHEMONTID:0004105,"1,3,5-triazines",6,10
+CHEMONTID:0004518,"N,N-disubstituted p-toluenesulfonamides",6,2
+CHEMONTID:0004579,Diacyl peroxides,6,4
+CHEMONTID:0004591,Trialkylaluminiums,6,1
+CHEMONTID:0004791,Thiuram disulfides,6,7
+CHEMONTID:0000021,Indenes and isoindenes,5,2
+CHEMONTID:0000045,Phenylpropenes,5,5
+CHEMONTID:0000067,Pyrazines,5,1
+CHEMONTID:0000127,Isoindoles,5,2
+CHEMONTID:0000136,Hydroquinones,5,6
+CHEMONTID:0000205,Pyrazolones,5,1
+CHEMONTID:0000245,Purines and purine derivatives,5,2
+CHEMONTID:0000302,Benzoxazoles,5,2
+CHEMONTID:0000307,Azepanes,5,4
+CHEMONTID:0000309,Benzothiazines,5,2
+CHEMONTID:0000428,Homogeneous alkaline earth metal compounds,5,4
+CHEMONTID:0000492,Tropane alkaloids,5,2
+CHEMONTID:0000516,"Dihydroxy bile acids, alcohols and derivatives",5,2
+CHEMONTID:0000524,Alkali metal hydrides,5,3
+CHEMONTID:0000568,Alkaline earth metal chlorides,5,4
+CHEMONTID:0000578,Lanthanide chlorides,5,2
+CHEMONTID:0000645,Alkali metal nitrates,5,2
+CHEMONTID:0000677,Alkaline earth metal hydroxides,5,4
+CHEMONTID:0000684,Alkaline earth metal nitrates,5,4
+CHEMONTID:0000699,Alkaline earth metal sulfates,5,3
+CHEMONTID:0000921,Alkaline earth metal silicates,5,6
+CHEMONTID:0001017,Acyl bromides,5,1
+CHEMONTID:0001019,Alkadienes,5,5
+CHEMONTID:0001073,Non-metal phosphates,5,4
+CHEMONTID:0001168,Ketene acetals,5,6
+CHEMONTID:0001190,Thiocarbamic acid esters,5,4
+CHEMONTID:0001209,Thioureas,5,7
+CHEMONTID:0001234,Isothiocyanates,5,5
+CHEMONTID:0001251,Gallic acid and derivatives,5,1
+CHEMONTID:0001292,Cyclic alcohols and derivatives,5,4
+CHEMONTID:0001308,Organic hydroperoxides,5,5
+CHEMONTID:0001313,"1,4-dioxanes",5,9
+CHEMONTID:0001357,Acyclic diterpenoids,5,2
+CHEMONTID:0001466,Estrane steroids,5,1
+CHEMONTID:0001523,Organo-post-transition metal compounds,5,8
+CHEMONTID:0001540,Monosaccharides,5,5
+CHEMONTID:0001562,Dihydropyridinecarboxylic acids and derivatives,5,2
+CHEMONTID:0001804,Organic pyrophosphates,5,4
+CHEMONTID:0001850,Thiophenols,5,1
+CHEMONTID:0001859,Pyridopyrimidines,5,2
+CHEMONTID:0001891,Sulfinylbenzimidazoles,5,1
+CHEMONTID:0001973,Benzoxazolones,5,3
+CHEMONTID:0001982,Furanones,5,1
+CHEMONTID:0002230,Short-chain aldehydes,5,6
+CHEMONTID:0002246,Cinchona alkaloids,5,2
+CHEMONTID:0002282,Phenylhydantoins,5,4
+CHEMONTID:0002285,Carboximidic acids and derivatives,5,6
+CHEMONTID:0002336,Phenylpyrrolidines,5,4
+CHEMONTID:0002347,M-methoxybenzoic acids and derivatives,5,2
+CHEMONTID:0002351,Benzocycloheptapyridines,5,1
+CHEMONTID:0002358,Triterpene saponins,5,1
+CHEMONTID:0002419,Thiophene carboxylic acids,5,2
+CHEMONTID:0002436,Enals,5,3
+CHEMONTID:0002504,Cinnamic acids,5,2
+CHEMONTID:0002702,"Benzo-1,4-dioxanes",5,2
+CHEMONTID:0002775,P-fluorophenols,5,1
+CHEMONTID:0002967,Hexacarboxylic acids and derivatives,5,2
+CHEMONTID:0003205,Disiloxanes,5,5
+CHEMONTID:0003289,Miscellaneous metavanadates,5,5
+CHEMONTID:0003475,Retro-dihydrochalcones,5,10
+CHEMONTID:0003599,2-naphthalene sulfonic acids and derivatives,5,2
+CHEMONTID:0003602,2-bromoanilines,5,2
+CHEMONTID:0004067,Triorganotin halide salts,5,3
+CHEMONTID:0004089,Dialkyldisulfides,5,7
+CHEMONTID:0004211,p-Xylenes,5,6
+CHEMONTID:0004212,Xylenols,5,4
+CHEMONTID:0004354,Phenyloxadiazoles,5,1
+CHEMONTID:0004451,Acrylic acids,5,6
+CHEMONTID:0004474,Saturated hydrocarbons,5,2
+CHEMONTID:0004513,N-benzoyl-N'-phenylureas,5,5
+CHEMONTID:0004613,Nitrobenzaldehydes,5,2
+CHEMONTID:0004721,Chloro-s-triazines,5,7
+CHEMONTID:0004731,"2-methoxy-1,3,5-triazines",5,3
+CHEMONTID:0004802,2-benzylaminopyridines,5,1
+CHEMONTID:0004817,2-heteroaryl carboxamides,5,2
+CHEMONTID:0000054,Benzylisoquinolines,4,2
+CHEMONTID:0000059,Coumaric acids and derivatives,4,1
+CHEMONTID:0000079,Imidazolines,4,3
+CHEMONTID:0000081,Isoxazoles,4,4
+CHEMONTID:0000157,Carbodiimides,4,4
+CHEMONTID:0000173,Cephalosporins,4,1
+CHEMONTID:0000184,Pheniramines,4,1
+CHEMONTID:0000198,Oligosaccharides,4,3
+CHEMONTID:0000201,Tocopherols,4,2
+CHEMONTID:0000250,Imidazolidines,4,7
+CHEMONTID:0000274,Acridines,4,1
+CHEMONTID:0000281,Aminobenzoic acids and derivatives,4,2
+CHEMONTID:0000292,Barbituric acid derivatives,4,1
+CHEMONTID:0000298,Fatty aldehydes,4,2
+CHEMONTID:0000314,Triazolopyridines,4,1
+CHEMONTID:0000328,Imidazopyridines,4,2
+CHEMONTID:0000338,Branched fatty acids,4,3
+CHEMONTID:0000348,Peptides,4,1
+CHEMONTID:0000367,Dihydropyridines,4,4
+CHEMONTID:0000395,Organic nitrates,4,2
+CHEMONTID:0000408,Phosphate esters,4,3
+CHEMONTID:0000425,Homogeneous alkali metal compounds,4,2
+CHEMONTID:0000479,Purine nucleosides,4,1
+CHEMONTID:0000504,Lineolic acids and derivatives,4,2
+CHEMONTID:0000531,Post-transition metal sulfides,4,2
+CHEMONTID:0000547,Alkaline earth metal sulfides,4,4
+CHEMONTID:0000552,Other non-metal hydrides,4,3
+CHEMONTID:0000555,Other non-metal sulfides,4,8
+CHEMONTID:0000565,Alkali metal iodides,4,4
+CHEMONTID:0000579,Lanthanide fluorides,4,2
+CHEMONTID:0000657,Alkali metal pyrophosphates,4,2
+CHEMONTID:0000661,Alkali metal sulfites,4,4
+CHEMONTID:0000700,Alkaline earth metal sulfites,4,2
+CHEMONTID:0000724,Post-transition metal nitrates,4,4
+CHEMONTID:0000735,Post-transition metal phosphates,4,3
+CHEMONTID:0000907,Alkali metal tungstates,4,3
+CHEMONTID:0001043,Sulfonyl fluorides,4,1
+CHEMONTID:0001062,Non-metal nitrates,4,6
+CHEMONTID:0001108,P-phthalic acid and derivatives,4,4
+CHEMONTID:0001141,Sulfonylanilines,4,1
+CHEMONTID:0001144,Fluoroquinolones,4,2
+CHEMONTID:0001184,Sulfuric acid diesters,4,5
+CHEMONTID:0001192,Carbamic acid halides,4,2
+CHEMONTID:0001201,Thiocyanates,4,4
+CHEMONTID:0001243,Beta propiolactones,4,3
+CHEMONTID:0001269,Sulfinic acids,4,4
+CHEMONTID:0001326,Pyridinecarboxamides,4,2
+CHEMONTID:0001416,Short-chain keto acids and derivatives,4,1
+CHEMONTID:0001460,Vitamin D and derivatives,4,5
+CHEMONTID:0001497,Pentoses,4,1
+CHEMONTID:0001546,Vitamin E compounds,4,3
+CHEMONTID:0001578,Benzofuranones,4,4
+CHEMONTID:0001581,Piperidinones,4,2
+CHEMONTID:0001658,N-substituted carboxylic acid imides,4,4
+CHEMONTID:0001858,Naphthyridine carboxylic acids and derivatives,4,2
+CHEMONTID:0001967,Oxolanes,4,1
+CHEMONTID:0001975,Pyrrolidinylpyridines,4,5
+CHEMONTID:0002131,Monothioacetals,4,2
+CHEMONTID:0002214,Glycerophosphates,4,2
+CHEMONTID:0002257,Substituted pyrroles,4,1
+CHEMONTID:0002307,Morpholine carboxylic acids and derivatives,4,2
+CHEMONTID:0002335,Phenylpyrrolines,4,3
+CHEMONTID:0002346,P-methoxybenzoic acids and derivatives,4,2
+CHEMONTID:0002375,Secondary ketimines,4,2
+CHEMONTID:0002391,Glycerol ethers,4,1
+CHEMONTID:0002394,Shiff bases,4,3
+CHEMONTID:0002410,Piperazine carboxylic acids,4,1
+CHEMONTID:0002494,P-benzoquinones,4,3
+CHEMONTID:0002607,Bromohydrins,4,2
+CHEMONTID:0002608,Chlorohydrins,4,2
+CHEMONTID:0002635,"2,5-disubstituted thiazoles",4,4
+CHEMONTID:0002695,Diphenylpyrroles,4,1
+CHEMONTID:0002754,Cinnamyl alcohols,4,4
+CHEMONTID:0002895,P-quinonimines,4,2
+CHEMONTID:0002938,Cyclopentanols,4,2
+CHEMONTID:0002987,6-aminopurines,4,1
+CHEMONTID:0003071,"1,8-naphthalic anhydrides",4,1
+CHEMONTID:0003203,Maleimides,4,3
+CHEMONTID:0003236,17-hydroxysteroids,4,1
+CHEMONTID:0003260,Sulfenyl compounds,4,5
+CHEMONTID:0003276,Tosyl compounds,4,2
+CHEMONTID:0003411,2-benzopyrans,4,7
+CHEMONTID:0003533,Flavonoid-7-O-glycosides,4,1
+CHEMONTID:0003674,"Alpha-branched alpha,beta-unsaturated ketones",4,1
+CHEMONTID:0003902,Alkyldiarylamines,4,2
+CHEMONTID:0004005,"3,4,5-trisubstituted-2-aminothiophenes",4,2
+CHEMONTID:0004098,"Imidazo[1,5-a][1,4]benzodiazepines",4,1
+CHEMONTID:0004107,"1,2,4-triazines",4,4
+CHEMONTID:0004112,Benzoyl peroxides,4,5
+CHEMONTID:0004183,Long-chain alkyl amine oxides,4,2
+CHEMONTID:0004314,Alanine and derivatives,4,2
+CHEMONTID:0004316,Serine and derivatives,4,1
+CHEMONTID:0004329,Leucine and derivatives,4,1
+CHEMONTID:0004347,Tetraalkyltins,4,2
+CHEMONTID:0004413,Anthranilamides,4,2
+CHEMONTID:0004442,Metal alkyl halides,4,6
+CHEMONTID:0004511,Alkylhydrazines,4,3
+CHEMONTID:0004555,L-cysteine-S-conjugates,4,1
+CHEMONTID:0004667,Nitroguanidines,4,5
+CHEMONTID:0004673,"Benzoylcyclohexane-1,3-diones",4,4
+CHEMONTID:0004704,Benzoylpyrazoles,4,4
+CHEMONTID:0004771,Pyrimidinyl phosphorothioates,4,4
+CHEMONTID:0004808,Alpha-haloketones,4,3
+CHEMONTID:0000053,Aminoquinolines and derivatives,3,2
+CHEMONTID:0000075,Pyrimidines and pyrimidine derivatives,3,1
+CHEMONTID:0000135,Catechols,3,5
+CHEMONTID:0000183,Tryptamines and derivatives,3,1
+CHEMONTID:0000194,Nitrofurans,3,1
+CHEMONTID:0000199,Thioxanthenes,3,1
+CHEMONTID:0000209,Phthalazinones,3,2
+CHEMONTID:0000225,Nitrothiazoles,3,3
+CHEMONTID:0000233,Thiolanes,3,4
+CHEMONTID:0000258,Steroids and steroid derivatives,3,1
+CHEMONTID:0000262,Fatty acids and conjugates,3,2
+CHEMONTID:0000330,Phenylbenzimidazoles,3,3
+CHEMONTID:0000398,Nitrogen mustard compounds,3,6
+CHEMONTID:0000401,Organic phosphines and derivatives,3,1
+CHEMONTID:0000419,Organic phosphonic acids and derivatives,3,3
+CHEMONTID:0000480,Pyrimidine nucleosides,3,1
+CHEMONTID:0000491,Sulfoxides,3,5
+CHEMONTID:0000510,Thioamides,3,2
+CHEMONTID:0000512,Jasmonic acids,3,3
+CHEMONTID:0000533,Metalloid nitrides,3,2
+CHEMONTID:0000562,Alkali metal bromides,3,4
+CHEMONTID:0000567,Alkaline earth metal bromides,3,2
+CHEMONTID:0000648,Alkali metal perchlorates,3,4
+CHEMONTID:0000669,Alkali metal dithionites,3,5
+CHEMONTID:0000674,Alkaline earth metal chromates,3,8
+CHEMONTID:0000713,Post-transition metal chromates,3,7
+CHEMONTID:0000833,Transition metal chromates,3,6
+CHEMONTID:0000841,Transition metal hypophosphites,3,2
+CHEMONTID:0000996,Transition metal molybdates,3,2
+CHEMONTID:0001029,Aryl bromides,3,1
+CHEMONTID:0001078,Non-metal sulfites,3,3
+CHEMONTID:0001092,Hemiacetals,3,3
+CHEMONTID:0001104,"Trihydroxy bile acids, alcohols and derivatives",3,2
+CHEMONTID:0001207,Thiosemicarbazides,3,2
+CHEMONTID:0001211,Dihydropyranones,3,3
+CHEMONTID:0001257,Phenylacetaldehydes,3,2
+CHEMONTID:0001271,Thiodiacetic acid derivatives,3,2
+CHEMONTID:0001283,Terpene lactones,3,1
+CHEMONTID:0001287,Thiamine phosphates,3,1
+CHEMONTID:0001309,Organophosphine oxides,3,1
+CHEMONTID:0001319,Pyrimidinecarboxylic acids and derivatives,3,1
+CHEMONTID:0001322,Pyridinecarboxylic acids and derivatives,3,2
+CHEMONTID:0001331,Benzoins,3,3
+CHEMONTID:0001392,"Lignans, neolignans and related compounds",3,1
+CHEMONTID:0001476,Miscellaneous borates,3,9
+CHEMONTID:0001479,Miscellaneous molybdates,3,2
+CHEMONTID:0001583,Flavonoid O-glycosides,3,1
+CHEMONTID:0001620,Pyrimidine ribonucleoside monophosphates,3,1
+CHEMONTID:0001650,Tropones,3,2
+CHEMONTID:0001675,Aminocyclitol glycosides,3,2
+CHEMONTID:0001714,Hydroxyquinolones,3,1
+CHEMONTID:0001753,Benzoylindoles,3,1
+CHEMONTID:0001805,Quinuclidones,3,1
+CHEMONTID:0001851,Pyrenes,3,4
+CHEMONTID:0001871,Naphthalenecarboxylic acids and derivatives,3,2
+CHEMONTID:0001873,Phthalides,3,2
+CHEMONTID:0001983,Dihydrofurans,3,1
+CHEMONTID:0001988,Dibenzoxepines,3,1
+CHEMONTID:0002091,Dihydrothiophenes,3,1
+CHEMONTID:0002118,Oxazolopyridines,3,4
+CHEMONTID:0002132,Dithioacetals,3,7
+CHEMONTID:0002180,Pyrimidine 2'-deoxyribonucleosides,3,1
+CHEMONTID:0002205,Thioglycosides,3,1
+CHEMONTID:0002225,Dioxaborolanes,3,1
+CHEMONTID:0002275,Nitronaphthalenes,3,2
+CHEMONTID:0002323,Benzothiadiazoles,3,3
+CHEMONTID:0002368,Alkali metal phosphonates,3,2
+CHEMONTID:0002369,Alkaline earth metal phosphonates,3,1
+CHEMONTID:0002459,Nitramines,3,1
+CHEMONTID:0002511,Inositol phosphates,3,1
+CHEMONTID:0002525,Cyclopropanecarboxylic acids,3,1
+CHEMONTID:0002529,Carbonylimidazoles,3,3
+CHEMONTID:0002581,Neoflavans,3,1
+CHEMONTID:0002770,M-chlorophenols,3,2
+CHEMONTID:0002799,Organic trisulfides,3,3
+CHEMONTID:0002800,Organic disulfides,3,4
+CHEMONTID:0002810,Cinnamic acid amides,3,2
+CHEMONTID:0002864,Vinyl bromides,3,6
+CHEMONTID:0002913,Beta-hydroxy ketones,3,4
+CHEMONTID:0002932,"1,3-isoquinolinediones",3,1
+CHEMONTID:0003443,S-alkyl thiosulfates,3,2
+CHEMONTID:0003454,6-alkylaminopurines,3,2
+CHEMONTID:0003462,Alkanesulfinic acids,3,2
+CHEMONTID:0003481,"2,5-disubstituted thiophenes",3,1
+CHEMONTID:0003531,Flavonoid-3-O-glycosides,3,2
+CHEMONTID:0003539,Galloyl esters,3,5
+CHEMONTID:0003568,Androstane steroids,3,1
+CHEMONTID:0003752,Cedrane and isocedrane sesquiterpenoids,3,2
+CHEMONTID:0003811,"1-alkyl,3-acylglycerols",3,2
+CHEMONTID:0003888,Vinylogous halides,3,2
+CHEMONTID:0003893,Phosphonic acid diesters,3,2
+CHEMONTID:0003944,Inorganic oxides,3,1
+CHEMONTID:0003953,8-hydroxyquinolines,3,4
+CHEMONTID:0003958,Perfluorooctanoic acid and derivatives,3,1
+CHEMONTID:0003983,Toluene diisocyanates,3,4
+CHEMONTID:0004036,Organic metal salts,3,5
+CHEMONTID:0004084,Cyanogens,3,3
+CHEMONTID:0004140,Oxacyclic compounds,3,2
+CHEMONTID:0004147,Phenylpyridazines,3,4
+CHEMONTID:0004167,Perimidines,3,2
+CHEMONTID:0004177,Ethylene bisdithiocarbamates,3,5
+CHEMONTID:0004184,Trialkyl amine oxides,3,2
+CHEMONTID:0004191,Isocoumarans,3,1
+CHEMONTID:0004197,N-alkylindoles,3,1
+CHEMONTID:0004203,Phenyl-beta-methoxyacrylates,3,4
+CHEMONTID:0004292,"1,2,4-benzothiadiazine-1,1-dioxides",3,4
+CHEMONTID:0004313,Cysteine and derivatives,3,3
+CHEMONTID:0004315,Glutamine and derivatives,3,1
+CHEMONTID:0004330,Isoleucine and derivatives,3,2
+CHEMONTID:0004417,"Pyrido[2,3-d]pyrimidines",3,1
+CHEMONTID:0004418,"Pyrrolo[2,1-f][1,2,4]triazines",3,1
+CHEMONTID:0004443,Transition metal alkyls,3,2
+CHEMONTID:0004521,Chlorofluorocarbons,3,1
+CHEMONTID:0004611,Metal thiocyanates,3,5
+CHEMONTID:0004618,Aryl phosphodiesters,3,3
+CHEMONTID:0004715,Hydrazinecarboxylic acid esters,3,1
+CHEMONTID:0004718,O-haloacetanilides,3,2
+CHEMONTID:0004767,Phenyl phenylphosphonothioates,3,2
+CHEMONTID:0004777,Organic N-nitroso compounds,3,1
+CHEMONTID:0004787,Methylcarbamates,3,1
+CHEMONTID:0000050,Lactones,2,3
+CHEMONTID:0000057,Hydroxyquinolines,2,3
+CHEMONTID:0000062,2-sulfobenzoic acids,2,2
+CHEMONTID:0000074,Pyridazines and derivatives,2,2
+CHEMONTID:0000084,Oxazolines,2,1
+CHEMONTID:0000102,Azetidines,2,1
+CHEMONTID:0000103,Aziridines,2,4
+CHEMONTID:0000109,Pteridines and derivatives,2,2
+CHEMONTID:0000114,Semicarbazides,2,1
+CHEMONTID:0000170,Monobactams,2,1
+CHEMONTID:0000174,Penicillins,2,1
+CHEMONTID:0000182,Catecholamines and derivatives,2,1
+CHEMONTID:0000187,Phenylpropylamines,2,1
+CHEMONTID:0000192,Cyclopyrrolones,2,1
+CHEMONTID:0000208,Pyridazinones,2,3
+CHEMONTID:0000232,Dibenzothiepins,2,1
+CHEMONTID:0000260,"Monohydroxy bile acids, alcohols and derivatives",2,2
+CHEMONTID:0000265,Carboxylic acids and derivatives,2,1
+CHEMONTID:0000270,Organosulfonic acids and derivatives,2,1
+CHEMONTID:0000279,Alkaloids and derivatives,2,2
+CHEMONTID:0000299,Medium-chain hydroxy acids and derivatives,2,1
+CHEMONTID:0000313,Triazolopyrazines,2,1
+CHEMONTID:0000341,Hydroxy fatty acids,2,3
+CHEMONTID:0000356,Curcuminoids,2,1
+CHEMONTID:0000365,Cyclamates,2,1
+CHEMONTID:0000376,Hydroxamic acids,2,1
+CHEMONTID:0000465,Coumaric acid esters,2,1
+CHEMONTID:0000495,Carbocyclic fatty acids,2,1
+CHEMONTID:0000500,Chlorinated biphenyls,2,1
+CHEMONTID:0000527,Alkali metal sulfides,2,4
+CHEMONTID:0000529,Post-transition metal nitrides,2,4
+CHEMONTID:0000542,Lanthanide oxides,2,3
+CHEMONTID:0000553,Other non-metal nitrides,2,4
+CHEMONTID:0000631,Alkali metal bromates,2,3
+CHEMONTID:0000632,Alkali metal chlorates,2,5
+CHEMONTID:0000642,Alkali metal hypophosphites,2,2
+CHEMONTID:0000643,Alkali metal iodates,2,1
+CHEMONTID:0000644,Alkali metal nitrites,2,3
+CHEMONTID:0000650,Alkali metal permanganates,2,6
+CHEMONTID:0000665,Alkali metal peroxodisulfates,2,4
+CHEMONTID:0000668,Alkali metal thiosulfates,2,3
+CHEMONTID:0000687,Alkaline earth metal perchlorates,2,2
+CHEMONTID:0000707,Alkaline earth metal thiosulfates,2,1
+CHEMONTID:0000757,Lanthanide hydroxides,2,2
+CHEMONTID:0000815,Metalloid phosphates,2,1
+CHEMONTID:0000857,Transition metal selenites,2,2
+CHEMONTID:0000859,Transition metal sulfites,2,3
+CHEMONTID:0000898,Alkali metal molybdates,2,2
+CHEMONTID:0000906,Alkali metal tetrahydroxyborates,2,1
+CHEMONTID:0000932,Post-transition metal arsenates,2,4
+CHEMONTID:0000961,Lanthanide silicates,2,2
+CHEMONTID:0000991,Transition metal arsenates,2,2
+CHEMONTID:0001005,Transition metal tungstates,2,2
+CHEMONTID:0001023,Acyl fluorides,2,1
+CHEMONTID:0001031,Aryl fluorides,2,1
+CHEMONTID:0001050,Non-metal chlorites,2,3
+CHEMONTID:0001065,Non-metal perchlorates,2,5
+CHEMONTID:0001072,Non-metal phosphites,2,2
+CHEMONTID:0001074,Non-metal pyrophosphates,2,2
+CHEMONTID:0001122,Thiobarbituric acid derivatives,2,1
+CHEMONTID:0001125,Steroid lactones,2,1
+CHEMONTID:0001155,Nitroquinolines and derivatives,2,1
+CHEMONTID:0001165,Carboxylic acid hydrazides,2,3
+CHEMONTID:0001169,Phosphonic acid esters,2,1
+CHEMONTID:0001223,Alpha-diketones,2,1
+CHEMONTID:0001250,Phosphocholines,2,1
+CHEMONTID:0001303,Organic thiophosphoric acids and derivatives,2,2
+CHEMONTID:0001369,Boronic acid esters,2,1
+CHEMONTID:0001375,Cyanohydrins,2,1
+CHEMONTID:0001408,Phosphatidylcholines,2,1
+CHEMONTID:0001437,Benzoxazinones,2,4
+CHEMONTID:0001448,Furoic acids,2,3
+CHEMONTID:0001469,Cholesterols and derivatives,2,1
+CHEMONTID:0001472,Miscellaneous antimonates,2,1
+CHEMONTID:0001488,Miscellaneous tungstates,2,2
+CHEMONTID:0001524,Organotin compounds,2,1
+CHEMONTID:0001559,Cardenolide glycosides and derivatives,2,1
+CHEMONTID:0001566,Enynes,2,1
+CHEMONTID:0001615,Flavones,2,1
+CHEMONTID:0001640,Naphthopyrans,2,2
+CHEMONTID:0001641,Naphthopyranones,2,1
+CHEMONTID:0001655,Carbonic acid monoesters,2,1
+CHEMONTID:0001678,Acyclic allenes,2,2
+CHEMONTID:0001694,Aminopyrazines,2,1
+CHEMONTID:0001698,Bicyclic amino acids and derivatives,2,1
+CHEMONTID:0001724,Pyrethrins,2,1
+CHEMONTID:0001807,Spironolactones and derivatives,2,1
+CHEMONTID:0001816,Furofurans,2,1
+CHEMONTID:0001829,M-terphenyls,2,1
+CHEMONTID:0001853,Trioxanes,2,6
+CHEMONTID:0001862,Trithianes,2,2
+CHEMONTID:0001863,Dithianes,2,2
+CHEMONTID:0001879,Delta amino acids and derivatives,2,2
+CHEMONTID:0001889,Oxathianes,2,1
+CHEMONTID:0001894,Thianes,2,2
+CHEMONTID:0001895,Thiopyrans,2,1
+CHEMONTID:0001900,Macrolide lactams,2,1
+CHEMONTID:0001910,Benzoxepines,2,1
+CHEMONTID:0001914,Beta carbolines,2,1
+CHEMONTID:0001922,Triazinethiones,2,1
+CHEMONTID:0001930,Benzoxadiazoles,2,1
+CHEMONTID:0001934,Tetrahydropyridines,2,2
+CHEMONTID:0001948,Pyridoxines,2,1
+CHEMONTID:0001987,Isosorbides,2,1
+CHEMONTID:0002010,Hybrid peptides,2,1
+CHEMONTID:0002011,Pyranodioxins,2,1
+CHEMONTID:0002023,N-acyl ureas,2,1
+CHEMONTID:0002052,Metalloheterocyclic compounds,2,4
+CHEMONTID:0002074,Sulfite esters,2,3
+CHEMONTID:0002089,Oxoprolines,2,1
+CHEMONTID:0002111,Pyranopyridines,2,2
+CHEMONTID:0002202,Hydropyrimidines,2,1
+CHEMONTID:0002204,C-glycosyl compounds,2,1
+CHEMONTID:0002224,Hydropyridines,2,1
+CHEMONTID:0002312,Piperidinecarboxamides,2,1
+CHEMONTID:0002332,Benzisoxazoles,2,1
+CHEMONTID:0002348,Phenylquinolines,2,2
+CHEMONTID:0002352,Thioenol ethers,2,1
+CHEMONTID:0002366,Non-metal phosphonates,2,2
+CHEMONTID:0002409,Oxirane carboxylic acids,2,1
+CHEMONTID:0002446,Peroxycarboxylic acids,2,6
+CHEMONTID:0002454,Tertiary alkylarylamines,2,3
+CHEMONTID:0002464,Hydrazidines,2,3
+CHEMONTID:0002503,Hydroxycinnamic acids,2,1
+CHEMONTID:0002536,Phenoxides,2,1
+CHEMONTID:0002566,Isoquinolines and derivatives,2,1
+CHEMONTID:0002582,Neoflavenes,2,1
+CHEMONTID:0002631,"2,4,5-trisubstituted imidazoles",2,3
+CHEMONTID:0002633,"1,2,4,5-tetrasubstituted imidazoles",2,2
+CHEMONTID:0002636,"4,5-disubstituted thiazoles",2,1
+CHEMONTID:0002637,"2,4,5-trisubstituted thiazoles",2,2
+CHEMONTID:0002640,"4,5-disubstituted oxazoles",2,1
+CHEMONTID:0002673,Benzylamines,2,1
+CHEMONTID:0002720,Matrine alkaloids,2,1
+CHEMONTID:0002769,P-bromophenols,2,5
+CHEMONTID:0002774,O-fluorophenols,2,2
+CHEMONTID:0002801,Prenylated hydroquinones,2,3
+CHEMONTID:0002902,Milbemycins,2,2
+CHEMONTID:0002945,"1,3-dioxepanes",2,4
+CHEMONTID:0002947,Guanidinobenzoic acids,2,1
+CHEMONTID:0002963,Phytoceramides,2,1
+CHEMONTID:0002980,N-phenylthioureas,2,3
+CHEMONTID:0003030,Polychlorinated biphenyls,2,1
+CHEMONTID:0003058,20-oxosteroids,2,1
+CHEMONTID:0003078,Aldoximes,2,2
+CHEMONTID:0003085,Peroxybenzoic acids and derivatives,2,4
+CHEMONTID:0003094,Thiadiazinanes,2,4
+CHEMONTID:0003106,O-sulfanylbenzoic acids,2,1
+CHEMONTID:0003468,(5'->5')-dinucleotides,2,1
+CHEMONTID:0003482,"2,3,5-trisubstituted thiophenes",2,2
+CHEMONTID:0003496,Cinnamylphenols,2,4
+CHEMONTID:0003574,"4,6-disubstituted 2-deoxystreptamines",2,1
+CHEMONTID:0003598,1-naphthalene sulfonic acids and derivatives,2,1
+CHEMONTID:0003627,Ynoate esters,2,1
+CHEMONTID:0003633,"Propargyl-type 1,3-dipolar organic compounds",2,1
+CHEMONTID:0003698,Tyrosols,2,1
+CHEMONTID:0003810,Dialkylglycerols,2,3
+CHEMONTID:0003889,Vinylogous acids,2,3
+CHEMONTID:0003936,Dithiocarbamic acid esters,2,2
+CHEMONTID:0003954,Polybrominated biphenyls,2,2
+CHEMONTID:0003967,Fluorotelomer alcohols,2,3
+CHEMONTID:0004013,C19-gibberellin 6-carboxylic acids,2,1
+CHEMONTID:0004050,Perfluoroalkanesulfonyl fluorides,2,1
+CHEMONTID:0004085,Dialkyltin dicarboxylates,2,1
+CHEMONTID:0004145,D-alpha-amino acids,2,1
+CHEMONTID:0004151,Hydroxypyridines,2,1
+CHEMONTID:0004165,Phenolic glycosides,2,1
+CHEMONTID:0004176,Amino acids,2,1
+CHEMONTID:0004190,1-phenylcoumarans,2,2
+CHEMONTID:0004206,Pyrazole-4-carboxamides,2,3
+CHEMONTID:0004239,Pentaorganoarsanes,2,1
+CHEMONTID:0004252,N-acetyl-2-arylethylamines,2,1
+CHEMONTID:0004253,2-arylethylamines,2,1
+CHEMONTID:0004337,2-nitrothiophenes,2,2
+CHEMONTID:0004387,"Pyrazolo[3,4-d]pyrimidines",2,1
+CHEMONTID:0004403,Haloquinolines,2,1
+CHEMONTID:0004411,Cephalosporin 3'-esters,2,1
+CHEMONTID:0004453,Alpha-aminonitriles,2,1
+CHEMONTID:0004481,Trimethylsilyl esters,2,1
+CHEMONTID:0004502,5'-deoxyribonucleosides,2,1
+CHEMONTID:0004527,Chloroacetamides,2,3
+CHEMONTID:0004562,Metal cyanates,2,3
+CHEMONTID:0004568,Alkylaluminium and derivatives,2,1
+CHEMONTID:0004575,Trialkylboranes,2,1
+CHEMONTID:0004627,5-alkyl-2-carboxypyrimidines,2,1
+CHEMONTID:0004657,5-unsubstituted pyrrogallols,2,2
+CHEMONTID:0004660,Benzotriazine organothiophosphates,2,2
+CHEMONTID:0004668,"1,3,4-thiadiazol-2-ylureas",2,2
+CHEMONTID:0004682,"1,2,4-triazolopyrimidine-2-sulfonanilides",2,4
+CHEMONTID:0004696,Phenyl phosphates,2,1
+CHEMONTID:0004699,m-Hydroxybenzoic acid esters,2,1
+CHEMONTID:0004708,2-pyridylmethylamines,2,1
+CHEMONTID:0004711,2-benzimidazolylcarbamic acid esters,2,4
+CHEMONTID:0004752,Oxime carbamates,2,3
+CHEMONTID:0004782,Trialkylglycerols,2,2
+CHEMONTID:0004796,Phenylisopropylamines,2,3
+CHEMONTID:0000000,Organic compounds,1,4
+CHEMONTID:0000015,Dibenzofurans,1,1
+CHEMONTID:0000049,Tametralines,1,1
+CHEMONTID:0000056,Quinolones and derivatives,1,1
+CHEMONTID:0000069,Azepines,1,1
+CHEMONTID:0000072,Dibenzodiazepines,1,1
+CHEMONTID:0000091,Pyrrolines,1,1
+CHEMONTID:0000106,Oxathiolanes,1,2
+CHEMONTID:0000119,Acetophenones,1,1
+CHEMONTID:0000123,Benzopyrans,1,1
+CHEMONTID:0000144,Chromones,1,1
+CHEMONTID:0000150,Dibenzoxazepines,1,1
+CHEMONTID:0000204,Xanthones,1,1
+CHEMONTID:0000206,Cinnolines,1,1
+CHEMONTID:0000217,Pyrazolidines,1,1
+CHEMONTID:0000223,Hydrophenanthrenes,1,1
+CHEMONTID:0000228,Thiazolidinediones,1,1
+CHEMONTID:0000240,Camptothecins,1,1
+CHEMONTID:0000244,Biotin and derivatives,1,1
+CHEMONTID:0000266,Short-chain hydroxy acids and derivatives,1,2
+CHEMONTID:0000271,Carbamic acids,1,1
+CHEMONTID:0000272,"1,3-dioxoles",1,1
+CHEMONTID:0000278,Organonitrogen compounds,1,2
+CHEMONTID:0000280,Beta-amino ketones,1,1
+CHEMONTID:0000295,Benzodiazepines,1,1
+CHEMONTID:0000317,Benzothiazepines,1,1
+CHEMONTID:0000325,Biphenols,1,3
+CHEMONTID:0000339,Unsaturated fatty acids,1,1
+CHEMONTID:0000340,Hydroperoxy fatty acids,1,2
+CHEMONTID:0000342,Pyridinylpyrimidines,1,1
+CHEMONTID:0000344,Thienopyridines,1,1
+CHEMONTID:0000350,Butyrophenones,1,1
+CHEMONTID:0000381,Aporphines,1,1
+CHEMONTID:0000382,Phloroglucinols and derivatives,1,1
+CHEMONTID:0000404,Miscellaneous chromites,1,4
+CHEMONTID:0000405,Organoarsenic compounds,1,2
+CHEMONTID:0000430,Homogeneous actinide compounds,1,1
+CHEMONTID:0000474,Biguanides,1,1
+CHEMONTID:0000476,Cinnamic acids and derivatives,1,1
+CHEMONTID:0000497,Aminals,1,1
+CHEMONTID:0000499,Imidoesters,1,1
+CHEMONTID:0000535,Metalloid sulfides,1,3
+CHEMONTID:0000545,Alkaline earth metal nitrides,1,1
+CHEMONTID:0000551,Halogen sulfides,1,2
+CHEMONTID:0000582,Metalloid bromides,1,2
+CHEMONTID:0000633,Alkali metal chlorites,1,4
+CHEMONTID:0000640,Alkali metal hypochlorites,1,4
+CHEMONTID:0000649,Alkali metal periodates,1,1
+CHEMONTID:0000653,Alkali metal perrhenates,1,1
+CHEMONTID:0000658,Alkali metal selenates,1,1
+CHEMONTID:0000659,Alkali metal selenites,1,2
+CHEMONTID:0000664,Alkali metal peroxomonosulfates,1,3
+CHEMONTID:0000666,Alkali metal pyrosulfates,1,1
+CHEMONTID:0000672,Alkaline earth metal chlorates,1,1
+CHEMONTID:0000679,Alkaline earth metal hypochlorites,1,2
+CHEMONTID:0000681,Alkaline earth metal hypophosphites,1,2
+CHEMONTID:0000682,Alkaline earth metal iodates,1,1
+CHEMONTID:0000683,Alkaline earth metal nitrites,1,1
+CHEMONTID:0000696,Alkaline earth metal pyrophosphates,1,1
+CHEMONTID:0000697,Alkaline earth metal selenates,1,1
+CHEMONTID:0000698,Alkaline earth metal selenites,1,1
+CHEMONTID:0000719,Post-transition metal hypochlorites,1,3
+CHEMONTID:0000727,Post-transition metal perchlorates,1,1
+CHEMONTID:0000734,Post-transition metal phosphites,1,5
+CHEMONTID:0000736,Post-transition metal pyrophosphates,1,1
+CHEMONTID:0000740,Post-transition metal sulfites,1,6
+CHEMONTID:0000775,Lanthanide phosphates,1,1
+CHEMONTID:0000779,Lanthanide sulfates,1,1
+CHEMONTID:0000830,Transition metal bromates,1,1
+CHEMONTID:0000831,Transition metal chlorates,1,1
+CHEMONTID:0000834,Transition metal chromites,1,3
+CHEMONTID:0000846,Transition metal perchlorates,1,1
+CHEMONTID:0000853,Transition metal phosphites,1,1
+CHEMONTID:0000856,Transition metal selenates,1,1
+CHEMONTID:0000866,Transition metal thiosulfates,1,1
+CHEMONTID:0000889,Alkali metal aluminates,1,1
+CHEMONTID:0000890,Alkali metal antimonates,1,1
+CHEMONTID:0000902,Alkali metal stannates,1,1
+CHEMONTID:0000909,Alkaline earth metal aluminates,1,2
+CHEMONTID:0000912,Alkaline earth metal arsenates,1,3
+CHEMONTID:0000918,Alkaline earth metal molybdates,1,2
+CHEMONTID:0000922,Alkaline earth metal stannates,1,1
+CHEMONTID:0000933,Post-transition metal arsenites,1,1
+CHEMONTID:0000935,Post-transition metal borates,1,1
+CHEMONTID:0000968,Lanthanide orthovanadates,1,1
+CHEMONTID:0000969,Metalloid aluminates,1,2
+CHEMONTID:0000992,Transition metal arsenites,1,1
+CHEMONTID:0000994,Transition metal borates,1,1
+CHEMONTID:0001000,Transition metal stannates,1,1
+CHEMONTID:0001002,Transition metal tellurates,1,1
+CHEMONTID:0001003,Transition metal tellurites,1,1
+CHEMONTID:0001010,Oxime ethers,1,3
+CHEMONTID:0001034,Imidoyl chlorides,1,2
+CHEMONTID:0001055,Non-metal hydroxides,1,4
+CHEMONTID:0001056,Non-metal hypobromites,1,1
+CHEMONTID:0001059,Non-metal hypophosphites,1,2
+CHEMONTID:0001060,Non-metal iodates,1,1
+CHEMONTID:0001061,Non-metal nitrites,1,1
+CHEMONTID:0001076,Non-metal selenites,1,1
+CHEMONTID:0001082,Non-metal peroxodisulfates,1,4
+CHEMONTID:0001085,Non-metal thiosulfates,1,2
+CHEMONTID:0001090,Acyl CoAs,1,1
+CHEMONTID:0001116,Lipoic acids and derivatives,1,1
+CHEMONTID:0001118,Gamma-amino ketones,1,1
+CHEMONTID:0001130,"1,2,4-dithiazole-3-thiones",1,1
+CHEMONTID:0001136,Flavonols,1,1
+CHEMONTID:0001137,Monocarboxylic acids and derivatives,1,1
+CHEMONTID:0001140,Harmala alkaloids,1,1
+CHEMONTID:0001142,Chrysenes,1,3
+CHEMONTID:0001152,Organic nitro compounds,1,4
+CHEMONTID:0001181,Sulfuric acid monoamides,1,1
+CHEMONTID:0001200,Thioesters,1,1
+CHEMONTID:0001227,Imidazolyl carboxylic acids and derivatives,1,1
+CHEMONTID:0001249,Flavins,1,1
+CHEMONTID:0001252,Indole-3-acetic acid derivatives,1,2
+CHEMONTID:0001280,Alpha ketoaldehydes,1,1
+CHEMONTID:0001282,Hexamethonium compounds,1,1
+CHEMONTID:0001285,Thiamines,1,1
+CHEMONTID:0001315,"1,2-dioxolanes",1,2
+CHEMONTID:0001318,Hippuric acids,1,1
+CHEMONTID:0001321,Pyrimidinecarboxamides,1,1
+CHEMONTID:0001362,Flavanonols,1,1
+CHEMONTID:0001371,Organotransition metal compounds,1,1
+CHEMONTID:0001403,Ergosterols and derivatives,1,1
+CHEMONTID:0001411,Carotenes,1,1
+CHEMONTID:0001445,"Bile acids, alcohols and derivatives",1,1
+CHEMONTID:0001453,Intermetallic transition metal compounds,1,1
+CHEMONTID:0001474,Miscellaneous arsenates,1,5
+CHEMONTID:0001482,Miscellaneous silicates,1,2
+CHEMONTID:0001490,Cholesteryl esters,1,1
+CHEMONTID:0001542,Disaccharides,1,2
+CHEMONTID:0001552,Sesterterpenoids,1,1
+CHEMONTID:0001587,Catechin gallates,1,1
+CHEMONTID:0001598,Hydroxyanthraquinones,1,1
+CHEMONTID:0001609,Carnitines,1,1
+CHEMONTID:0001617,Purine ribonucleoside monophosphates,1,2
+CHEMONTID:0001618,Purine ribonucleoside diphosphates,1,1
+CHEMONTID:0001619,Purine ribonucleoside triphosphates,1,1
+CHEMONTID:0001626,Phenanthrolines,1,1
+CHEMONTID:0001634,Naphthofurans,1,1
+CHEMONTID:0001647,"1,3-diacylglycerols",1,2
+CHEMONTID:0001651,Biopterins and derivatives,1,1
+CHEMONTID:0001667,Carboxylic acid amide acetals,1,1
+CHEMONTID:0001669,Long-chain ceramides,1,1
+CHEMONTID:0001674,Tropolones,1,1
+CHEMONTID:0001708,Shogaols,1,1
+CHEMONTID:0001733,Pyrroloindoles,1,1
+CHEMONTID:0001743,Coumarin glycosides,1,1
+CHEMONTID:0001759,Furanoflavones,1,1
+CHEMONTID:0001765,Rhamnolipids,1,1
+CHEMONTID:0001774,Brassinolides and derivatives,1,3
+CHEMONTID:0001806,Organic arsenates,1,4
+CHEMONTID:0001831,Carbonyl compounds,1,8
+CHEMONTID:0001839,Organic aluminates,1,1
+CHEMONTID:0001844,Flavonolignans,1,1
+CHEMONTID:0001857,Naphthyridines,1,1
+CHEMONTID:0001866,Indolocarbazoles,1,1
+CHEMONTID:0001888,Gamma sultones,1,4
+CHEMONTID:0001923,Thiazolidinethiones,1,1
+CHEMONTID:0001924,Aminopyridazines,1,1
+CHEMONTID:0001928,Thienothiazines,1,1
+CHEMONTID:0001995,Cyclic peptides,1,1
+CHEMONTID:0001998,Purinethiones,1,1
+CHEMONTID:0002003,Pleuromutilin and derivatives,1,1
+CHEMONTID:0002008,Thiazolecarboxamides,1,1
+CHEMONTID:0002018,Thiophene carboxamides,1,3
+CHEMONTID:0002020,Thienopyrimidines,1,1
+CHEMONTID:0002031,Stigmastanes and derivatives,1,1
+CHEMONTID:0002037,Azoxy compounds,1,1
+CHEMONTID:0002058,Oxathiins,1,1
+CHEMONTID:0002060,Phenoxathiins,1,1
+CHEMONTID:0002071,Organic phosphites,1,1
+CHEMONTID:0002085,Pyrazinecarboxamides,1,1
+CHEMONTID:0002088,Acyloins,1,1
+CHEMONTID:0002094,Glucuronic acid derivatives,1,1
+CHEMONTID:0002119,Quassinoids,1,1
+CHEMONTID:0002133,Dithioketals,1,1
+CHEMONTID:0002182,"Pyrimidine 2',3'-dideoxyribonucleosides",1,2
+CHEMONTID:0002188,Phthalide isoquinolines,1,1
+CHEMONTID:0002198,"Pentahydroxy bile acids, alcohols and derivatives",1,1
+CHEMONTID:0002203,Glycosylamines,1,1
+CHEMONTID:0002213,Glycerophosphocholines,1,1
+CHEMONTID:0002215,Glycerophosphoethanolamines,1,1
+CHEMONTID:0002235,Ketazines,1,2
+CHEMONTID:0002236,Delta sultones,1,2
+CHEMONTID:0002245,Abscisic acids and derivatives,1,4
+CHEMONTID:0002262,Gluconolactones,1,2
+CHEMONTID:0002274,Allantoins,1,2
+CHEMONTID:0002278,Shikimic acids and derivatves,1,1
+CHEMONTID:0002288,Thiomorpholines,1,1
+CHEMONTID:0002316,Piperazine carboxamides,1,1
+CHEMONTID:0002337,Imidazolethiones,1,1
+CHEMONTID:0002389,Diazinanes,1,1
+CHEMONTID:0002392,Azines,1,1
+CHEMONTID:0002416,Pyrrolidine carboxylic acids,1,1
+CHEMONTID:0002422,Azetidinecarboxylic acids,1,1
+CHEMONTID:0002452,Tertiary amines,1,2
+CHEMONTID:0002453,Primary aromatic amines,1,1
+CHEMONTID:0002456,Germacrane sesquiterpenoids,1,1
+CHEMONTID:0002458,Secondary alkylarylamines,1,1
+CHEMONTID:0002466,Oxazaphosphinanes,1,1
+CHEMONTID:0002483,Dicarboxdiimides,1,2
+CHEMONTID:0002512,Quinic acids and derivatives,1,1
+CHEMONTID:0002516,N-piperazineacetamides,1,1
+CHEMONTID:0002539,Hemiketals,1,1
+CHEMONTID:0002553,Quinoline carboxamides,1,1
+CHEMONTID:0002577,Phenylthiomorpholines,1,2
+CHEMONTID:0002596,4'-O-methylated flavonoids,1,1
+CHEMONTID:0002610,Iodohydrins,1,1
+CHEMONTID:0002642,"3,4-dihydrocoumarins",1,2
+CHEMONTID:0002643,"6,7-dihydroxycoumarins",1,1
+CHEMONTID:0002645,Halogenated steroids,1,1
+CHEMONTID:0002687,4'-O-methylisoflavones,1,1
+CHEMONTID:0002729,Cerveratrum-type alkaloids,1,1
+CHEMONTID:0002746,Lysergamides,1,1
+CHEMONTID:0002747,Clavines and derivatives,1,1
+CHEMONTID:0002767,M-bromophenols,1,1
+CHEMONTID:0002771,O-chlorophenols,1,2
+CHEMONTID:0002773,M-fluorophenols,1,2
+CHEMONTID:0002786,M-sulfanylbenzoic acids and derivatives,1,1
+CHEMONTID:0002787,P-sulfanylbenzoic acids and derivatives,1,1
+CHEMONTID:0002788,M-sulfanylbenzoic acids,1,1
+CHEMONTID:0002820,Isoflav-3-enones,1,1
+CHEMONTID:0002855,Phosphorus mustard compounds,1,3
+CHEMONTID:0002908,Hydroxycoumarins,1,1
+CHEMONTID:0002910,Borinanes,1,1
+CHEMONTID:0002912,Alpha-hydroxy ketones,1,3
+CHEMONTID:0002921,"1,2-diazepanes",1,1
+CHEMONTID:0002925,"1,3,4-oxadiazoles",1,1
+CHEMONTID:0002954,Tetrahydrofolic acids,1,1
+CHEMONTID:0002958,Dihydroisoquinolines,1,1
+CHEMONTID:0002981,N-acyl-phenylthioureas,1,1
+CHEMONTID:0002993,7-hydroxyflavonoids,1,2
+CHEMONTID:0003007,Phenanthrols,1,1
+CHEMONTID:0003009,Aminosalicylic acids,1,1
+CHEMONTID:0003017,Benzacridines,1,1
+CHEMONTID:0003075,"1-sulfo,2-unsubstituted aromatic compounds",1,1
+CHEMONTID:0003080,N-aliphatic s-triazines,1,3
+CHEMONTID:0003107,Carbothioic S-acids,1,1
+CHEMONTID:0003220,Borinic acid esters,1,2
+CHEMONTID:0003222,Organoboroxines,1,1
+CHEMONTID:0003223,Acetohydroxamic acids,1,1
+CHEMONTID:0003229,16-hydroxysteroids,1,1
+CHEMONTID:0003271,Dialkylsilanediols,1,2
+CHEMONTID:0003293,Transition metal metavanadates,1,1
+CHEMONTID:0003298,Polypeptides,1,1
+CHEMONTID:0003305,Aminosaccharides,1,1
+CHEMONTID:0003307,Disaccharide sulfates,1,1
+CHEMONTID:0003319,"Pyridyl-1,2,4-triazoles",1,1
+CHEMONTID:0003327,Fatty acyl thioesters,1,1
+CHEMONTID:0003383,Thiophosphate diesters,1,1
+CHEMONTID:0003409,Isobenzofuranones,1,1
+CHEMONTID:0003472,2'-Hydroxychalcones,1,1
+CHEMONTID:0003473,2'-Hydroxy-dihydrochalcones,1,1
+CHEMONTID:0003474,Retrochalcones,1,1
+CHEMONTID:0003485,Angular pyranocoumarins,1,1
+CHEMONTID:0003519,8-prenylated xanthones,1,1
+CHEMONTID:0003522,"2,2-dimethyl-1-benzopyrans",1,1
+CHEMONTID:0003528,Rotenones,1,2
+CHEMONTID:0003538,Gallic acids,1,1
+CHEMONTID:0003569,Pregnane steroids,1,2
+CHEMONTID:0003655,"Eremophilane, 8,9-secoeremophilane and furoeremophilane sesquiterpenoids",1,1
+CHEMONTID:0003670,Aryl ketones,1,1
+CHEMONTID:0003688,Diazo compounds,1,1
+CHEMONTID:0003718,"1,3-substituted cyclopentyl purine nucleosides",1,2
+CHEMONTID:0003788,Aconitane-type diterpenoid alkaloids,1,1
+CHEMONTID:0003814,Alkyldiacylglycerols,1,1
+CHEMONTID:0003865,Organic salts,1,1
+CHEMONTID:0003866,Inorganic salts,1,1
+CHEMONTID:0003869,Phosphoric diester monoamides,1,1
+CHEMONTID:0003870,Phosphoric monoester diamides,1,1
+CHEMONTID:0003890,Vinylogous amides,1,1
+CHEMONTID:0003896,Silyl monohalides,1,2
+CHEMONTID:0003912,4-aroylquinolines,1,2
+CHEMONTID:0003918,Saccharolipids,1,1
+CHEMONTID:0003929,Organic sulfate salts,1,1
+CHEMONTID:0003989,Acylals,1,1
+CHEMONTID:0003990,Organosulfonic anhydrides,1,1
+CHEMONTID:0004001,"2-amino-1,3,4-thiadiazoles",1,1
+CHEMONTID:0004003,"2-amino-1,3-thiazoles",1,1
+CHEMONTID:0004048,Perfluoroalkane sulfonamidoethanols,1,1
+CHEMONTID:0004053,Trivalent inorganic arsenic compounds,1,2
+CHEMONTID:0004055,Trivalent organic arsenic compounds,1,1
+CHEMONTID:0004077,Inorganic antimony salts,1,6
+CHEMONTID:0004078,Organic antimony salts,1,3
+CHEMONTID:0004121,Norbelladine-type amaryllidaceae alkaloids,1,1
+CHEMONTID:0004128,Galanthamine-type amaryllidaceae alkaloids,1,2
+CHEMONTID:0004143,Methionine and derivatives,1,1
+CHEMONTID:0004148,N-acyl-L-alpha-amino acids,1,1
+CHEMONTID:0004195,Allyl sulfur compounds,1,1
+CHEMONTID:0004199,"1,3,5-dithiazinanes",1,1
+CHEMONTID:0004201,Triazolobenzothiazoles,1,2
+CHEMONTID:0004215,p-Xylenols,1,3
+CHEMONTID:0004223,"N,N-dialkyl-m-toluamides",1,2
+CHEMONTID:0004226,"1,2,4-triazolo[4,3-a][1,4]benzodiazepines",1,1
+CHEMONTID:0004289,Tetraorganolead compounds,1,6
+CHEMONTID:0004311,Histidine and derivatives,1,1
+CHEMONTID:0004312,Asparagine and derivatives,1,1
+CHEMONTID:0004331,Imidazoquinolines,1,1
+CHEMONTID:0004338,3-nitrothiophenes,1,1
+CHEMONTID:0004342,"Phenyl-1,3-oxazoles",1,1
+CHEMONTID:0004351,Oligonucleotides,1,1
+CHEMONTID:0004390,"Pyrazolo[1,5-a]pyrimidines",1,1
+CHEMONTID:0004410,Cephalosporin 3'-carbamates,1,1
+CHEMONTID:0004412,3'-quaternary ammonium cephalosporins,1,1
+CHEMONTID:0004434,Organic sulfonic acids and derivatives,1,2
+CHEMONTID:0004477,Aromatic hydrocarbons,1,2
+CHEMONTID:0004506,N-acetylarylamines,1,1
+CHEMONTID:0004529,3-methylindoles,1,1
+CHEMONTID:0004536,1-arylbiguanides,1,2
+CHEMONTID:0004543,N-methylpyridinium compounds,1,1
+CHEMONTID:0004565,Haloacetylenes and derivatives,1,1
+CHEMONTID:0004572,Alkylhalophosphines,1,1
+CHEMONTID:0004577,Acylsalicylic acids,1,2
+CHEMONTID:0004604,Diazonium sulfates,1,1
+CHEMONTID:0004628,4-alkoxyphenols,1,1
+CHEMONTID:0004630,Benzyl alkyl sulfoxides,1,1
+CHEMONTID:0004638,Alkoxy-S-triazines,1,4
+CHEMONTID:0004650,N-phenylhydroxylamines,1,1
+CHEMONTID:0004665,"Phosphoramidothioic-acid-O,S-diesters",1,2
+CHEMONTID:0004683,"Aryl 1,2,4-triazolones",1,1
+CHEMONTID:0004688,1-hydroxynaphthalene-2-carboxanilides,1,2
+CHEMONTID:0004695,"1,4-dihydroxy-2-halobenzenoids",1,2
+CHEMONTID:0004717,M-haloacetanilides,1,1
+CHEMONTID:0004719,P-haloacetanilides,1,1
+CHEMONTID:0004750,2-pyrimidinylthiobenzoic acids,1,1
+CHEMONTID:0004756,2-furanilides,1,2
+CHEMONTID:0004757,3-furanilides,1,1
+CHEMONTID:0004758,Furoic acid and derivatives,1,1
+CHEMONTID:0004759,Furan-3-carboxylic acid and derivatives,1,2
+CHEMONTID:0004770,"1,3,4-thiadiazol-3-yl-organothiophosphates",1,2
+CHEMONTID:0004794,Chloronaphthalenes,1,1
+CHEMONTID:0004803,Organic dichromates,1,1
+CHEMONTID:0004823,"2,6-dimethyl-3-benzazocines",1,1
+CHEMONTID:0004831,Oligopeptides,1,1

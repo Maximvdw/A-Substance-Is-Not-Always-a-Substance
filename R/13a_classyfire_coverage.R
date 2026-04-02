@@ -178,7 +178,7 @@ p13a <- ggplot(
   scale_y_continuous(expand = expansion(mult = c(0, 0.15))) +
   coord_flip() +
   labs(
-    title    = "Analysis 13a: Top 30 ChemOnt classes by regulatory substance coverage",
+    title    = "Top 30 ChemOnt classes by regulatory substance coverage",
     subtitle = "Colour = number of sources; bar length = number of unique InChIKeys",
     x        = NULL,
     y        = "Number of unique substances (InChIKey)"
@@ -215,7 +215,7 @@ p13b <- ggplot(class_coverage, aes(x = n_inchikeys)) +
   geom_histogram(binwidth = 5, fill = "#4a90d9", colour = "white") +
   scale_y_continuous(labels = comma) +
   labs(
-    title    = "Analysis 13b: Distribution of substance coverage across ChemOnt classes",
+    title    = "Distribution of substance coverage across ChemOnt classes",
     subtitle = "How many classes cover 1, 5, 10 \u2026 substances?",
     x        = "Number of unique substances per ChemOnt class",
     y        = "Number of ChemOnt classes"

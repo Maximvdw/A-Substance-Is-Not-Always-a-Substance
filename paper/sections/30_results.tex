@@ -169,6 +169,33 @@ Both the UMAP projection (Figure~\ref{fig:analysis8d}) and the t-SNE projection 
   \label{fig:analysis8e}
 \end{figure}
 
+\subsubsection{Projection Quality}
+
+To verify that the visible cluster structure reflects genuine semantic grouping
+rather than projection artefact, two complementary diagnostics were applied
+(Section~\ref{sec:clustering}).
+
+The silhouette comparison (Analysis~8g) tested whether UMAP and t-SNE inflate
+cluster separation beyond what exists in the original 384-dimensional embedding.
+The mean silhouette scores in the three spaces were:
+embedding \TODO{sil\_emb}, UMAP \TODO{sil\_umap}, t-SNE \TODO{sil\_tsne}.
+The UMAP inflation relative to the embedding was \TODO{$\Delta_{\mathrm{UMAP}}$}
+and the t-SNE inflation was \TODO{$\Delta_{\mathrm{t\text{-}SNE}}$}.
+Values close to zero confirm that the cluster separation visible in
+Figures~\ref{fig:analysis8d} and~\ref{fig:analysis8e} accurately represents
+the structure of the high-dimensional embedding rather than being a
+visualisation artefact.
+
+Trustworthiness and continuity (Analysis~8h) quantified how faithfully each
+projection preserves local neighbourhoods.
+Table~\ref{tab:tc} reports $T(k)$ and $C(k)$ for $k \in \{5, 10, 20, 50\}$
+for both projections.
+\TODO{Summarise whether T and C remain high across all k values, and whether
+UMAP or t-SNE shows a stronger drop with increasing k; replace this paragraph
+with actual values from output/tables/Analysis\_8\_trustworthiness\_continuity.csv
+and output/tables/Analysis\_8\_silhouette\_comparison.csv once the script has
+been run.}
+
 This taxonomy of non-structure substances provides a basis for targeted manual curation and ontology mapping in contexts where structure-based approaches are inapplicable.
 
 \subsection{Chemical Taxonomy Matching}

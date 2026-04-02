@@ -175,10 +175,29 @@ UMAP~\cite{McInnes2018} (15 nearest neighbours, minimum distance~0.1, cosine
 metric, seed~42) and t-SNE~\cite{vanderMaaten2008} (perplexity $= \min(30,
 \lfloor(n-1)/3\rfloor)$, cosine metric).  A cosine metric was used for both
 projection methods because it is the natural similarity measure for
-L2-normalised sentence-transformer embeddings.  Projection quality was assessed
-using the trustworthiness and continuity measures~\cite{Venna2006} at
-$k \in \{5, 10, 20, 50\}$ nearest neighbours, to detect neighbourhood-compression
-artefacts.
+L2-normalised sentence-transformer embeddings.  Two complementary diagnostics were applied to assess whether the visible
+cluster structure reflects genuine semantic grouping or projection artefact.
+
+\textit{Silhouette comparison} (Analysis~8g): the mean silhouette
+score~\cite{Rousseeuw1987} was computed for the $k = 6$ cluster assignment in
+three spaces: the original 384-dimensional embedding (ground truth), the UMAP
+2-D projection, and the t-SNE 2-D projection.  If the silhouette score in a
+projection substantially exceeds that in the embedding space, the projection is
+inflating cluster separation beyond what exists in the original data — a
+visualisation artefact~\cite{McInnes2018}.  Concordance of all three scores
+confirms that the cluster structure is genuine.
+
+\textit{Trustworthiness and continuity} (Analysis~8h): following Venna and
+Kaski~\cite{Venna2006}, trustworthiness $T(k)$ measures the fraction of a
+point's $k$ nearest neighbours in the projection that were also among its $k$
+nearest neighbours in the original space; continuity $C(k)$ measures the
+complementary fraction — how many true high-dimensional neighbours are
+preserved in the projection.  Values close to~1 indicate a faithful
+projection; $T < 1$ signals false neighbours (tear artefact) and $C < 1$
+signals lost neighbours (compression artefact).  Both metrics were computed for
+$k \in \{5, 10, 20, 50\}$ for each of the UMAP and t-SNE projections using the
+vectorised rank-matrix implementation described by Venna and
+Kaski~\cite{Venna2006}.
 
 The six resulting clusters were labelled manually upon visual inspection of the
 projections:

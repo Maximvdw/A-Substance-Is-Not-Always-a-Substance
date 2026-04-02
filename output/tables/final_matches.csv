@@ -1,108 +1,108 @@
-"substance_name","best_match","score","confidence"
-"Phenols","Phenols",1,0.67020747456767
-"naphthalene sulfonates","Naphthalene sulfonates",1,0.616833425223678
-"Tannins","Tannins",1,0.657581295619945
-"cresols","Cresols",0.999999999999999,0.662437447308829
-"xylenols","Xylenols",0.999999999999999,0.634242631025211
-"polysaccharides","Polysaccharides",0.999999999999999,0.647531516692806
-"Alkyl mercury compounds","Alkyl mercury compounds",0.999999999999661,0.667644740189452
-"Other inorganic mercury compounds","Inorganic mercury compounds",0.966896029158221,0.641769532250672
-"polyethylene glycol","Polyethylene glycols",0.958872147081622,0.698405566118553
-"Terphenyl","Terphenyls",0.949032649179349,0.611273016027637
-"Arsenic compounds","Inorganic arsenic compounds",0.946659256228961,0.586719938924126
-"xylene","Xylenes",0.93765367954616,0.590964899467217
-"Xylene","Xylenes",0.93765367954616,0.590964899467217
-"Chromium VI compounds","Inorganic chromium (VI) compounds",0.932458065729721,0.63460699795472
-"polyterpenes","Polyterpenoids",0.93123999465307,0.607317105839002
-"Quinoline derivative","Quinolines and derivatives",0.929585681967707,0.634703440200467
-"Polychlorinated Biphenyls (PCB)","Polychlorinated biphenyls",0.911661283031804,0.590238218361519
-"Diaminotoluene","Diaminotoluenes",0.904986841921499,0.641375823404561
-"Nickel and its compounds","Inorganic nickel compounds",0.903910783855781,0.634447456561032
-"Quaternary ammonium compounds","Quaternary ammonium salts",0.901237618375088,0.619117783242302
-"Alkyldimethylbenzyl ammonium chloride","Alkyldimethylbenzylammonium chlorides",0.900671990691517,0.583617722783093
-"Carbamic acid ester","Carbamate esters",0.892384487851599,0.558699436466256
-"trialkylboranes, solid","Trialkylboranes",0.884875695541225,0.574997500048355
-"Fatty alcohols / Aliphatic alcohols","Fatty alcohols",0.884212923666636,0.555949317907291
-"esters of fatty acids with polyglycerol","Fatty acid esters",0.881553419962521,0.562716071332542
-"TRIAZINE B","Triazines",0.874900365886888,0.553892916921942
-"Sulfonic acids, petroleum","Organic sulfonic acids",0.871865469540112,0.541401833247089
-"lead alkyls","Alkyl lead compounds",0.868020814630938,0.559556394910693
-"chloroanilines (with exception of those specified elsewhere in this Annex)","Chloroanilines",0.86669058922852,0.606975013743029
-"polyacrylic acid","Acrylic acids",0.864802271141034,0.554430084904203
-"Hydrocarbons, C9, aromatics","Aromatic hydrocarbons",0.86105322680568,0.567452301194819
-"m-tolylidene diisocyanate; toluene-diisocyanate","Toluene diisocyanates",0.859954208906771,0.595123470030166
-"aluminium alkyls","Metal alkyls",0.856724934174566,0.54959801192781
-"polyhalogenated dibenzo-p-dioxins and dibenzofurans","Dibenzo-p-dioxins",0.850431445875604,0.539607496213683
-"trialkylboranes, liquid","Trialkylboranes",0.849476848690524,0.543990708343862
-"Alkyltrimethylbenzyl ammonium chloride","Alkyldimethylbenzylammonium chlorides",0.849313466595652,0.543256593110882
-"Alkanes, C16-47, branched and linear","Branched alkanes",0.848046726957744,0.555882646806779
-"Benzyl-C12-14-alkyldimethylammonium chlorides","Alkyldimethylbenzylammonium chlorides",0.845030305450502,0.556715539085263
-"Fatty acids, castor-oil, Me esters","Fatty acid esters",0.844312815016892,0.538387695412875
-"1,3,5-Triazine-2,4,6-triamine, deammoniated","1,3,5-triazine-2,4-diamines",0.842938808031906,0.535336710386777
-"thioxylenols","Thioperoxols",0.839575965790635,0.538401530224429
-"Cadmium and its compounds","Inorganic cadmium salts",0.838564122861724,0.539829364043342
-"S CARBOXYLIC ACID","Carboxylic acids",0.838505042981006,0.525531271042056
-"C16-(branched), C20-(branched) and C24-(branched)-alkanes","Branched alkanes",0.836091211260563,0.556832799716392
-"Enzymatically produced steviol glycosides","Steviol glycosides",0.836069937605325,0.5452940947959
-"perchloric acid, salts (perchlorate)","Organic perchlorate salts",0.834597730359809,0.532164584036565
-"Carboxylic acids, C5-9","Carboxylic acids",0.833806418477079,0.524886038778491
-"poly(ethylenepropylene)glycol","Polyethylene glycols",0.831285618264436,0.589652580478287
-"Alkanes, C12-26-branched and linear","Branched alkanes",0.831167129096911,0.546318553102091
-"Fatty acids, C16-18, iso-Bu esters","Fatty acid esters",0.830087526726158,0.523449449680845
-"Alkyltrimethyl ammonium chloride","Alkyldimethylbenzylammonium chlorides",0.828854698738779,0.524872428621908
-"Naphthenic acids","Naphthalenecarboxylic acids",0.828287342988596,0.51981609823689
-"Amino acids: mix","Amino acids",0.828104411959053,0.530231642627529
-"Fatty acids, C16-18, stearyl esters","Fatty acid esters",0.826711760365315,0.523138635298112
-"fatty acid polyglycol esters","Fatty acid esters",0.826561631020687,0.523580390974355
-"Fatty acids, C16-18, iso-Pr esters","Fatty acid esters",0.826147883153693,0.518983919796492
-"Amides, tall-oil fatty, N-(hydroxyethyl)","Fatty amides",0.825622955353529,0.541761930483255
-"Fatty acids, C8-10, octyl esters","Fatty acid esters",0.825622269074423,0.518346339746603
-"Fatty acids, C8-10, Me esters","Fatty acid esters",0.825168287705294,0.518689696523839
-"Fatty acids, soybean oil, conjugated","Fatty acids and conjugates",0.823284305708266,0.544629213215941
-"Benzoic acid, C12-15-alkyl esters","Benzoic acid esters",0.822894701373545,0.519953766863466
-"phthalic acid, esters with triethyleneglycol","Phthalate esters",0.822222352588648,0.51303652144112
-"Fatty acids, C16-18, isononyl esters","Fatty acid esters",0.821394905495212,0.515795534474221
-"Fatty acids, soya, 2-ethylhexyl esters","Fatty acid esters",0.821314479340923,0.513558355056669
-"Fatty acids, C16-18, Bu esters","Fatty acid esters",0.820092948800536,0.521828365311789
-"D-Glucopyranose, oligomeric, C10-16(even numbered) alkyl glycosides","Alkyl glycosides",0.819223426590769,0.523720004610927
-"fatty acids, C8-C18 and C18-unsaturated","Unsaturated fatty acids",0.818872524674131,0.537444573173332
-"Fatty alcohols, manuf. of, by-products from","Fatty alcohols",0.818515061909389,0.516875109184597
-"Fatty acids, C16-18, 2-hydroxyethyl esters","Fatty acid esters",0.818329781498126,0.510933713004339
-"Fatty acids, sunflower-oil, conjugated","Fatty acids and conjugates",0.817504324016237,0.53232104569196
-"Methyl ester of fatty acids, Cx-Cy, Hydroxymethylated","Fatty acid methyl esters",0.817206665390668,0.515910656930245
-"alkyl(C8-C18)dimethylbenzylammonium chloride","Alkyldimethylbenzylammonium chlorides",0.816356111848312,0.524222312213811
-"BIS-PIPERAZINE","Piperazines",0.816290151018309,0.512996236792879
-"Cresol","Cresols",0.81475127022834,0.528220657966634
-"PHTHALOCYANINE PIGMENT","Phthalocyanines",0.81413008859961,0.54366585707059
-"IMINOFLUMIZOLINE","Imidazolines",0.813703207874035,0.524275278021251
-"Polycyclic aromatic hydrocarbons (PAH)","Aromatic hydrocarbons",0.813665483315112,0.521458603641805
-"Fatty acids, coco, 2-ethylhexyl esters","Fatty acid esters",0.81357753051577,0.509855081476362
-"Polysulfides, di-tert-dodecyl","Organic disulfides",0.812802636120001,0.515654246494588
-"Fatty acids, vegetable-oil, Me esters","Fatty acid esters",0.812204274569742,0.522774107976066
-"acrylic acid, esters with alcohols, monohydric, aliphatic, saturated, C1-C18","Acrylic acid esters",0.811847063568847,0.519065530208271
-"Fatty acids, C16-18, 2-butyloctyl esters","Fatty acid esters",0.811700532408171,0.513449257549181
-"Polycyclic aromatic hydrocarbons (PAHs)","Aromatic hydrocarbons",0.811056878887194,0.518755706838758
-"saturated, unsaturated and hydroxylated fatty acids (C8-C24)","Unsaturated fatty acids",0.810729056394835,0.522821349719511
-"acrylic acid, acrylic acid, 2-ethylhexyl ester, copolymer","Acrylic acid esters",0.810404859060468,0.511019269495732
-"Benzidine and its salts","Benzidines",0.809924552805131,0.505947498028804
-"Alkanes, C4-5","Alkanes",0.809704768418387,0.525814603233903
-"Alkylated Naphthalene","Naphthalenes",0.808330805235478,0.506210223911194
-"perchloric acid and its salts","Organic perchlorate salts",0.80821940845059,0.514864929225504
-"Fatty acids, C16-18, Me esters","Fatty acid esters",0.806708395395919,0.507650119672409
-"Fatty acids, C8-10, C8-10 alkyl esters","Fatty acid esters",0.806680881066473,0.504837713566501
-"Fatty acids, tall-oil, Bu esters","Fatty acid esters",0.806540901845978,0.513465572516735
-"2-[2-(Methoxycarbonyl-phenyl-amino)-phenyl]-acetic acid","2(hydroxyphenyl)acetic acids",0.806042537637377,0.527712680245499
-"Fatty acids, C8-12, isopentyl esters","Fatty acid esters",0.805923563971553,0.506164969480336
-"Fatty acids, C16-18 tridecyl esters","Fatty acid esters",0.805818520545848,0.507209238311494
-"Fatty acids, coco, iso-Bu esters","Fatty acid esters",0.804975099023998,0.508981264238085
-"Chromium (VI) compounds, with the exception of barium chromate and of compounds specified elsewhere in this Annex","Inorganic chromium (VI) compounds",0.804444789026058,0.545909467872261
-"Hydrocarbons, C13-C14, n-alkanes, <2% aromatics","Aromatic hydrocarbons",0.804341052789576,0.522436732304575
-"Fatty acids, C14-18, C14-18-alkyl esters","Fatty acid esters",0.804315838871724,0.506002522616904
-"Fatty acids, C16-18, isotridecyl esters","Fatty acid esters",0.803749701344216,0.504822040717378
-"Hydrocarbons, C10-C14, n-alkanes, <2% aromatics","Aromatic hydrocarbons",0.803100960484065,0.519954610949969
-"Hydrocarbons, C14-C16, n-alkanes, <2% aromatics","Aromatic hydrocarbons",0.802124174414441,0.520465808403324
-"Hydrocarbons, C11-C14, n-alkanes, <2% aromatics","Aromatic hydrocarbons",0.80199806883013,0.517060443710452
-"acrylic, fumaric, maleic and methacrylic esters","Acrylic acid esters",0.801617478599147,0.532143379374838
-"polyethyleneglycol","Polyethylene glycols",0.801478442431069,0.566527864062397
-"Fatty acids, C16-18 and C18-unsatd., iso-Bu esters","Fatty acid esters",0.801384240146812,0.505780415323118
-"Naphthenic acids, lithium salts","Organic lithium salts",0.800576032069465,0.516943060883047
+substance_name,best_match,score,confidence
+Phenols,Phenols,1.0000000000000002,0.6702074745676697
+Borosilicate glass,Naphthalene sulfonates,0.9999999999999999,0.616833425223678
+UC-705,Tannins,0.9999999999999997,0.6575812956199454
+diethylene glycol ester with stearic acid,Cresols,0.999999999999999,0.6624374473088286
+"alkyl(C8-C18)sulfonic acids, sodium salts",Xylenols,0.9999999999999989,0.6342426310252107
+polystyrene (with pentane as expansion agent),Polysaccharides,0.9999999999999988,0.6475315166928055
+Alkyl mercury compounds,Alkyl mercury compounds,0.9999999999996609,0.6676447401894522
+Other inorganic mercury compounds,Inorganic mercury compounds,0.9668960291582214,0.6417695322506718
+"alcohols, C9-C11-branched, ethoxylated propoxylated",Polyethylene glycols,0.9588721470816225,0.6984055661185532
+"Alkanes, C14-17, chloro",Terphenyls,0.9490326491793488,0.6112730160276368
+Arsenic compounds,Inorganic arsenic compounds,0.9466592562289614,0.5867199389241264
+zinc hydroxyphosphite,Xylenes,0.9376536795461597,0.5909648994672174
+"Alcohols, C10-12 (even numbered), ethoxylated (1-2.5 EO), sulfated, sodium salts",Xylenes,0.9376536795461597,0.5909648994672174
+Chromium VI compounds,Inorganic chromium (VI) compounds,0.9324580657297211,0.6346069979547195
+"polyvinyl alcohol, manufactured by saponification of polyvinyl acetate, with a degree of saponification ≥ 20 %",Polyterpenoids,0.9312399946530695,0.607317105839002
+"(2R)-6-(4-chloropyridin-2-yl)-6,6-dimethoxy-2-methylhexanoic acid - N - cyclohexylcyclohexanamine (1:1.5)",Quinolines and derivatives,0.9295856819677071,0.6347034402004673
+Polychlorinated Biphenyls (PCB),Polychlorinated biphenyls,0.9116612830318039,0.5902382183615195
+Reaction product of 3-Chloropropyltrimethoyxsilane and triethyl phosphite,Diaminotoluenes,0.9049868419214995,0.6413758234045607
+Nickel and its compounds,Inorganic nickel compounds,0.9039107838557807,0.6344474565610324
+Quaternary ammonium compounds,Quaternary ammonium salts,0.9012376183750882,0.6191177832423022
+Alkyldimethylbenzyl ammonium chloride,Alkyldimethylbenzylammonium chlorides,0.9006719906915174,0.5836177227830933
+"Copper, [29H,31H-phthalocyaninato(2-)-N29,N30,N31,N32]-, chlorosulfonyl derivs., reaction products with 2-[(4-aminophenyl)amino]-5-nitrobenzenesulfonic acid, sodium salts",Carbamate esters,0.8923844878515991,0.5586994364662555
+"sodium perborate; sodium peroxoborate; [containing ≥ 0,1 % (w/w) of particles with an aerodynamic diameter of below 50 μm]",Trialkylboranes,0.8848756955412252,0.5749975000483551
+Fatty alcohols / Aliphatic alcohols,Fatty alcohols,0.8842129236666358,0.5559493179072913
+esters of glycerol with behenic and arachidic acids,Fatty acid esters,0.8815534199625207,0.5627160713325421
+Reaction mass of 127513-04-6 and 127513-07-9 and 127536-68-9,Triazines,0.8749003658868878,0.5538929169219423
+"Reaction product of 2-(2-aminoethoxy)ethanol and 2,2',2''-nitrilotriethanol and heptanoic acid and isononanoic acid",Organic sulfonic acids,0.8718654695401122,0.5414018332470895
+"4-nonylphenol, branched",Alkyl lead compounds,0.8680208146309376,0.5595563949106926
+"salts of 3,3'-dimethoxybenzidine; salts of o-dianisidine",Chloroanilines,0.86669058922852,0.6069750137430294
+polybutene,Acrylic acids,0.864802271141034,0.5544300849042029
+"Hydrocarbons, C9, aromatics",Aromatic hydrocarbons,0.86105322680568,0.5674523011948189
+"reaction product of diphenylmethanediisocyanate, octylamine, oleylamine and cyclohexylamine (1:1.58:0.32:0097)",Toluene diisocyanates,0.8599542089067709,0.5951234700301664
+"bis(4-fluorophenyl)-methyl-(1,2,4-triazol-4-ylmethyl)silane hydrochloride",Metal alkyls,0.8567249341745659,0.5495980119278102
+polyhalogenated dibenzo-p-dioxins and dibenzofurans,Dibenzo-p-dioxins,0.8504314458756036,0.5396074962136834
+calcium carbide,Trialkylboranes,0.8494768486905242,0.543990708343862
+Alkyltrimethylbenzyl ammonium chloride,Alkyldimethylbenzylammonium chlorides,0.8493134665956519,0.5432565931108824
+ROSILIAL PLUS,Branched alkanes,0.8480467269577439,0.5558826468067792
+Benzyl-C12-14-alkyldimethylammonium chlorides,Alkyldimethylbenzylammonium chlorides,0.8450303054505016,0.5567155390852635
+Reaction mass of 2-Methylbutane and Tetramethylsilane,Fatty acid esters,0.844312815016892,0.5383876954128753
+DAI-EL PERFLUOR,"1,3,5-triazine-2,4-diamines",0.8429388080319056,0.5353367103867769
+tris(mono- and dinonylphenyl) phosphite,Thioperoxols,0.8395759657906352,0.5384015302244292
+Cadmium and its compounds,Inorganic cadmium salts,0.8385641228617239,0.5398293640433416
+4-Oxo-butyramide,Carboxylic acids,0.8385050429810058,0.5255312710420557
+"Alkenes, C11-12, hydroformylation products, distn. residues",Branched alkanes,0.8360912112605633,0.556832799716392
+"Hydrocarbons, C6, isoalkanes, <5% n-hexane",Steviol glycosides,0.8360699376053253,0.5452940947959002
+"5-sulfoisophthalic acid, salts",Organic perchlorate salts,0.8345977303598087,0.5321645840365651
+"Fatty acids, sunflower-oil, conjugated, maleated,reation products with diethanolamine, maleated tall-oil fatty acids and triethanolamine",Carboxylic acids,0.8338064184770787,0.5248860387784915
+"alcohols, C9-C11, branched and linear, ethoxylated propoxylated",Polyethylene glycols,0.8312856182644358,0.589652580478287
+"Slack wax (petroleum), acid-treated; Slack wax; [A complex combination of hydrocarbons obtained as a raffinate by treatment of a petroleum slack wax fraction with sulfuric acid treating process. It consists predominantly of saturated straight and branched chain hydrocarbons having carbon numbers predominantly greater than C20.]",Branched alkanes,0.8311671290969115,0.5463185531020907
+"methyl (3Z)-4-methyl-6-(2,6,6-trimethyl-1-cyclohexen-1-yl)-3-hexenoate",Fatty acid esters,0.8300875267261585,0.5234494496808454
+Alkyltrimethyl ammonium chloride,Alkyldimethylbenzylammonium chlorides,0.8288546987387793,0.5248724286219079
+Naphthenic acids,Naphthalenecarboxylic acids,0.828287342988596,0.5198160982368903
+Amino acids: mix,Amino acids,0.8281044119590526,0.5302316426275294
+Cyano-Fluorchinoloncarbonsäure,Fatty acid esters,0.8267117603653149,0.523138635298112
+naphthalene sulfonates,Fatty acid esters,0.8265616310206875,0.5235803909743555
+"Rosin, reaction products with acrylic acid",Fatty acid esters,0.8261478831536929,0.5189839197964917
+"Distillates (petroleum), petroleum residues vacuum",Fatty amides,0.8256229553535286,0.5417619304832546
+"Chromium, acetylacetone 6-methyl-2,4-heptanedione complexes",Fatty acid esters,0.8256222690744235,0.5183463397466033
+"Alcohols, C16-18 and C18-unsatd.",Fatty acid esters,0.8251682877052942,0.5186896965238394
+"A mixture of: monosodium 4-((4-(5-sulfonato-2-methoxyphenylamino)-6-chloro-1,3,5-triazine-2-yl)amino)-2-((1,4-dimethyl-6-oxido-2-oxo-5-sulfonatomethyl-1,2-dihydropyridine-3-yl)azo)benzenesulfonate; disodium 4-((4-(5-sulfonato-2-methoxyphenylamino)-6-chloro-1,3,5-triazine-2-yl)amino)-2-((1,4-dimethyl-6-oxido-2-oxo-5-sulfonatomethyl-1,2-dihydropyridine-3-yl)azo)benzenesulfonate; trisodium 4-((4-(5-sulfonato-2-methoxyphenylamino)-6-chloro-1,3,5-triazine-2-yl)amino)-2-((1,4-dimethyl-6-oxido-2-oxo-5-sulfonatomethyl-1,2-dihydropyridine-3-yl)azo)benzenesulfonate; tetrasodium 4-((4-(5-sulfonato-2-methoxyphenylamino)-6-chloro-1,3,5-triazine-2-yl)amino)-2-((1,4-dimethyl-6-oxido-2-oxo-5-sulfonatomethyl-1,2-dihydropyridine-3-yl)azo)benzenesulfonate",Fatty acids and conjugates,0.8232843057082659,0.5446292132159406
+"Phosphorodithioic acid, mixed O,O-bis(iso-Bu and pentyl) esters, zinc salts",Benzoic acid esters,0.8228947013735446,0.5199537668634664
+"polyethyleneglycol (4-14) ethers of monohydric, linear, saturated, primary alcohols, C12-C18",Phthalate esters,0.8222223525886476,0.5130365214411196
+"Sodium salts of [[(phosphonomethyl)imino]bis[ethane-2,1-diylnitrilobis(methylene)]]tetrakisphosphonic acid (1-3 Na:1)",Fatty acid esters,0.8213949054952122,0.5157955344742206
+"Ethanone, 1-[3,5-bis(acetyloxy)phenyl]-2-[(1,1-dimethylethyl)(phenylmethyl)amino]-, hydrobromide",Fatty acid esters,0.8213144793409232,0.5135583550566689
+Zirconium zircon with encapsulated cadmium selenium sulphide,Fatty acid esters,0.8200929488005362,0.5218283653117887
+"Fatty acids, C8-16-(even numbered), tetraesters with pentaerythritol",Alkyl glycosides,0.8192234265907694,0.5237200046109272
+"alcohols, C11-C15-secondary, ethoxylated",Unsaturated fatty acids,0.8188725246741311,0.537444573173332
+"Phosphonium, (3-methyl-4-oxo-2-butenyl)triphenyl-, chloride",Fatty alcohols,0.8185150619093887,0.5168751091845969
+"Reaction mass of 5,9-Undecadienal-2,6,10-trimethyl-, (5E)- and 5,9-Undecadienal-2,6,10-trimethyl-, (5Z)-",Fatty acid esters,0.8183297814981261,0.5109337130043391
+C.I. REACTIVE BLUE 227,Fatty acids and conjugates,0.8175043240162373,0.5323210456919603
+Bis(hexamethylene triamine) diketimine with methyl ethylketone,Fatty acid methyl esters,0.8172066653906683,0.5159106569302453
+aramid fibres,Alkyldimethylbenzylammonium chlorides,0.8163561118483122,0.5242223122138105
+"Reaction products of 4-amino-3-hydroxy-7-nitronaphthalene-1-sulfonic acid and 2′,4′-dihydroxyacetophenone chelated with iron, sodium salts",Piperazines,0.8162901510183087,0.5129962367928791
+"Reaction mass of sodium thiosulphate, sodium sulphite, sodium polysulfide and sodium sulfide",Cresols,0.8147512702283402,0.5282206579666343
+"Protein hydrolyzates, vegetable",Phthalocyanines,0.8141300885996099,0.5436658570705901
+Niobium sulfur tin zinc oxide,Imidazolines,0.8137032078740348,0.5242752780212505
+Polycyclic aromatic hydrocarbons (PAH),Aromatic hydrocarbons,0.8136654833151118,0.5214586036418051
+"1-Dodecanamine, reaction products with 1,1'-methylenebis[4-isocyanatobenzene] and 1-octanamine",Fatty acid esters,0.8135775305157703,0.5098550814763616
+"Reaction product of tetraethylene pentamine, carbon disulphide and sodium hydroxide",Organic disulfides,0.8128026361200007,0.5156542464945881
+"Fatty acids, vegetable-oil, Me esters",Fatty acid esters,0.8122042745697419,0.5227741079760658
+"adipic acid, esters with alcohols, monohydric, aliphatic, primary, saturated, (C6-C12)",Acrylic acid esters,0.8118470635688465,0.519065530208271
+M743BU,Fatty acid esters,0.8117005324081705,0.5134492575491809
+Polycyclic aromatic hydrocarbons (PAHs),Aromatic hydrocarbons,0.8110568788871937,0.5187557068387583
+silica and hydrated silicas,Unsaturated fatty acids,0.8107290563948352,0.5228213497195113
+polypropyleneglycol,Acrylic acid esters,0.8104048590604681,0.5110192694957318
+Benzidine and its salts,Benzidines,0.8099245528051309,0.5059474980288039
+"A mixture of: sodium 5-[8-[4-[4-[4-[7-(3,5-dicarboxylatophenylazo)-8-hydroxy-3,6-disulfonatonaphthalen-1-ylamino]-6-hydroxy-1,3,5-triazin-2-yl]-2,5-dimethylpiperazin-1-yl]-6-hydroxy-1,3,5-triazin-2-ylamino]-1-hydroxy-3,6-disulfonatonaphthalen-2-ylazo]-isophthalate; ammonium 5-[8-[4-[4-[4-[7-(3,5-dicarboxylatophenylazo)-8-hydroxy-3,6-disulfonatonaphthalen-1-ylamino]-6-hydroxy-1,3,5-triazin-2-yl]-2,5-dimethylpiperazin-1-yl]-6-hydroxy-1,3,5-triazin-2-ylamino]-1-hydroxy-3,6-disulfonatonaphthalen-2-ylazo]-isophthalate; 5-[8-[4-[4-[4-[7-(3,5-dicarboxylatophenylazo)-8-hydroxy-3,6-disulfonatonaphthalen-1-ylamino]-6-hydroxy-1,3,5-triazin-2-yl]-2,5-dimethylpiperazin-1-yl]-6-hydroxy-1,3,5-triazin-2-ylamino]-1-hydroxy-3,6-disulfonaphthalen-2-ylazo]-isophthalic acid",Alkanes,0.8097047684183866,0.5258146032339025
+"NAPHTHALENESULPHONIC ACID, DINONYL-, LITHIUM SALT",Naphthalenes,0.8083308052354784,0.5062102239111944
+"Quaternary ammonium compounds, benzyl-C12-16-alkyldimethyl, chlorides",Organic perchlorate salts,0.8082194084505904,0.514864929225504
+"diesters of C16 and C18 (branched and linear) fatty acids with propane-1,2-diol",Fatty acid esters,0.8067083953959193,0.5076501196724086
+"fatty acids, C16-C18 (even numbered) and C18 unsaturated, 3-methylbutyl and 2-methylbutyl esters.",Fatty acid esters,0.806680881066473,0.5048377135665012
+"Fatty acids, tall-oil, Bu esters",Fatty acid esters,0.8065409018459784,0.5134655725167349
+"Zirconium oxide, erbium and yttrium doped",2(hydroxyphenyl)acetic acids,0.8060425376373771,0.5277126802454986
+Reaction mass of methyl N-octadecylterephthalamate and 37437-26-6,Fatty acid esters,0.8059235639715527,0.5061649694803363
+"Reaction products of diazotised Benzenesulfonic acid, 2-amino-5-[[2-(sulfooxy)ethyl]sulfonyl]-, subsequently coupled with Urea, N-(3-aminophenyl)-, subsequently condensation with 1,3,5-Triazine, 2,4,6-trichloro-, further condensation with Benzenesulfonic acid, 3-amino- and 3-Pyridinecarboxylic acid, sodium salts",Fatty acid esters,0.8058185205458481,0.5072092383114939
+NK-3251,Fatty acid esters,0.8049750990239981,0.5089812642380851
+"potassium tetrasodium bis[(N,N'-n)-1'-(phenylcarbamoyl)-3,5-disulfonatobenzeneazo-1'-prop-1'-ene-2,2'-diolato]chromate(III)",Inorganic chromium (VI) compounds,0.8044447890260583,0.5459094678722606
+"bis(ethane-1,2-diamine-κ²N,N')copper(2+) sulfate",Aromatic hydrocarbons,0.8043410527895757,0.5224367323045754
+F-60 D,Fatty acid esters,0.8043158388717239,0.5060025226169041
+"Fatty acids, C16-18, isotridecyl esters",Fatty acid esters,0.8037497013442156,0.5048220407173782
+"(5E)-9-(dichloromethylidene)-N-hydroxy-2,3,4,6,7,8-hexahydro-1,4-methanonaphthalen-5(1H)-imine",Aromatic hydrocarbons,0.8031009604840652,0.5199546109499689
+"4,4'-Isopropylidenediphenol, oligomeric reaction products with 1-chloro-2,3-epoxypropane, esters with acrylic acid",Aromatic hydrocarbons,0.802124174414441,0.5204658084033237
+"Hydrocarbons, C11-C14, n-alkanes, <2% aromatics",Aromatic hydrocarbons,0.8019980688301305,0.517060443710452
+"beta amino crotonic acid esters with 1,4-butylene glycol and with C16-C18 fatty alcohols",Acrylic acid esters,0.8016174785991472,0.532143379374838
+"mixture of (35-45 % w/w) 1,6-diamino-2,2,4-trimethylhexane and (55-65 % w/w)1,6-diamino-2,4,4-trimethylhexane",Polyethylene glycols,0.8014784424310687,0.5665278640623971
+"Reaction mass of tetrasodium 2-((1-(3-(6-fluoro-(4-((N-(2-(2-sulfatoethanesulfonyl)ethyl)-N-phenyl)amino)-1,3,5-triazin-2-ylamino)-2-hydroxy-5-sulfonatophenylazo)-1-phenylmethyl)azo)-4-sulfonatobenzoate cuprate (4-) and trisodium 2-((1-(3-((4-(N-(2-ethenesulfonylethyl)-N-phenyl)amino)-6-fluoro-1,3,5-triazin-2-ylamino)-2-hydroxy-5-sulfonatophenylazo)-1-phenylmethyl)azo)-4-sulfonatobenzoate cuprate (4-)",Fatty acid esters,0.8013842401468118,0.5057804153231176
+ARTON,Organic lithium salts,0.8005760320694648,0.5169430608830469

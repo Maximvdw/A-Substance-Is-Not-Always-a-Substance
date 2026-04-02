@@ -601,6 +601,11 @@ CHEMONTID:fe361179425944f8235d77f2572e8109
         dbp:inchikey  "InChIKey=UJJKWQRTTYLTQL-UHFFFAOYSA-N";
         skos:broader  CHEMONTID:0001722 .
 
+CHEMONTID:fe34cba45d2269905687311973c8e28b
+        dbo:smiles    "NC1=NC=CC2=C1N(C(=O)N2[C@@H]1CCCNC1)C1=CC=C(OC2=CC=CC=C2)C=C1";
+        dbp:inchikey  "InChIKey=PGMVBJNTAHIBGK-QGZVFWFLSA-N";
+        skos:broader  CHEMONTID:0004155 .
+
 CHEMONTID:fe31fd9ac7913e96eacbdb3b81689be5
         dbo:smiles    "[Na+].CCCCCCCCCCCC(=O)OC(C)C(=O)OC(C)C([O-])=O";
         dbp:inchikey  "InChIKey=NTYZDAJPNNBYED-UHFFFAOYSA-M";
@@ -1956,6 +1961,11 @@ CHEMONTID:fa2ed7d4edef07f68472d37345b1c557
         dbp:inchikey  "InChIKey=JJLJMEJHUUYSSY-UHFFFAOYSA-L";
         skos:broader  CHEMONTID:0000837 .
 
+CHEMONTID:fa2caf12a43db08ca7b26b33857c43f9
+        dbo:smiles    "CCCCCCCCCCCCCCCCCC(=O)OCCCCCCCCCCCCCCCC.CCCCCCCCCCCCCCCCCCOC(=O)CCCCCCCCCCCCCCCCC";
+        dbp:inchikey  "InChIKey=BHXOBVQQGGHPJY-UHFFFAOYSA-N";
+        skos:broader  CHEMONTID:0003322 .
+
 CHEMONTID:fa2a7681166fc1085303330389215bf0
         dbo:smiles    "NC1=C(Cl)C=CC(=C1)C(=O)C1=CC=CC=C1C(O)=O";
         dbp:inchikey  "InChIKey=MQECGSWGDQIHHD-UHFFFAOYSA-N";
@@ -3116,6 +3126,11 @@ CHEMONTID:f66f5eec9ab9c3eb241fe9fb71cf991f
         dbp:inchikey  "InChIKey=MIOPJNTWMNEORI-UHFFFAOYSA-N";
         skos:broader  CHEMONTID:0001564 .
 
+CHEMONTID:f66e0691613477ed5fc6b1f1f284bb53
+        dbo:smiles    "[Br-].CC1=CC=CC=[N+]1CCCC1=CC=CC=C1";
+        dbp:inchikey  "InChIKey=HFVATZRDXYQGBX-UHFFFAOYSA-M";
+        skos:broader  CHEMONTID:0004152 .
+
 CHEMONTID:f66aca48de817817715ce7c6a39e1955
         dbo:smiles    "[Cl-].C[N+](C)(Cc1ccccc1)Cc1ccccc1";
         dbp:inchikey  "InChIKey=LCXAARCEIWRIMU-UHFFFAOYSA-M";
@@ -3765,6 +3780,11 @@ CHEMONTID:f483c3fb1b4f9d3b45fbb1e5a2073882
         dbo:smiles    "CCCCC(CC)CN(CC(CC)CCCC)CC(CC)CCCC";
         dbp:inchikey  "InChIKey=BZUDVELGTZDOIG-UHFFFAOYSA-N";
         skos:broader  CHEMONTID:0002239 .
+
+CHEMONTID:f47f4e4a1f36b955ef9ab37bae49d727
+        dbo:smiles    "[O--].[Ti+4].[O-]S([O-])(=O)=O";
+        dbp:inchikey  "InChIKey=DCKVFVYPWDKYDN-UHFFFAOYSA-L";
+        skos:broader  CHEMONTID:0000858 .
 
 CHEMONTID:f47c8e9f6ca37525c252f759993eb4e4
         dbo:smiles    "COCCCC\\C(=N/OCCN)C1=CC=C(C=C1)C(F)(F)F";
@@ -8481,6 +8501,11 @@ CHEMONTID:e51640fabb267d041ab379e66b193b13
         dbp:inchikey  "InChIKey=KXXXUIKPSVVSAW-UHFFFAOYSA-K";
         skos:broader  CHEMONTID:0001851 .
 
+CHEMONTID:e514034c7e62ff951dce013965e75a5d
+        dbo:smiles    "[Na].COC(=O)C1=C(O)COC1=O";
+        dbp:inchikey  "InChIKey=MEVBPSYWTCDIMK-UHFFFAOYSA-N";
+        skos:broader  CHEMONTID:0000324 .
+
 CHEMONTID:e51318dd3dc20359853b4f83e9958c95
         dbo:smiles    "CCCCCCOC(=O)CCC";
         dbp:inchikey  "InChIKey=XAPCMTMQBXLDBB-UHFFFAOYSA-N";
@@ -9400,6 +9425,11 @@ CHEMONTID:e26ca2ef36b8ebc136a6d4543359b72a
         dbo:smiles    "OC=C1CCCC(C=O)=C1Cl";
         dbp:inchikey  "InChIKey=JWUQFQYYMGMPKE-UHFFFAOYSA-N";
         skos:broader  CHEMONTID:0003888 .
+
+CHEMONTID:e26b6ccc5ef070cd6fffbef767140245
+        dbo:smiles    "CS(O)(=O)=O.[H][C@@](O)(CN)[C@]([H])(OC1=CC=CC=C1OCC)C1=CC=CC=C1";
+        dbp:inchikey  "InChIKey=YLWMFGZOMMEAOU-SATBOSKTSA-N";
+        skos:broader  CHEMONTID:0002341 .
 
 CHEMONTID:e26649ce61a1e9f304f8551cdc04f428
         dbo:smiles    "NCCCCCCN.OC(=O)CCCCCCCCC(O)=O";
@@ -11396,6 +11426,11 @@ CHEMONTID:dc03167ae1eb520282abd2f60ac9e23a
         dbp:inchikey  "InChIKey=QUUVXPUXYIWGHA-UHFFFAOYSA-M";
         skos:broader  CHEMONTID:0001185 .
 
+CHEMONTID:dbf3cf09d0bdb0bb8895cb192fd35162
+        dbo:smiles    "OC(=O)C(O)=O.NCCNC(=O)N1CCOCC1";
+        dbp:inchikey  "InChIKey=FMVSRINQKOORMK-UHFFFAOYSA-N";
+        skos:broader  CHEMONTID:0002307 .
+
 CHEMONTID:dbf36a092a6341c99fa61e9597c774b4
         dbo:smiles    "OC(=O)C(=C)CC1=CC=CC=C1";
         dbp:inchikey  "InChIKey=RYNDYESLUKWOEE-UHFFFAOYSA-N";
@@ -11705,6 +11740,11 @@ CHEMONTID:dad8339c16c433b4e3a44d47beece3a1
         dbo:smiles    "[Na+].[Na+].NC1=C2C(=CC(=C1)S(O)(=O)=O)C=C(C=C2S([O-])(=O)=O)S([O-])(=O)=O";
         dbp:inchikey  "InChIKey=KHJANRFXWPPWEL-UHFFFAOYSA-L";
         skos:broader  CHEMONTID:0003601 .
+
+CHEMONTID:dad6127584e3f785b4d99c19c1a8a86a
+        dbo:smiles    "[O--].[Al+3].[Co++].[Co+3].[Ni++].[Ni+3]";
+        dbp:inchikey  "InChIKey=CYZZCBWMQAPDEE-UHFFFAOYSA-N";
+        skos:broader  CHEMONTID:0000530 .
 
 CHEMONTID:dad60422afe12d336840801fab7217ad
         dbo:smiles    "COC1=CC2=C(NC=C2CCN)C=C1";
@@ -12536,6 +12576,11 @@ CHEMONTID:d851a87c7daf22f461e25942faeacb20
         dbp:inchikey  "InChIKey=KYYSIVCCYWZZLR-UHFFFAOYSA-N";
         skos:broader  CHEMONTID:0000996 .
 
+CHEMONTID:d85053b36675913c870204289ad0a5bd
+        dbo:smiles    "CCCCOC(C)OC1C[C@@H](CCC1=C)C(C)C";
+        dbp:inchikey  "InChIKey=UGZCBILGRLFWEC-HWOWSKLDSA-N";
+        skos:broader  CHEMONTID:0001401 .
+
 CHEMONTID:d845a80d5d972c5fb22b83ff74ee1d97
         dbo:smiles    "Cc1ccccc1N=Nc1ccc(N=Nc2c(O)ccc3ccccc23)c(C)c1";
         dbp:inchikey  "InChIKey=RCTGMCJBQGBLKT-UHFFFAOYSA-N";
@@ -12800,6 +12845,11 @@ CHEMONTID:d75d15ea0a81e551611b38a52ccef988
         dbo:smiles    "CCCCC[Sn](CCCCC)(CCCCC)O[Sn](CCCCC)(CCCCC)CCCCC";
         dbp:inchikey  "InChIKey=MNFUDUQONWPBMD-UHFFFAOYSA-N";
         skos:broader  CHEMONTID:0004072 .
+
+CHEMONTID:d75b81ce0f4074adb455dd9ea994b853
+        dbo:smiles    "[K+].CC1=CC(=CC(=C1[O-])[N+]([O-])=O)[N+]([O-])=O";
+        dbp:inchikey  "InChIKey=ZSUHWKOUWKJIOR-UHFFFAOYSA-M";
+        skos:broader  CHEMONTID:0003969 .
 
 CHEMONTID:d75ad1d0bb9fdc078e3945dc3872d659
         dbo:smiles    "C[Si](Cl)(Cl)CCCCl";
@@ -14560,6 +14610,11 @@ CHEMONTID:d1bb0cebcc3e27a248040db04f6f357b
         dbo:smiles    "CC(=O)NCCC1=CC=C(C=C1)S(N)(=O)=O";
         dbp:inchikey  "InChIKey=IIMGUEXQORZTID-UHFFFAOYSA-N";
         skos:broader  CHEMONTID:0004252 .
+
+CHEMONTID:d1b474c676935f9182360052f2f39a0a
+        dbo:smiles    "C[N+](C)(C)C.C[N+](C)(C)C.C[N+](C)(C)C.C[N+](C)(C)C.NC1=C(C=C2C=C(C(N=NC3=CC=C(N=NC4=CC=C(C=C4)S([O-])(=O)=O)C4=C3C=C(C=C4)S([O-])(=O)=O)=C([O-])C2=C1)S(O)(=O)=O)S([O-])(=O)=O";
+        dbp:inchikey  "InChIKey=PBWMUSNERLOZLT-UHFFFAOYSA-J";
+        skos:broader  CHEMONTID:0003601 .
 
 CHEMONTID:d1ae11ff4bb25f65c5dc8449e5d8a779
         dbo:smiles    "Cl.CC(CCl)CN(C)C";
@@ -16451,6 +16506,11 @@ CHEMONTID:cb89a21abc85248c64320fd26db5a51b
         dbp:inchikey  "InChIKey=KPSTXQYTZBZXMM-UHFFFAOYSA-N";
         skos:broader  CHEMONTID:0000486 .
 
+CHEMONTID:cb865f4fd3a08446fbbf71f3274983eb
+        dbo:smiles    "CC(C)=CCOC(=O)CC=C(C(O)=O)C1=CSC(NC(=O)OCC2=CC=CC=C2)=N1";
+        dbp:inchikey  "InChIKey=QSJNRPJXKFDFPH-UHFFFAOYSA-N";
+        skos:broader  CHEMONTID:0001097 .
+
 CHEMONTID:cb7cff0fc444b3306c2a041687972e79
         dbo:smiles    "[Na+].[Na+].NC1=C2C(=O)C3=CC=CC=C3C(=O)C2=C(NC2=CC(=C(NS(=O)(=O)C3=CC=CC=C3)C=C2)S([O-])(=O)=O)C=C1S([O-])(=O)=O";
         dbp:inchikey  "InChIKey=JMWAWSHLFOIGSU-UHFFFAOYSA-L";
@@ -18116,6 +18176,11 @@ CHEMONTID:c612251dc187e566bfe320be582f9b99
         dbp:inchikey  "InChIKey=KVEZPQNBMSQMQU-UHFFFAOYSA-N";
         skos:broader  CHEMONTID:0000178 .
 
+CHEMONTID:c6121cb7d79d6ee3aba3aad97d0a379e
+        dbo:smiles    "CCCCC1=CC=C(C=C1)C1=CC(F)=CC=C1";
+        dbp:inchikey  "InChIKey=KBDLWLCFJHKKGW-UHFFFAOYSA-N";
+        skos:broader  CHEMONTID:0000041 .
+
 CHEMONTID:c60fb971e5665dcd4698f20edc0d7f7f
         dbo:smiles    "CC(C)OC(=O)C=C";
         dbp:inchikey  "InChIKey=LYBIZMNPXTXVMV-UHFFFAOYSA-N";
@@ -19776,6 +19841,11 @@ CHEMONTID:c05e893734812084299cb9a3f0962319
         dbp:inchikey  "InChIKey=GIPRGFRQMWSHAK-UHFFFAOYSA-M";
         skos:broader  CHEMONTID:0000032 .
 
+CHEMONTID:c05c33ec1dcc5b974af0bb0425213c35
+        dbo:smiles    "CCOCC1OC(OC)C(OCC)C(OCC)C1OC1OC(CO)C(OC)C(O)C1O";
+        dbp:inchikey  "InChIKey=ZZSNKZQZMQGXPY-UHFFFAOYSA-N";
+        skos:broader  CHEMONTID:0002207 .
+
 CHEMONTID:c05b1a190e71435286765b3ffa59a2b2
         dbo:smiles    "CCOC(=O)C1=CC=C(C=C1)C1=NC(Cl)=NC=C1";
         dbp:inchikey  "InChIKey=PTSZMMLYAGLVQJ-UHFFFAOYSA-N";
@@ -20040,6 +20110,11 @@ CHEMONTID:bf9be8388b59f4d94cda456dc1e66711
         dbo:smiles    "B12B3B4B1C234";
         dbp:inchikey  "InChIKey=INAHAJYZKVIDIZ-UHFFFAOYSA-N";
         skos:broader  CHEMONTID:0001270 .
+
+CHEMONTID:bf9b48ca70afe9e14276e84a34681676
+        dbo:smiles    "[Cl-].C[N+](C)(C)CC(O)CCl";
+        dbp:inchikey  "InChIKey=CSPHGSFZFWKVDL-UHFFFAOYSA-M";
+        skos:broader  CHEMONTID:0001012 .
 
 CHEMONTID:bf9b2493499a8d10e00f061fc5d5570a
         dbo:smiles    "CC(C)C1=C(OI)C=C(C)C(=C1)C1=CC(C(C)C)=C(OI)C=C1C";
@@ -21246,6 +21321,11 @@ CHEMONTID:bc04a4ac109084da300354e3a8c9392a
         dbp:inchikey  "InChIKey=GOKKOFHHJFGZHW-UHFFFAOYSA-N";
         skos:broader  CHEMONTID:0001238 .
 
+CHEMONTID:bc01e4af5a7e4a56bcea77b34fe7da95
+        dbo:smiles    "C[C@H](N)C1=CC=CC=C1.CC(C)(C)[C@H](NC(=O)O[C@@H]1C[C@H]1CC=C)C(O)=O";
+        dbp:inchikey  "InChIKey=OKRJYXRNIQLVOV-YANBCZTBSA-N";
+        skos:broader  CHEMONTID:0004310 .
+
 CHEMONTID:bbfca3ad24b2f94445e651c494c2cbea
         dbo:smiles    "CCOc1ccccc1OCC";
         dbp:inchikey  "InChIKey=QZYDOKBVZJLQCK-UHFFFAOYSA-N";
@@ -21335,6 +21415,11 @@ CHEMONTID:bbccdc26e086618f778b11d2219d217e
         dbo:smiles    "CCCCC(=O)OCC(=O)[C@H]1[C@H](C)C[C@H]2[C@@H]3C[C@H](F)C4=CC(=O)C=C[C@]4(C)[C@H]3[C@@H](O)C[C@]12C";
         dbp:inchikey  "InChIKey=ASVQNGFDDHFBPT-VJBCMVKLSA-N";
         skos:broader  CHEMONTID:0001468 .
+
+CHEMONTID:bbcb59e0e3d880277770b88d5bc7c04e
+        dbo:smiles    "Cl.C1CC(CCN1)N1C=CC=N1";
+        dbp:inchikey  "InChIKey=QRJCGVNDIQCAAA-UHFFFAOYSA-N";
+        skos:broader  CHEMONTID:0000195 .
 
 CHEMONTID:bbc8b3bdbe1206847dd4d04cd9490f46
         dbo:smiles    "[NH4+].[NH4+].[Ce+4].[O-][N+]([O-])=O.[O-][N+]([O-])=O.[O-][N+]([O-])=O.[O-][N+]([O-])=O.[O-][N+]([O-])=O.[O-][N+]([O-])=O";
@@ -22056,6 +22141,11 @@ CHEMONTID:b97fce1f0c3ef2632826cd4182954b74
         dbp:inchikey  "InChIKey=DXJQKWNJVPTPSK-UHFFFAOYSA-N";
         skos:broader  CHEMONTID:0004612 .
 
+CHEMONTID:b97a76fcb690852fc6f08432c885da06
+        dbo:smiles    "COC1=C(C=C(C)C=C1)C(CCO)C1=CC=CC=C1";
+        dbp:inchikey  "InChIKey=OCGTUTJXBDQGKL-UHFFFAOYSA-N";
+        skos:broader  CHEMONTID:0000369 .
+
 CHEMONTID:b9749e0a4279ed23e8ff6b5f731b1de6
         dbo:smiles    "CC(O)=O.CCCCCCCCCCCC(=O)NCCCN(C)C";
         dbp:inchikey  "InChIKey=ITEOMQZUDMOKMS-UHFFFAOYSA-N";
@@ -22460,6 +22550,11 @@ CHEMONTID:b8405e7c73c4ec6a9f387796adce8ad9
         dbo:smiles    "[K+].NC1=CC(=CC(=C1O)S([O-])(=O)=O)S(O)(=O)=O";
         dbp:inchikey  "InChIKey=CBOKDZSOCSSLKA-UHFFFAOYSA-M";
         skos:broader  CHEMONTID:0000032 .
+
+CHEMONTID:b83fbae4b2fcaabf63cba2f1d76cf69f
+        dbo:smiles    "CC1=CC=C(C=C1)C1=C(C(O)C(O)=O)N2C=C(C)C=CC2=N1";
+        dbp:inchikey  "InChIKey=IWIKSBZMTWJGGC-UHFFFAOYSA-N";
+        skos:broader  CHEMONTID:0002327 .
 
 CHEMONTID:b836a4c9289ec5d33bbec8801aa78c8c
         dbo:smiles    "C1CN=C(N1)C1CCCC2=CC=CC=C12";
@@ -23471,6 +23566,11 @@ CHEMONTID:b549eaaf078aed54bab606805bea443c
         dbp:inchikey  "InChIKey=BXZMJUJBUSHRMV-UHFFFAOYSA-N";
         skos:broader  CHEMONTID:0001563 .
 
+CHEMONTID:b543d3b478a7d986d02f55c9d1f54d6c
+        dbo:smiles    "OCCN(CCO)CCO.CC1=C(C2=C(C=C1)N=C(S2)C1=CC=C(C=C1)N=NC1C(O)=NC(=NC#N)N=C1O)S(O)(=O)=O";
+        dbp:inchikey  "InChIKey=RSJYKXJNQIFLRF-UHFFFAOYSA-N";
+        skos:broader  CHEMONTID:0000311 .
+
 CHEMONTID:b5429a0d7a1f71891c7043e4675c0247
         dbo:smiles    "CCOS([O-])(=O)=O.CCN1C=C[N+](C)=C1";
         dbp:inchikey  "InChIKey=VRFOKYHDLYBVAL-UHFFFAOYSA-M";
@@ -24165,6 +24265,11 @@ CHEMONTID:b2eea45a37e38019c70fdf8083e1aa19
         dbo:smiles    "CC(=O)NC(C)(C)CC1=CC=CC=C1";
         dbp:inchikey  "InChIKey=AVEJEOTYLAFEDZ-UHFFFAOYSA-N";
         skos:broader  CHEMONTID:0000188 .
+
+CHEMONTID:b2ed299c259c3342de1bf56bf07cb680
+        dbo:smiles    "CC(=O)OC1=CC=CC2=C1CC(O)C(O)C2";
+        dbp:inchikey  "InChIKey=KJHALSUYGSKPQA-UHFFFAOYSA-N";
+        skos:broader  CHEMONTID:0000048 .
 
 CHEMONTID:b2e98b930f3c3572033ae83b1f08b702
         dbo:smiles    "O=C1OC2=CC3=C(C(=O)OC3=CC2=C1C1=CC=CC=C1)C1=CC=C(OCC2CCCO2)C=C1";
@@ -25260,6 +25365,11 @@ CHEMONTID:af5615876c02767b3ef3d3a6320b02f6
         dbo:smiles    "CC(=C)C(=O)OCCN1CCNC1=O";
         dbp:inchikey  "InChIKey=PFPUZMSQZJFLBK-UHFFFAOYSA-N";
         skos:broader  CHEMONTID:0001149 .
+
+CHEMONTID:af526a76d4b80736a5ae576421ba939e
+        dbo:smiles    "OCCN(CC(O)CN(CCO)C1=CC=CC=C1)C1=CC=CC=C1";
+        dbp:inchikey  "InChIKey=AZFNYKGYWGYENL-UHFFFAOYSA-N";
+        skos:broader  CHEMONTID:0003901 .
 
 CHEMONTID:af4c8c07c8f52851d9d15f104e67af84
         dbo:smiles    "CCOC(=O)CC(=O)C1=CC(CC2=C(F)C(Cl)=CC=C2)=C(OC)C=C1OC";
@@ -27561,6 +27671,11 @@ CHEMONTID:a823e44cb70d7964c55d7cced276bc75
         dbp:inchikey  "InChIKey=XGZVUEUWXADBQD-UHFFFAOYSA-L";
         skos:broader  CHEMONTID:0001521 .
 
+CHEMONTID:a822d259e697fe8da58ca5a8047d46d7
+        dbo:smiles    "[Na+].NC1=C(C=C(NC2CCCCC2)C2=C1C(=O)C1=CC=CC=C1C2=O)S([O-])(=O)=O";
+        dbp:inchikey  "InChIKey=DJDYMAHXZBQZKH-UHFFFAOYSA-M";
+        skos:broader  CHEMONTID:0000151 .
+
 CHEMONTID:a81b902c06a995bbc86014806e856841
         dbo:smiles    "COC1=CC=CC=C1N1CCNCC1";
         dbp:inchikey  "InChIKey=VNZLQLYBRIOLFZ-UHFFFAOYSA-N";
@@ -27981,6 +28096,11 @@ CHEMONTID:a6eb9538c0a5df173c9d9dfd0247d35c
         dbp:inchikey  "InChIKey=IKCLCGXPQILATA-UHFFFAOYSA-N";
         skos:broader  CHEMONTID:0003097 .
 
+CHEMONTID:a6e96a9b1b46bb1c93b0f5475af64250
+        dbo:smiles    "[Na+].CNCC([O-])=O";
+        dbp:inchikey  "InChIKey=ZUFONQSOSYEWCN-UHFFFAOYSA-M";
+        skos:broader  CHEMONTID:0002404 .
+
 CHEMONTID:a6e75d9020e6bb62ac14ee23dd73bb2a
         dbo:smiles    "CC(CC1=CC=CC=C1)(C=C)C#N";
         dbp:inchikey  "InChIKey=UKLOORXNVRHFRM-UHFFFAOYSA-N";
@@ -28255,6 +28375,11 @@ CHEMONTID:a5df4b7b2c0915a12a7ad0b9b4152726
         dbo:smiles    "O=C(OCCCC1=CC=CC=C1)C1=CC=CC=C1";
         dbp:inchikey  "InChIKey=ONPVMQLRVWKFFL-UHFFFAOYSA-N";
         skos:broader  CHEMONTID:0001350 .
+
+CHEMONTID:a5ddc99a7d2b9806341c489efbe8a2d0
+        dbo:smiles    "[Na+].CC(C)COC(=O)CC(C(=O)OCC(C)C)S([O-])(=O)=O";
+        dbp:inchikey  "InChIKey=NTWXWSVUSTYPJH-UHFFFAOYSA-M";
+        skos:broader  CHEMONTID:0000324 .
 
 CHEMONTID:a5da290a23afc0aba220b23ab90ea4f2
         dbo:smiles    "OC(=O)CCCCCCCCCC(O)=O";
@@ -29531,6 +29656,11 @@ CHEMONTID:a1928c3e2319fbce263701c06be2f37f
         dbp:inchikey  "InChIKey=UKLNPJDLSPMJMQ-UHFFFAOYSA-N";
         skos:broader  CHEMONTID:0003487 .
 
+CHEMONTID:a189935d85da77dca8994fb57a234fe9
+        dbo:smiles    "[Na+].NC1=CC(=C2C=CC=C(C2=C1)S(O)(=O)=O)S([O-])(=O)=O";
+        dbp:inchikey  "InChIKey=AXTIFEPCSRBRNK-UHFFFAOYSA-M";
+        skos:broader  CHEMONTID:0003600 .
+
 CHEMONTID:a1850f96766b1596d2e9df41a7abc9ec
         dbo:smiles    "CC(CC(=O)OCC(COC(=O)CC(C)CC(C)(C)C)OC(=O)CC(C)CC(C)(C)C)CC(C)(C)C";
         dbp:inchikey  "InChIKey=QNESDXMHQYMNGD-UHFFFAOYSA-N";
@@ -29725,6 +29855,11 @@ CHEMONTID:a0e89e417fce0bc176b5ba39a3336143
         dbo:smiles    "CCOCC(C)OCC";
         dbp:inchikey  "InChIKey=VPBZZPOGZPKYKX-UHFFFAOYSA-N";
         skos:broader  CHEMONTID:0001167 .
+
+CHEMONTID:a0e862c9a94f49c87524b6709b7bb217
+        dbo:smiles    "CCN(CC)c1ccc(N=C2C=C(NC(C)=O)C(=O)C=C2C)c(C)c1";
+        dbp:inchikey  "InChIKey=VPNCPXFGEIZYCS-UHFFFAOYSA-N";
+        skos:broader  CHEMONTID:0002895 .
 
 CHEMONTID:a0dc4a09aa68a2ab11ac0db47a25b918
         dbo:smiles    "[H][C@](N)(CC1=CC(I)=C(OC2=CC=C(O)C=C2)C(I)=C1)C(O)=O";
@@ -33871,6 +34006,11 @@ CHEMONTID:94d0bf03c5a4a0c59f3b9a731f16d905
         dbp:inchikey  "InChIKey=XESZUVZBAMCAEJ-UHFFFAOYSA-N";
         skos:broader  CHEMONTID:0002811 .
 
+CHEMONTID:94ce6804b9e0afb86aa08800d8a55777
+        dbo:smiles    "CCN(CCOC(C)=O)C1=CC(C)=C(C=C1)N=NC1=C(C#N)C(C)=NS1";
+        dbp:inchikey  "InChIKey=ZARBUMUUEZTHKY-UHFFFAOYSA-N";
+        skos:broader  CHEMONTID:0003964 .
+
 CHEMONTID:94cdd5957db23d4525925af0ef1bdf9c
         dbo:smiles    "COC(=O)C(C=O)c1ccccc1";
         dbp:inchikey  "InChIKey=ORJFSDFCHJQCOH-UHFFFAOYSA-N";
@@ -34726,6 +34866,11 @@ CHEMONTID:9227dc48290803a67b4c61c90d706ce5
         dbp:inchikey  "InChIKey=LTPSRQRIPCVMKQ-UHFFFAOYSA-N";
         skos:broader  CHEMONTID:0000032 .
 
+CHEMONTID:9224aa051e1a327d91d6ee659bd2df08
+        dbo:smiles    "COC1=C(C=C(C#N)C(=C1)N=CN(C)C)[N+]([O-])=O";
+        dbp:inchikey  "InChIKey=KRQJJPTWQAWICH-UHFFFAOYSA-N";
+        skos:broader  CHEMONTID:0004671 .
+
 CHEMONTID:921bdfa221c6192fb39cf9509284a8a3
         dbo:smiles    "C1CCC(CC1)NSC1=NC2=CC=CC=C2S1";
         dbp:inchikey  "InChIKey=DEQZTKGFXNUBJL-UHFFFAOYSA-N";
@@ -34831,6 +34976,11 @@ CHEMONTID:91e42433381ebe7bb5781eb51cb1e016
         dbp:inchikey  "InChIKey=KUYMVWXKHQSIAS-UHFFFAOYSA-N";
         skos:broader  CHEMONTID:0003001 .
 
+CHEMONTID:91e210c999c44faca886b4080c0696e9
+        dbo:smiles    "[Al+3].[Cl-].CC.CCCO";
+        dbp:inchikey  "InChIKey=AOGQMZTYRNPXND-UHFFFAOYSA-M";
+        skos:broader  CHEMONTID:0004491 .
+
 CHEMONTID:91e1f93e818e61d5b94e4276f44299bc
         dbo:smiles    "CC1=CC=CC(C)=C1OP(=O)(OC1=CC(OP(=O)(OC2=C(C)C=CC=C2C)OC2=C(C)C=CC=C2C)=CC=C1)OC1=C(C)C=CC=C1C";
         dbp:inchikey  "InChIKey=YOLFSLXHLNWPKG-UHFFFAOYSA-N";
@@ -34855,6 +35005,11 @@ CHEMONTID:91d76859edb27b392d4f7d86c4ffd177
         dbo:smiles    "[O-][N+](=O)C1=CC=C(C=C1)S(F)(F)(F)(F)F";
         dbp:inchikey  "InChIKey=AGNCKMHGYZKMLN-UHFFFAOYSA-N";
         skos:broader  CHEMONTID:0000036 .
+
+CHEMONTID:91d4e5cfd67767fd88b24b80ffbab965
+        dbo:smiles    "[Cl-].[Cl-].C=[Zr++].CC(C)(C)C1=C[CH-]C2=CC=CC=C12.CC(C)(C)C1=C[CH-]C2=CC=CC=C12";
+        dbp:inchikey  "InChIKey=BCDLLBWNNKOBHG-UHFFFAOYSA-L";
+        skos:broader  CHEMONTID:0002448 .
 
 CHEMONTID:91d42e8ab2f1149c561cc9e6ce550e18
         dbo:smiles    "CC(=O)OC1CC(=O)C2(C)CCC3C(CCC4=CC(=O)CCC34C)C12";
@@ -36085,6 +36240,11 @@ CHEMONTID:8e0ea8eeb4912266292dde227840e380
         dbo:smiles    "Cc1ccccc1CCO";
         dbp:inchikey  "InChIKey=RUGISKODRCWQNE-UHFFFAOYSA-N";
         skos:broader  CHEMONTID:0001091 .
+
+CHEMONTID:8e0c12a117e77b836272f436cc7ba41c
+        dbo:smiles    "Cl.CCN(CC)CCCNC(=O)C1=CC=C(N)C=C1";
+        dbp:inchikey  "InChIKey=HFSYLLFALIBMFQ-UHFFFAOYSA-N";
+        skos:broader  CHEMONTID:0000178 .
 
 CHEMONTID:8e0af34d82cebfd65b863051f0fb9679
         dbo:smiles    "ClC(=O)Oc1ccccc1";
@@ -41006,6 +41166,11 @@ CHEMONTID:7ecbc77615d09faa14374e14bf301b17
         dbp:inchikey  "InChIKey=NDUPDOJHUQKPAG-UHFFFAOYSA-N";
         skos:broader  CHEMONTID:0003000 .
 
+CHEMONTID:7ebfb70d7cd1d667ebd9b85b4dc2528d
+        dbo:smiles    "CCCCCCCCCCCCCCCCCCOCCO";
+        dbp:inchikey  "InChIKey=ICIDSZQHPUZUHC-UHFFFAOYSA-N";
+        skos:broader  CHEMONTID:0001167 .
+
 CHEMONTID:7eb9dab4dcf64fff2b6948efc93ba178
         dbo:smiles    "CC(O)CN(CCCN(C)C)CC(C)O";
         dbp:inchikey  "InChIKey=FFCUXTGIVGMUKC-UHFFFAOYSA-N";
@@ -42571,6 +42736,11 @@ CHEMONTID:7a4983c613444c6ee2272be0f6f51cef
         dbp:inchikey  "InChIKey=YECBRSTWAYLPIM-UHFFFAOYSA-N";
         skos:broader  CHEMONTID:0000588 .
 
+CHEMONTID:7a4696ca3a477089b7c42c1de07848b6
+        dbo:smiles    "[Na+].CC1=CC(=C(N)C=C1)S([O-])(=O)=O";
+        dbp:inchikey  "InChIKey=NCANISFVEJYHKE-UHFFFAOYSA-M";
+        skos:broader  CHEMONTID:0000032 .
+
 CHEMONTID:7a453bccb0d1b4be4b7aaf33f7069311
         dbo:smiles    "COC(=O)c1ccc(C)cc1O";
         dbp:inchikey  "InChIKey=UITFCFWKYAOJEJ-UHFFFAOYSA-N";
@@ -42930,6 +43100,11 @@ CHEMONTID:78fe529a78e0ae66788ecad1b5d652b0
         dbo:smiles    "[H+].[Cr+3].CCCCCCCCCCCCCCN.[O-]C1=C(C=C(Cl)C=C1)N=NC1=C([O-])C=CC2=CC=CC=C12.[O-]C1=C(C=C(Cl)C=C1)N=NC1=C([O-])C=CC2=CC=CC=C12";
         dbp:inchikey  "InChIKey=HLOHXAAOZLKICK-UHFFFAOYSA-K";
         skos:broader  CHEMONTID:0000023 .
+
+CHEMONTID:78f84af41bd9698446dc5fb53447e683
+        dbo:smiles    "CCCCN(CCCC)CCCOC1=CC=C(C=C1)C(=O)C1=C(CCCC)OC2=C1C=C(C=C2)[N+]([O-])=O";
+        dbp:inchikey  "InChIKey=YIYARJKYRBMMJG-UHFFFAOYSA-N";
+        skos:broader  CHEMONTID:0004297 .
 
 CHEMONTID:78f83285a005491d9efc41cb80552e33
         dbo:smiles    "C[C@]12CCC(=O)[C@@H](CCC(O)=O)[C@@H]1CCC2=O";
@@ -44225,6 +44400,11 @@ CHEMONTID:753e12defe022ffbf4529801c29e64c0
         dbo:smiles    "CCC1(C)OCCO1";
         dbp:inchikey  "InChIKey=UPZFLZYXYGBAPL-UHFFFAOYSA-N";
         skos:broader  CHEMONTID:0004472 .
+
+CHEMONTID:753bd6ea63792f43abec9c36da7092f6
+        dbo:smiles    "[Li+].CCCCCCC(O)CCCCCCCCCCC([O-])=O";
+        dbp:inchikey  "InChIKey=FPLIHVCWSXLMPX-UHFFFAOYSA-M";
+        skos:broader  CHEMONTID:0002949 .
 
 CHEMONTID:753bd5d963c991af1127e088376f78e3
         dbo:smiles    "S1C=NC2=CC=CC=C12";
@@ -46746,6 +46926,11 @@ CHEMONTID:6da3ec132310d2f395f1d1db96c967d2
         dbp:inchikey  "InChIKey=DYUMLJSJISTVPV-UHFFFAOYSA-N";
         skos:broader  CHEMONTID:0002319 .
 
+CHEMONTID:6d9b6a8698b919de04eb8a701fd6f663
+        dbo:smiles    "Cl.CC(C)(C)OC(=O)N1CCC2(CNC2)CC1";
+        dbp:inchikey  "InChIKey=HVLQURGQQISYSQ-UHFFFAOYSA-N";
+        skos:broader  CHEMONTID:0002411 .
+
 CHEMONTID:6d9637b45539054d3dfb6451e468cc21
         dbo:smiles    "[Ca++].NCC([O-])=O.NCC([O-])=O";
         dbp:inchikey  "InChIKey=OFNJDDJDXNMTHZ-UHFFFAOYSA-L";
@@ -47666,6 +47851,11 @@ CHEMONTID:6af2a6b14894342c3d2dfd93d69b492b
         dbp:inchikey  "InChIKey=HDIHOAXFFROQHR-UHFFFAOYSA-N";
         skos:broader  CHEMONTID:0000364 .
 
+CHEMONTID:6aec862cb2c62f1f2f1eb3befefab978
+        dbo:smiles    "CCN(CCCCOC(C)=O)C1=CC(C)=C(C=C1)N=NC1=C(C=C(S1)[N+]([O-])=O)C(C)=O";
+        dbp:inchikey  "InChIKey=GIGDKBCDRFBZHW-UHFFFAOYSA-N";
+        skos:broader  CHEMONTID:0004337 .
+
 CHEMONTID:6ae9c01165037a738866f7c36b8cbca4
         dbo:smiles    "CC1=CC(=CC=C1NS(=O)(=O)C(F)(F)F)S(=O)(=O)C1=CC=CC=C1";
         dbp:inchikey  "InChIKey=WHTBVLXUSXVMEV-UHFFFAOYSA-N";
@@ -47835,6 +48025,11 @@ CHEMONTID:6a50e42e9b500be5c3209a8e5c706b32
         dbo:smiles    "COC1=C2OC3C45CCN(C)C(CC(C=C1)=C24)C51CC(C(C)=O)C3(OC)C=C1";
         dbp:inchikey  "InChIKey=DGSADVAMZWFCMP-UHFFFAOYSA-N";
         skos:broader  CHEMONTID:0000058 .
+
+CHEMONTID:6a45b5ae7fcdae2699ae33d534ee6582
+        dbo:smiles    "CC1=CC=C(C=C1)S(O)(=O)=O.CC[C@@H]1[C@@H](O)CN[C@@H]1C(=O)OC";
+        dbp:inchikey  "InChIKey=RMIAZGFKBPOZLX-NLRFIBDTSA-N";
+        skos:broader  CHEMONTID:0000394 .
 
 CHEMONTID:6a4521812cdb5c96f6e5651f1e2d3f2f
         dbo:smiles    "CCCCCCCCCCCC(=O)NCCC[N+](C)(C)CC([O-])=O";
@@ -48235,6 +48430,11 @@ CHEMONTID:68f07774ab2b8851fcae9a34d91903b8
         dbo:smiles    "CC1=CC(=CC(C)=C1OC1=NC(NC2=CC=C(C=C2)C#N)=NC(N)=C1)C#N";
         dbp:inchikey  "InChIKey=QELKPCHCXREHAE-UHFFFAOYSA-N";
         skos:broader  CHEMONTID:0002463 .
+
+CHEMONTID:68ef99d269abce2500ad85269875a52a
+        dbo:smiles    "[Ca++].O[B-](O)(O)O.O[B-](O)(O)O";
+        dbp:inchikey  "InChIKey=JBKHATMPGOOLGJ-UHFFFAOYSA-N";
+        skos:broader  CHEMONTID:0000926 .
 
 CHEMONTID:68e992d02d87725ed30c11f2d8adb35b
         dbo:smiles    "C(CC1=CC=CC=C1)OC1CCCC1";
@@ -50436,6 +50636,11 @@ CHEMONTID:61bcefbeaf28adf215ebb296d8aa56f8
         dbp:inchikey  "InChIKey=HZRSNVGNWUDEFX-UHFFFAOYSA-N";
         skos:broader  CHEMONTID:0002019 .
 
+CHEMONTID:61b801ada24d0e47338e846ad7f43267
+        dbo:smiles    "[Na+].CCCCCCCCCCC1=CC(=CC=C1)S([O-])(=O)=O";
+        dbp:inchikey  "InChIKey=IIYODLPYXMDWMV-UHFFFAOYSA-M";
+        skos:broader  CHEMONTID:0000032 .
+
 CHEMONTID:61b532fe2771b7e28d58d72f45f79f46
         dbo:smiles    "CCCCCCCCC=CCCCCCCCCCCCC(=O)OC(=O)CCCCCCCCCCCC=CCCCCCCCC";
         dbp:inchikey  "InChIKey=LVWSCSGKAPKSBZ-UHFFFAOYSA-N";
@@ -51070,6 +51275,11 @@ CHEMONTID:5fc0601cfdd304caa2b95646ce445a58
         dbo:smiles    "OCC(CO)(CBr)CBr";
         dbp:inchikey  "InChIKey=CHUGKEQJSLOLHL-UHFFFAOYSA-N";
         skos:broader  CHEMONTID:0000286 .
+
+CHEMONTID:5fc034c5c5befa4232a1ba884aee7f0c
+        dbo:smiles    "[Cl-].CCCCCCCC\\C=C/CCCCCCCCCCCC[N+](C)(CCO)CCO";
+        dbp:inchikey  "InChIKey=GIIGBNLFBXYUEF-GMFCBQQYSA-M";
+        skos:broader  CHEMONTID:0001012 .
 
 CHEMONTID:5fb5228555ac1f964d67b7efc238de4e
         dbo:smiles    "CC1CCCC(=O)C1";
@@ -53171,6 +53381,11 @@ CHEMONTID:58e7576506bd8ace77733715861ce23a
         dbp:inchikey  "InChIKey=LWEAHXKXKDCSIE-UHFFFAOYSA-N";
         skos:broader  CHEMONTID:0003600 .
 
+CHEMONTID:58e5f7f1048f5a1c002421a777ba9adf
+        dbo:smiles    "[H+].[H+].O.O=[V++].O=[V++].[O-]P([O-])([O-])=O.[O-]P([O-])([O-])=O";
+        dbp:inchikey  "InChIKey=AMSFQCPTBOTWPN-UHFFFAOYSA-J";
+        skos:broader  CHEMONTID:0000854 .
+
 CHEMONTID:58e5e333b686c97671e4440b4f389b3c
         dbo:smiles    "COP(=S)(OC)OC1=CC=C(C=C1)C#N";
         dbp:inchikey  "InChIKey=SCKHCCSZFPSHGR-UHFFFAOYSA-N";
@@ -53285,6 +53500,11 @@ CHEMONTID:5878d2d5269e3fc3631f4648c1de6d01
         dbo:smiles    "OCCOCCOC=C";
         dbp:inchikey  "InChIKey=WULAHPYSGCVQHM-UHFFFAOYSA-N";
         skos:broader  CHEMONTID:0001167 .
+
+CHEMONTID:5875ea7f418df3418c29636da36f05ca
+        dbo:smiles    "OCCC1=CNC2=C1C=C(CN1C=NC=N1)C=C2";
+        dbp:inchikey  "InChIKey=WXWBRTKSGCYLQS-UHFFFAOYSA-N";
+        skos:broader  CHEMONTID:0004196 .
 
 CHEMONTID:5875e2ebf0c7d95c075266d6d759e417
         dbo:smiles    "CO[Si](C)(CCCCl)OC";
@@ -57181,6 +57401,11 @@ CHEMONTID:4ba53fd52d7a7e8e2e2074dc8bba6a68
         dbp:inchikey  "InChIKey=TZSXPYWRDWEXHG-UHFFFAOYSA-K";
         skos:broader  CHEMONTID:0000717 .
 
+CHEMONTID:4ba4dbaae724dd965c96d67f5aa5caee
+        dbo:smiles    "CC1=C(OC(=O)C2=CC=C(C=C2)[N+]([O-])=O)C(=O)C2=CC=CC=C2C1=O";
+        dbp:inchikey  "InChIKey=GJQXODZOCCFMDB-UHFFFAOYSA-N";
+        skos:broader  CHEMONTID:0000153 .
+
 CHEMONTID:4b9d6b0093d93730f762093fac68722c
         dbo:smiles    "CC(C)C[AlH]CC(C)C";
         dbp:inchikey  "InChIKey=AZWXAPCAJCYGIA-UHFFFAOYSA-N";
@@ -57395,6 +57620,11 @@ CHEMONTID:4abe701452ade6840f0eb8bb823606b3
         dbo:smiles    "CCCCNC1=C2C(=O)C3=CC=CC=C3C(=O)C2=C(NCCCC)C=C1";
         dbp:inchikey  "InChIKey=OCQDPIXQTSYZJL-UHFFFAOYSA-N";
         skos:broader  CHEMONTID:0000151 .
+
+CHEMONTID:4abdb865e653d8bc385f58b4af3ba95a
+        dbo:smiles    "c1ccc(cc1)-c1cccc(c1)-c1ccccc1";
+        dbp:inchikey  "InChIKey=YJTKZCDBKVTVBY-UHFFFAOYSA-N";
+        skos:broader  CHEMONTID:0001829 .
 
 CHEMONTID:4ab9004e2472b623b97cf0d742429cc4
         dbo:smiles    "COC1=CC(=CC(OC)=C1O)C#N";
@@ -60121,6 +60351,11 @@ CHEMONTID:423db164547d52530d9ab208635977c4
         dbp:inchikey  "InChIKey=HECLRDQVFMWTQS-UHFFFAOYSA-N";
         skos:broader  CHEMONTID:0004149 .
 
+CHEMONTID:423bba7884a52daf924096c0786b0cfa
+        dbo:smiles    "CCC(=O)N[C@H]1CCC2=C(C1)C=CC=C2OC";
+        dbp:inchikey  "InChIKey=SAEUBVASPHMFGN-NSHDSACASA-N";
+        skos:broader  CHEMONTID:0000048 .
+
 CHEMONTID:4239709a8cee216b1c936524c4476ff7
         dbo:smiles    "COC1=C(O)C=CC(CCC(=O)CC(=O)CCC2=CC(OC)=C(O)C=C2)=C1";
         dbp:inchikey  "InChIKey=LBTVHXHERHESKG-UHFFFAOYSA-N";
@@ -60250,6 +60485,11 @@ CHEMONTID:41dd840df46e61881592894728247b18
         dbo:smiles    "CC(=O)CC(=O)Nc1ccccc1";
         dbp:inchikey  "InChIKey=DYRDKSSFIWVSNM-UHFFFAOYSA-N";
         skos:broader  CHEMONTID:0000285 .
+
+CHEMONTID:41d760aad1e78eafe1e2c05c74ab9550
+        dbo:smiles    "[B].CC1=CC=CC=N1";
+        dbp:inchikey  "InChIKey=QHXLIQMGIGEHJP-UHFFFAOYSA-N";
+        skos:broader  CHEMONTID:0004152 .
 
 CHEMONTID:41d56c1c50ed6f12a8baf9d0ad7a2f70
         dbo:smiles    "[Rb+].[O-][N+]([O-])=O";
@@ -60846,6 +61086,11 @@ CHEMONTID:4037f543d2739b4b26a6492833ce42b7
         dbp:inchikey  "InChIKey=VNULXPFFMUXOBV-UHFFFAOYSA-N";
         skos:broader  CHEMONTID:0000021 .
 
+CHEMONTID:4037e5f9955f3e44392dd60553fd1dc4
+        dbo:smiles    "CCCCCCCCCCCCCC(O)=NC1=CC(N=C2NN(C(=O)C2SC2=CC=CC=C2N(CCCC)S(=O)(=O)C2=CC=C(C)C=C2)C2=C(Cl)C=C(Cl)C=C2Cl)=C(Cl)C=C1";
+        dbp:inchikey  "InChIKey=IGGDHKMBTOYBTD-UHFFFAOYSA-N";
+        skos:broader  CHEMONTID:0004518 .
+
 CHEMONTID:402fdfa67fc75d8443fc739aaca77bbc
         dbo:smiles    "OC1=C(C=C(C=C1)N(=O)=O)N(=O)=O";
         dbp:inchikey  "InChIKey=UFBJCMHMOXMLKC-UHFFFAOYSA-N";
@@ -61255,6 +61500,11 @@ CHEMONTID:3eb74bcbf05bcbeec3c61b1bd42526f9
         dbo:smiles    "OC(C#N)C1=CC(OC2=CC=CC=C2)=CC=C1";
         dbp:inchikey  "InChIKey=GXUQMKBQDGPMKZ-UHFFFAOYSA-N";
         skos:broader  CHEMONTID:0004155 .
+
+CHEMONTID:3eb6cb544afb40961c15161787ff0a86
+        dbo:smiles    "[Cl-].OC(=O)\\C=C\\C[NH+]1CCCCC1";
+        dbp:inchikey  "InChIKey=DSQHWBRYZUFZDY-FXRZFVDSSA-N";
+        skos:broader  CHEMONTID:0001989 .
 
 CHEMONTID:3eb2195d9319d1ef445f245493f74953
         dbo:smiles    "CC(C)CC(=O)OCCC1=CC=CC=C1";
@@ -63511,6 +63761,11 @@ CHEMONTID:36d05de1fcd806655c047480f2af5f01
         dbp:inchikey  "InChIKey=DOQLJTKEUIJSKK-UHFFFAOYSA-N";
         skos:broader  CHEMONTID:0003359 .
 
+CHEMONTID:36cf2049db6c530349f342b9e622bf0e
+        dbo:smiles    "[Co].CCCCCCCCCCCCCCCCCC(O)=O.CCCCCCCCCCCCCCCCCC(O)=O";
+        dbp:inchikey  "InChIKey=POAOKGZOMGBWOC-UHFFFAOYSA-N";
+        skos:broader  CHEMONTID:0002949 .
+
 CHEMONTID:36cae46f3784c142d46cc233b9bd2c6d
         dbo:smiles    "CCCCNC1=CC=C(C=C1)C(=O)OC";
         dbp:inchikey  "InChIKey=IHRPJNDVWBJCEH-UHFFFAOYSA-N";
@@ -65291,6 +65546,11 @@ CHEMONTID:30d394bf323d400943190f9068c5ec4c
         dbp:inchikey  "InChIKey=ZIHWGAIUGNNWJP-UHFFFAOYSA-N";
         skos:broader  CHEMONTID:0000038 .
 
+CHEMONTID:30cf279fead6f7ec636f0ecdc07dee2d
+        dbo:smiles    "Cl.COC1=CC=C(C=C1)C(CN(C)C)C1(O)CCCCC1";
+        dbp:inchikey  "InChIKey=QYRYFNHXARDNFZ-UHFFFAOYSA-N";
+        skos:broader  CHEMONTID:0000138 .
+
 CHEMONTID:30cdd8132abf479c8e64d87e9e27e305
         dbo:smiles    "CS(=O)(=O)C1=C(COCC(F)(F)F)C(Cl)=C(C=C1)C(=O)C1C(=O)CCCC1=O";
         dbp:inchikey  "InChIKey=IUQAXCIUEPFPSF-UHFFFAOYSA-N";
@@ -66026,6 +66286,11 @@ CHEMONTID:2e45ea1c5d2089430cfb76b2e5d0f204
         dbp:inchikey  "InChIKey=ZNOCGWVLWPVKAO-UHFFFAOYSA-N";
         skos:broader  CHEMONTID:0003140 .
 
+CHEMONTID:2e45424b19b71bb26bf6f6a42daa27f1
+        dbo:smiles    "[H-].O.[O--].[O--].[O--].[Al+3].[Al+3].O=[Si]=O.O=[Si]=O.O=[Si]=O.O=[Si]=O.CCCCCCCCCCCCCCCC[N+](C)(C)CCCCCCCCCCCCCCC";
+        dbp:inchikey  "InChIKey=WWEJJHKVJXCQFH-UHFFFAOYSA-N";
+        skos:broader  CHEMONTID:0004225 .
+
 CHEMONTID:2e405c84dc55495170ec407077da72fd
         dbo:smiles    "CCCCCCC(CCOC(C)=O)OC(C)=O";
         dbp:inchikey  "InChIKey=XUVKIVFZTRZJRP-UHFFFAOYSA-N";
@@ -66420,6 +66685,11 @@ CHEMONTID:2cffc26536b331192f511cc75a8aa672
         dbo:smiles    "OC1=CC=CC=C1C(=O)OCC1=CC=CC=C1";
         dbp:inchikey  "InChIKey=ZCTQGTTXIYCGGC-UHFFFAOYSA-N";
         skos:broader  CHEMONTID:0004700 .
+
+CHEMONTID:2cff423039d088076685439cb36e505a
+        dbo:smiles    "[Br-].C(C[P+](C1=CC=CC=C1)(C1=CC=CC=C1)C1=CC=CC=C1)N1CCCC1";
+        dbp:inchikey  "InChIKey=HKLRVZSQJCQGQN-UHFFFAOYSA-M";
+        skos:broader  CHEMONTID:0001814 .
 
 CHEMONTID:2cfea1cd1f9e472375388c056b01db57
         dbo:smiles    "[H][C@](C)(OC1=C(Cl)C=C(Cl)C=C1)C(O)=O";
@@ -66875,6 +67145,11 @@ CHEMONTID:2b8f27094c3bb8d0afdcc5a9d6f26fc4
         dbo:smiles    "OC(O)=O.NC(N)=Nc1ccccc1";
         dbp:inchikey  "InChIKey=XDSYAIICRRZSJX-UHFFFAOYSA-N";
         skos:broader  CHEMONTID:0002279 .
+
+CHEMONTID:2b8d7502c1fc45a2552646f24e58a928
+        dbo:smiles    "CS(=O)(=O)C1=C2C(=O)CCC2=C(F)C=C1";
+        dbp:inchikey  "InChIKey=MXSXOWBXGXOAMP-UHFFFAOYSA-N";
+        skos:broader  CHEMONTID:0001151 .
 
 CHEMONTID:2b89a36e29072f502af94c0a8148c152
         dbo:smiles    "[OH-].[OH-].[OH-].[OH-].[Ni++].[Ni++].[Ni++].[O-]C([O-])=O";
@@ -67360,6 +67635,11 @@ CHEMONTID:2a152f215c0af6c56a1e9b47fb1c1151
         dbo:smiles    "CCC(=O)C1=CC(OC)=CC=C1";
         dbp:inchikey  "InChIKey=LPDJHUUWTGXTCU-UHFFFAOYSA-N";
         skos:broader  CHEMONTID:0004298 .
+
+CHEMONTID:2a1500320ec4082c9984d27ccaed8cce
+        dbo:smiles    "[Li+].[Li+].[Li+].[Cr+3].CCN(CC)C1=CC([O-])=C(C=C1)N=NC1=C([O-])C=C(C2=CC=CC=C12)S([O-])(=O)=O.CCN(CC)C1=CC([O-])=C(C=C1)N=NC1=C([O-])C=C(C2=CC=CC=C12)S([O-])(=O)=O";
+        dbp:inchikey  "InChIKey=ANHSYXRMFUXHJI-UHFFFAOYSA-H";
+        skos:broader  CHEMONTID:0003600 .
 
 CHEMONTID:2a12ca2def82c6942c8f24359b62ef9f
         dbo:smiles    "[Na+].[O-][V](=O)=O";
@@ -68991,6 +69271,11 @@ CHEMONTID:257785afbd4a760f80edeb4582b3cf4a
         dbp:inchikey  "InChIKey=IARIOWWBALBFKZ-UHFFFAOYSA-N";
         skos:broader  CHEMONTID:0000031 .
 
+CHEMONTID:256e8facec160cd6d4d7866496989778
+        dbo:smiles    "CS(O)(=O)=O.C[C@@H](O)[C@](O)(Cn1cncn1)c1ccc(F)cc1F";
+        dbp:inchikey  "InChIKey=RWPFLARVZWFRBO-DAIXLEOSSA-N";
+        skos:broader  CHEMONTID:0002811 .
+
 CHEMONTID:256985c9dd22f8dd32d4d73a4a6d5648
         dbo:smiles    "OC(=O)CC1=CNC2=CC=CC=C12";
         dbp:inchikey  "InChIKey=SEOVTRFCIGRIMH-UHFFFAOYSA-N";
@@ -69310,6 +69595,11 @@ CHEMONTID:2498ec77fb9b90476989171f0b64b4c0
         dbo:smiles    "CCC(S)C(C)CO";
         dbp:inchikey  "InChIKey=HABNNYNSJFKZFE-UHFFFAOYSA-N";
         skos:broader  CHEMONTID:0001212 .
+
+CHEMONTID:249108e5eef497e8fb761578c63afcb7
+        dbo:smiles    "CCCCCCCOCC(C)=C";
+        dbp:inchikey  "InChIKey=DBEBJZDQIPTFNX-UHFFFAOYSA-N";
+        skos:broader  CHEMONTID:0001167 .
 
 CHEMONTID:248e39589e89ebe2099e75e3eb09cc40
         dbo:smiles    "C1CCNCC1.SC(=S)N1CCCCC1";
@@ -70836,6 +71126,11 @@ CHEMONTID:1f1e53efd3652a74566d546a4d7fe993
         dbp:inchikey  "InChIKey=CVGPWMGXKOKNFD-UHFFFAOYSA-N";
         skos:broader  CHEMONTID:0000188 .
 
+CHEMONTID:1f1ac9020e1dcd17a8dee5bbe18aafe3
+        dbo:smiles    "[K+].ClN1C(=O)[N-]C(=O)N(Cl)C1=O";
+        dbp:inchikey  "InChIKey=IFIDXBCRSWOUSB-UHFFFAOYSA-M";
+        skos:broader  CHEMONTID:0001920 .
+
 CHEMONTID:1f11a6bb663f0f00a55b9a14821898a4
         dbo:smiles    "COC(=O)C1=CC(N)=C(C)C=C1";
         dbp:inchikey  "InChIKey=YEPWCJHMSVABPQ-UHFFFAOYSA-N";
@@ -71681,6 +71976,11 @@ CHEMONTID:1c8434859485738ea81608dc2f5251eb
         dbp:inchikey  "InChIKey=RAAGZOYMEQDCTD-UHFFFAOYSA-N";
         skos:broader  CHEMONTID:0003098 .
 
+CHEMONTID:1c81e27156e760c27158cb2bb06e13e2
+        dbo:smiles    "CCN1CCC(=O)CC1";
+        dbp:inchikey  "InChIKey=BDVKAMAALQXGLM-UHFFFAOYSA-N";
+        skos:broader  CHEMONTID:0001581 .
+
 CHEMONTID:1c80e563da914e3b03f206c50f55fc13
         dbo:smiles    "COC1=CC(C=O)=CC(OC)=C1OC";
         dbp:inchikey  "InChIKey=OPHQOIGEOHXOGX-UHFFFAOYSA-N";
@@ -72105,6 +72405,11 @@ CHEMONTID:1b45ee199efbae466f60c32d9cac3d35
         dbo:smiles    "OCC1OC2OC3C(CO)OC(OC4C(CO)OC(OC5C(CO)OC(OC6C(CO)OC(OC7C(CO)OC(OC8C(CO)OC(OC1C(O)C2O)C(O)C8O)C(O)C7O)C(O)C6O)C(O)C5O)C(O)C4O)C(O)C3O";
         dbp:inchikey  "InChIKey=WHGYBXFWUBPSRW-UHFFFAOYSA-N";
         skos:broader  CHEMONTID:0000198 .
+
+CHEMONTID:1b40fa4eea016b2b05a48b03c3de870b
+        dbo:smiles    "CCOCCCl";
+        dbp:inchikey  "InChIKey=GPTVQTPMFOLLOA-UHFFFAOYSA-N";
+        skos:broader  CHEMONTID:0001167 .
 
 CHEMONTID:1b3e9a8f1227c01d7fa8fb232b9b8a15
         dbo:smiles    "[O--].[O--].[O--].[Sb+3].[Sb+3]";
@@ -73000,6 +73305,11 @@ CHEMONTID:1887ccae8ba00a80fc73c6ba8fdc2678
         dbo:smiles    "CCCCCCCCOC1=CC=CC=C1C(O)=O";
         dbp:inchikey  "InChIKey=VSDNNWKISVRDNT-UHFFFAOYSA-N";
         skos:broader  CHEMONTID:0002565 .
+
+CHEMONTID:188017d4f57d103b459023a5b2262a61
+        dbo:smiles    "OC1=CC=C(CC2=C(Cl)C=CC(I)=C2)C=C1";
+        dbp:inchikey  "InChIKey=KYERPXJVHWYNIT-UHFFFAOYSA-N";
+        skos:broader  CHEMONTID:0000369 .
 
 CHEMONTID:187b95949c2a0ebd06f7dd5ae596dd8b
         dbo:smiles    "CN1C(=O)C(OC(=O)C(C)(C)C)=C(N=C1C(C)(C)N)C(=O)NCC1=CC=C(F)C=C1";
@@ -74511,6 +74821,11 @@ CHEMONTID:1349272e0d725c6baa81b1e9280b5ca1
         dbp:inchikey  "InChIKey=UKTWPGDYTUPYNF-UHFFFAOYSA-N";
         skos:broader  CHEMONTID:0000324 .
 
+CHEMONTID:13486fe72846b2511b31dba79b773029
+        dbo:smiles    "COC1=CC2=CC[C@H]3[C@@H]4[C@@H]5C[C@@H]5C(=O)[C@@]4(C)CC[C@@H]3[C@@]2(C)CC1";
+        dbp:inchikey  "InChIKey=RZQZNYBKQOGGPV-IFQWWAKBSA-N";
+        skos:broader  CHEMONTID:0000258 .
+
 CHEMONTID:133d4b15bf197e074a35bbfac134f579
         dbo:smiles    "CC(C)CC(C)=NCCNCCN=C(C)CC(C)C";
         dbp:inchikey  "InChIKey=CJAGRJAFLCPABV-UHFFFAOYSA-N";
@@ -75290,6 +75605,11 @@ CHEMONTID:10c1720492c0245c7bb48afdbd6e315c
         dbo:smiles    "O=c1nc[nH][nH]1";
         dbp:inchikey  "InChIKey=LZTSCEYDCZBRCJ-UHFFFAOYSA-N";
         skos:broader  CHEMONTID:0000099 .
+
+CHEMONTID:10bb44377e303ecec8be05d597b5c8aa
+        dbo:smiles    "[Na+].CCN1C(O)=C(CS([O-])(=O)=O)C(C)=C(N=NC2=C(C=CC(NC(=O)C3=CC=C(NC4=C(Cl)C(F)=NC(F)=N4)C=C3)=C2)S([O-])(=O)=O)C1=O";
+        dbp:inchikey  "InChIKey=FMMAQBQRBBRLGG-UHFFFAOYSA-L";
+        skos:broader  CHEMONTID:0004713 .
 
 CHEMONTID:10b5e63a7d396f28674a938e7710ac05
         dbo:smiles    "COc1ccc(cc1)C(=O)CCC(O)=O";
@@ -77176,6 +77496,11 @@ CHEMONTID:0ae2d2fa505097f9a290db94a66e1f65
         dbp:inchikey  "InChIKey=CFKONAWMNQERAG-UHFFFAOYSA-N";
         skos:broader  CHEMONTID:0001986 .
 
+CHEMONTID:0ae10fb8e813de235fda0714d74915fb
+        dbo:smiles    "CCCCCCCCC(CCCCCC)C(=O)OCCCCCC=O";
+        dbp:inchikey  "InChIKey=YUMIMGCWWZGECY-UHFFFAOYSA-N";
+        skos:broader  CHEMONTID:0000324 .
+
 CHEMONTID:0adc5ab604dd784f5e0908a22fc9a681
         dbo:smiles    "O=c1[nH]c2cccc3cccc1c23";
         dbp:inchikey  "InChIKey=GPYLCFQEKPUWLD-UHFFFAOYSA-N";
@@ -78521,6 +78846,11 @@ CHEMONTID:06893989692f62bda17dc60faa9313b6
         dbp:inchikey  "InChIKey=BWCBWCHWFIPXMJ-UHFFFAOYSA-N";
         skos:broader  CHEMONTID:0000369 .
 
+CHEMONTID:06848e8100bece342b0cc3ca5d1d4bd5
+        dbo:smiles    "CC1(C)C2=CC=CC=C2C2=C1C=C(C=C2)N(C1=CC2=C(C=C1)C1=CC=CC=C1C21C2=CC=CC=C2C2=C1C=C(C=C2)C1=CC=CC=C1)C1=CC=CC=C1C1=CC=CC=C1";
+        dbp:inchikey  "InChIKey=LZFLJGDUWIAEMH-UHFFFAOYSA-N";
+        skos:broader  CHEMONTID:0001551 .
+
 CHEMONTID:067ff87a365c379b882ba24e6daaa9f1
         dbo:smiles    "ClC1=C2NC3=CC=CC=C3C(=O)C2=C(Cl)C2=C1C(=O)C1=CC=CC=C1N2";
         dbp:inchikey  "InChIKey=UFLLEPHODSEMJD-UHFFFAOYSA-N";
@@ -79546,6 +79876,11 @@ CHEMONTID:03518da5bad1242a2e94f6b3eae84baf
         dbp:inchikey  "InChIKey=FPLHEALBGYMFJM-UHFFFAOYSA-N";
         skos:broader  CHEMONTID:0001564 .
 
+CHEMONTID:0343617b7a4b1d43a4a150c6e9fc40ce
+        dbo:smiles    "[Na+].[Na+].[Na+].[Na+].[Na+].[Na+].[Na+].[Na+].OS(=O)(=O)C1=C(C=CC2=C1C=CC=C2S([O-])(=O)=O)N=NC1=C([O-])C2=C(C=C(C=C2C=C1S([O-])(=O)=O)S([O-])(=O)=O)N=C1NC(Cl)=NC(N1)=NCC1=CC(=CC=C1)N=C1NC(NC(Cl)=N1)=NC1=C2C([O-])=C(N=NC3=C(C4=C(C=C3)C(=CC=C4)S([O-])(=O)=O)S(O)(=O)=O)C(=CC2=CC(=C1)S([O-])(=O)=O)S([O-])(=O)=O";
+        dbp:inchikey  "InChIKey=YFGJFIODUULWQE-UHFFFAOYSA-F";
+        skos:broader  CHEMONTID:0003601 .
+
 CHEMONTID:0340cb520a872d96dc3bfc55c7d87360
         dbo:smiles    "FC(F)C(F)(F)OCCOC(F)(F)C(F)F";
         dbp:inchikey  "InChIKey=WVRJJXQSRCWPNS-UHFFFAOYSA-N";
@@ -79645,6 +79980,11 @@ CHEMONTID:02d60c27ab50fc267dfa63429c7d8bbc
         dbo:smiles    "CCCCCCCCCCCCOCCCNC(=O)C1=C(O)C2=C(C=C1)C(NC(=O)OCC(C)C)=CC=C2";
         dbp:inchikey  "InChIKey=RSJZGHMWWMJFSW-UHFFFAOYSA-N";
         skos:broader  CHEMONTID:0002349 .
+
+CHEMONTID:02d41450b8304ed01e6b54fe5559170c
+        dbo:smiles    "[Na+].[Na+].[Cr+3].[O-]C1=C(C=C(Cl)C=C1)N=NC1=C([O-])C=CC2=CC=CC=C12.COC1=CC=C(NC2=CC3=CC(=C(N=NC4=C([O-])C(=CC(=C4)[N+]([O-])=O)[N+]([O-])=O)C([O-])=C3C=C2)S([O-])(=O)=O)C=C1";
+        dbp:inchikey  "InChIKey=RCYWDAZSWKWRIV-UHFFFAOYSA-I";
+        skos:broader  CHEMONTID:0003601 .
 
 CHEMONTID:02d40e541f4f96e5dc4aca5bc32ed924
         dbo:smiles    "CC(=O)c1ccc(Cl)cc1Cl";
@@ -80330,6 +80670,11 @@ CHEMONTID:008206b751065824d32fb0bf2b98acc7
         dbo:smiles    "CC1=NC2=CC=CC=C2C(C(O)=O)=C1O";
         dbp:inchikey  "InChIKey=RVGATDHHYVSTQG-UHFFFAOYSA-N";
         skos:broader  CHEMONTID:0002552 .
+
+CHEMONTID:007c3611274b28b8a73cc734e3c09a68
+        dbo:smiles    "CN(C(=O)C1=CC=CC=C1)C1=NC=C(Br)C=C1C";
+        dbp:inchikey  "InChIKey=CSOQEDDCMIREKI-UHFFFAOYSA-N";
+        skos:broader  CHEMONTID:0000178 .
 
 CHEMONTID:007b8a0fb98ff8595084837191ae432e
         dbo:smiles    "CCOC1=CC(OP(=S)(OC)OC)=NC(CC)=N1";
@@ -82572,6 +82917,9 @@ CHEMONTID:0001994  rdfs:seeAlso  tax_nodes:C0001994;
 CHEMONTID:0001992  rdfs:seeAlso  tax_nodes:C0001992;
         skos:prefLabel  "Nitrobenzoic acids and derivatives"@en .
 
+CHEMONTID:0001989  rdfs:seeAlso  tax_nodes:C0001989;
+        skos:prefLabel  "Heterocyclic fatty acids"@en .
+
 CHEMONTID:0001988  rdfs:seeAlso  tax_nodes:C0001988;
         skos:prefLabel  "Dibenzoxepines"@en .
 
@@ -83582,6 +83930,9 @@ CHEMONTID:0000933  rdfs:seeAlso  tax_nodes:C0000933;
 
 CHEMONTID:0000932  rdfs:seeAlso  tax_nodes:C0000932;
         skos:prefLabel  "Post-transition metal arsenates"@en .
+
+CHEMONTID:0000926  rdfs:seeAlso  tax_nodes:C0000926;
+        skos:prefLabel  "Alkaline earth metal tetrahydroxyborates"@en .
 
 CHEMONTID:0000922  rdfs:seeAlso  tax_nodes:C0000922;
         skos:prefLabel  "Alkaline earth metal stannates"@en .

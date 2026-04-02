@@ -194,7 +194,7 @@ p8_sil <- ggplot(sil_df, aes(x = k, y = silhouette)) +
   ) +
   scale_x_continuous(breaks = k_vals) +
   labs(
-    title    = "Analysis 8b: Silhouette score by number of clusters",
+    title    = "Silhouette score by number of clusters",
     subtitle = "Higher is better \u2014 dashed line marks the optimal k",
     x        = "Number of clusters (k)",
     y        = "Mean silhouette score"

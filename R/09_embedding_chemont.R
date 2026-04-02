@@ -214,7 +214,7 @@ p9e <- ggplot(matches, aes(score)) +
   geom_histogram(bins = 60, fill = "#4a90d9", colour = "white") +
   theme_minimal(base_size = 12) +
   labs(
-    title    = "Analysis 9e: Cosine similarity score distribution",
+    title    = "Cosine similarity score distribution",
     subtitle = "Distribution of best-match scores between substance names and ChemOnt labels",
     x        = "Cosine similarity (best match)",
     y        = "Number of substance names"
@@ -283,7 +283,7 @@ p9g <- ggplot(matches, aes(x = score)) +
   stat_ecdf(colour = "#4a90d9") +
   theme_minimal(base_size = 12) +
   labs(
-    title    = "Analysis 9g: ECDF of similarity scores",
+    title    = "ECDF of similarity scores",
     subtitle = "Cumulative fraction of substance names at or below each score",
     x        = "Cosine similarity",
     y        = "Cumulative fraction"
@@ -393,7 +393,7 @@ p9n <- ggplot(top_wide, aes(x = gap_12, y = score_1)) +
   geom_hline(yintercept = 0.80, linetype = "dashed", colour = "#e05c5c") +
   theme_minimal(base_size = 12) +
   labs(
-    title    = "Analysis 9n: Match quality landscape",
+    title    = "Match quality landscape",
     subtitle = "Dashed lines show applied filters: score_1 > 0.8 and gap_12 > 0.05",
     x        = "Gap between top-1 and top-2 score",
     y        = "Top-1 cosine similarity score"

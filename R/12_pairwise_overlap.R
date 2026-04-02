@@ -152,7 +152,7 @@ p12a <- ggplot(jaccard_long,
                       limits = c(0, 1), name = "Jaccard") +
   coord_fixed() +
   labs(
-    title    = "Analysis 12a: Pairwise Jaccard index between sources (on InChIKey)",
+    title    = "Pairwise Jaccard index between sources (on InChIKey)",
     subtitle = "Hierarchically clustered; 1 = complete overlap, 0 = no overlap",
     x        = NULL,
     y        = NULL

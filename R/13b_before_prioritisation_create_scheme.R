@@ -86,6 +86,7 @@ library(stringr)
 library(digest)
 library(httr)
 library(purrr)
+library(writexl)
 
 
 
@@ -233,12 +234,12 @@ if (file.exists(linkability_rds)) {
   )
 
   message(sprintf(
-    "06_create_scheme.R: %d linkability collections + %d narrower triples written to %s",
+    "13b_before_prioritisation_create_scheme.R: %d linkability collections + %d narrower triples written to %s",
     length(collection_blocks), length(narrower_blocks), linkability_ttl_path
   ))
 
 } else {
-  message("06_create_scheme.R: linkability_taxonomy.rds not found — skipping. Run 03_analysis.R first.")
+  message("13b_before_prioritisation_create_scheme.R: linkability_taxonomy.rds not found — skipping. Run 03_analysis.R first.")
 }
 
 write(to_jsonld(all_substances), here("data", "processed", "rdf", "substances.jsonld"))
@@ -307,12 +308,12 @@ if (file.exists(clusters_rds)) {
   write(paste(c(header, cluster_turtle), collapse = "\n\n"), cluster_ttl_path)
 
   message(sprintf(
-    "06_create_scheme.R: %d cluster collections written to %s",
+    "13b_before_prioritisation_create_scheme.R: %d cluster collections written to %s",
     length(cluster_turtle), cluster_ttl_path
   ))
 
 } else {
-  message("06_create_scheme.R: non_structure_clusters.rds not found — skipping cluster TTL. Run 03_analysis.R first.")
+  message("13b_before_prioritisation_create_scheme.R: non_structure_clusters.rds not found — skipping cluster TTL. Run 03_analysis.R first.")
 }
 
 
@@ -378,7 +379,7 @@ write(
 )
 
 message(sprintf(
-  "06_create_scheme.R: %d source concepts + %d annotations written to %s",
+  "13b_before_prioritisation_create_scheme.R: %d source concepts + %d annotations written to %s",
   length(source_concept_blocks), length(annotation_blocks), annotation_ttl_path
 ))
 
