@@ -1,0 +1,31 @@
+{
+  "PropertyTable": {
+    "Properties": [
+      {
+        "CID": 10940502,
+        "InChIKey": "OGOMAWHSXRDAKZ-BKJHVTENSA-N"
+      },
+      {
+        "CID": 563647,
+        "InChIKey": "OGOMAWHSXRDAKZ-UHFFFAOYSA-N"
+      },
+      {
+        "CID": 11731256,
+        "InChIKey": "OGOMAWHSXRDAKZ-RUOAZZEASA-N"
+      },
+      {
+        "CID": 54149221,
+        "InChIKey": "OGOMAWHSXRDAKZ-GYLADCCPSA-N"
+      },
+      {
+        "CID": 2734154,
+        "InChIKey": "OGOMAWHSXRDAKZ-BJPULKCASA-N"
+      },
+      {
+        "CID": 6409834,
+        "InChIKey": "OGOMAWHSXRDAKZ-YGPYOWSRSA-N"
+      }
+    ]
+  }
+}
+
