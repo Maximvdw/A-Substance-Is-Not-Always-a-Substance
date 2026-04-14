@@ -109,6 +109,8 @@ library(here)
 library(reticulate)
 library(uwot)
 library(Rtsne)
+library(readr)
+reticulate::py_require("sentence-transformers")
 library(ggrepel)
 library(cluster)
 library(purrr)
@@ -361,6 +363,126 @@ ggsave(p8_tsne,
        filename = here("output", "figures", "Analysis_8e_tsne.pdf"),
        device = "pdf",
        height = 25, width = 50, units = "cm")
+
+# ==============================================================================
+# Analysis 8i: k-means clustering (k = 6) + UMAP op SciBERT embeddings
+# ==============================================================================
+# INTENT
+# Dezelfde clustering- en UMAP-procedure als 8c/8d, maar op 768-dimensionale
+# SciBERT embeddings (allenai/scibert_scivocab_uncased).  Gecachede embeddings
+# worden hergebruikt uit data/cache/embeddings/scibert_echa.rds (aangemaakt
+# door 09b_chemont_model_comparison.R).  Omdat k-means-cluster-nummers
+# willekeurig zijn t.o.v. het MiniLM-model, worden clusters genummerd (1-6)
+# zonder handmatige labels.
+# ==============================================================================
+
+emb_scibert <- as.matrix(readRDS(
+  here("data", "cache", "embeddings", "scibert_echa.rds")
+))
+
+set.seed(42)
+km_scibert <- kmeans(emb_scibert, centers = 6L, nstart = 25, iter.max = 100)
+non_structure$cluster_scibert <- factor(km_scibert$cluster)
+
+umap_scibert <- uwot::umap(
+  emb_scibert,
+  n_neighbors = 15L,
+  min_dist    = 0.1,
+  metric      = "cosine",
+  seed        = 42L
+)
+
+plot_data_scibert <- non_structure |>
+  mutate(umap1 = umap_scibert[, 1], umap2 = umap_scibert[, 2])
+
+p8_umap_scibert <- ggplot(
+  plot_data_scibert,
+  aes(x = umap1, y = umap2, colour = cluster_scibert)
+) +
+  geom_point(size = 1.2, alpha = 0.6) +
+  scale_colour_manual(
+    values = c("#e05c5c", "#4a90d9", "#7bc67e",
+               "#9b59b6", "#e07b3a", "#2ec4b6")
+  ) +
+  labs(
+    title    = "UMAP — SciBERT embeddings (k = 6)",
+    subtitle = paste0(
+      nrow(non_structure),
+      " non-structure substance names \u2192 allenai/scibert_scivocab_uncased"
+    ),
+    x      = "UMAP 1",
+    y      = "UMAP 2",
+    colour = "Cluster"
+  ) +
+  theme_minimal(base_size = 12) +
+  theme(
+    legend.position = "bottom",
+    plot.subtitle   = element_text(colour = "grey40")
+  )
+
+print(p8_umap_scibert)
+ggsave(p8_umap_scibert,
+       filename = here("output", "figures", "Analysis_8i_UMAP_scibert.pdf"),
+       device = "pdf", height = 25, width = 50, units = "cm")
+
+# ==============================================================================
+# Analysis 8j: k-means clustering (k = 6) + UMAP op BioBERT embeddings
+# ==============================================================================
+# INTENT
+# Dezelfde procedure als 8i, maar met BioBERT (dmis-lab/biobert-v1.1), een
+# biomedisch voorgetraind model.  Gecachede embeddings worden hergebruikt uit
+# data/cache/embeddings/biobert_echa.rds.
+# ==============================================================================
+
+emb_biobert <- as.matrix(readRDS(
+  here("data", "cache", "embeddings", "biobert_echa.rds")
+))
+
+set.seed(42)
+km_biobert <- kmeans(emb_biobert, centers = 6L, nstart = 25, iter.max = 100)
+non_structure$cluster_biobert <- factor(km_biobert$cluster)
+
+umap_biobert <- uwot::umap(
+  emb_biobert,
+  n_neighbors = 15L,
+  min_dist    = 0.1,
+  metric      = "cosine",
+  seed        = 42L
+)
+
+plot_data_biobert <- non_structure |>
+  mutate(umap1 = umap_biobert[, 1], umap2 = umap_biobert[, 2])
+
+p8_umap_biobert <- ggplot(
+  plot_data_biobert,
+  aes(x = umap1, y = umap2, colour = cluster_biobert)
+) +
+  geom_point(size = 1.2, alpha = 0.6) +
+  scale_colour_manual(
+    values = c("#e05c5c", "#4a90d9", "#7bc67e",
+               "#9b59b6", "#e07b3a", "#2ec4b6")
+  ) +
+  labs(
+    title    = "UMAP — BioBERT embeddings (k = 6)",
+    subtitle = paste0(
+      nrow(non_structure),
+      " non-structure substance names \u2192 dmis-lab/biobert-v1.1"
+    ),
+    x      = "UMAP 1",
+    y      = "UMAP 2",
+    colour = "Cluster"
+  ) +
+  theme_minimal(base_size = 12) +
+  theme(
+    legend.position = "bottom",
+    plot.subtitle   = element_text(colour = "grey40")
+  )
+
+print(p8_umap_biobert)
+ggsave(p8_umap_biobert,
+       filename = here("output", "figures", "Analysis_8j_UMAP_biobert.pdf"),
+       device = "pdf", height = 25, width = 50, units = "cm")
+
 
 # ==============================================================================
 # Analysis 8f: Top example names per cluster (console diagnostic)

@@ -6,7 +6,7 @@ OUTPUT="data/processed/chemont_ground_truth.csv"
 
 /opt/apache-jena-5.6.0/bin/sparql \
     --results=CSV \
-    --data=data/processed/rdf/substances_taxonomy.ttl \
+    --data=data/processed/rdf/substances_taxonomy_levels.ttl \
     --query=bash/chemont_broader_substance.rq \
     > "$OUTPUT"
 

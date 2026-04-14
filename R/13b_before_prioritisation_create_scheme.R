@@ -139,6 +139,7 @@ classyfire_graph <- lapply(classyfire_files, function(f) {
   if (!is.null(parsed) && !is.null(parsed[["inchikey"]])) {
     inchikey <- sub("^InChIKey=", "", parsed[["inchikey"]])
     parsed[["id"]] <- digest::digest(inchikey, algo = "md5")
+    parsed[["inchikey"]] <- inchikey
   }
   parsed
 })

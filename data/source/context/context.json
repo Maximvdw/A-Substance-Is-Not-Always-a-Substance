@@ -166,6 +166,22 @@
     "@id" : "https://data.omgeving.vlaanderen.be/ns/wk#linkability",
     "@type" : "http://www.w3.org/2001/XMLSchema#string"
   },
+  "subclass" : {
+    "@id" : "https://data.omgeving.vlaanderen.be/ns/wk#subclass",
+    "@type" : "@id"
+  },
+  "kingdom" : {
+    "@id" : "https://data.omgeving.vlaanderen.be/ns/wk#kingdom",
+    "@type" : "@id"
+  },
+  "superclass" : {
+    "@id" : "https://data.omgeving.vlaanderen.be/ns/wk#superclass",
+    "@type" : "@id"
+  },
+  "class" : {
+    "@id" : "https://data.omgeving.vlaanderen.be/ns/wk#class",
+    "@type" : "@id"
+  },
   "base_inchikey" : {
     "@id" : "https://data.omgeving.vlaanderen.be/ns/wk#baseInChIKey",
     "@type" : "http://www.w3.org/2001/XMLSchema#string"

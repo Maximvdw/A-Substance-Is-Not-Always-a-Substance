@@ -13,11 +13,13 @@ The analysis confirms that commonly used identifiers in regulatory contexts, par
 
 This finding challenges the widespread assumption in regulatory data integration that such identifiers can serve as globally unique references. In practice, relying on them introduces ambiguity rather than resolving it, undermining their suitability as a backbone for cross-dataset linking.
 
-\paragraph{Why semantic and AI-based approaches are insufficient}
+\paragraph{Limitations of semantic and AI-based approaches}
 
-A key question is whether modern data-driven techniques can compensate for the absence of structure-based identifiers. The results indicate that this is not the case. While embedding-based methods can cluster non-structure substance names into semantically coherent groups, they fail to recover chemical identity or establish precise relationships between entities. Mapping to chemical taxonomies such as ChemOnt is only successful in a negligible fraction of cases.
+This study shows that modern embedding-based methods cannot compensate for the absence of structure-based identifiers in regulatory substance data. While they can group substance names into loosely coherent semantic clusters, they fail to recover true chemical identity or reliably map entries to ChemOnt classes, with only a negligible number of correct assignments.
 
-This limitation is structural rather than technical. Textual descriptions of mixtures, substance groups, and analytical parameters do not encode sufficient information to reconstruct the underlying chemical entities. As a result, no post hoc semantic processing can replace the explicit representation of chemical identity at the source. Embeddings cannot compensate for missing structure.
+These limitations are inherent to the data rather than the models: textual descriptions of mixtures, groups, and analytical entries lack the information required to infer molecular structure. As a result, semantic similarity largely reflects lexical overlap rather than chemical relatedness.
+
+Overall, the results indicate that sentence embeddings cannot substitute for structure-resolvable identifiers. Reliable chemical classification and interoperability therefore require explicit structural representation, such as InChIKeys, at the source.
 
 \paragraph{The combinatorial barrier to retrospective harmonisation}
 

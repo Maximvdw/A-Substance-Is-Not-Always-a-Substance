@@ -1,19 +1,25 @@
-PREFIX dbo: <http://dbpedia.org/ontology/>
-PREFIX dbp: <http://dbpedia.org/property/>
+PREFIX dbo:  <http://dbpedia.org/ontology/>
+PREFIX dbp:  <http://dbpedia.org/property/>
 PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX wk:   <https://data.omgeving.vlaanderen.be/ns/wk#>
 
-SELECT ?inchikey ?substance_name ?chemont_label (GROUP_CONCAT(DISTINCT ?chemont_l ; separator="|") AS ?chemont_labels)
+SELECT distinct ?inchikey ?substance ?substance_name ?chemont_label ?subclass ?class ?superclass ?kingdom
 WHERE {
     ?substance a dbo:ChemicalSubstance ;
         dbp:inchikey ?inchikey ;
         skos:prefLabel ?substance_name ;
-        skos:broader  ?chemont_class ;
-        skos:broader+ ?chemont_classes .
-    FILTER(LANG(?substance_name) = "en" || LANG(?substance_name) = "")
-    ?chemont_class   skos:prefLabel ?chemont_label .
-    FILTER(LANG(?chemont_label) = "en" || LANG(?chemont_label) = "")
-    ?chemont_classes skos:prefLabel ?chemont_l .
-    FILTER(LANG(?chemont_l) = "en" || LANG(?chemont_l) = "")
+        skos:broader ?chemont_class .
+
+
+    FILTER(LANGMATCHES(LANG(?substance_name), "en") || LANG(?substance_name) = "")
+
+    ?chemont_class skos:prefLabel ?chemont_label .
+    FILTER(LANGMATCHES(LANG(?chemont_label), "en") || LANG(?chemont_label) = "")
+
+    # Optional classifications
+    OPTIONAL { ?substance wk:kingdom ?k . ?k skos:prefLabel ?kingdom  }
+    OPTIONAL { ?substance wk:subclass ?sub . ?sub skos:prefLabel ?subclass }
+    OPTIONAL { ?substance wk:class ?c . ?c skos:prefLabel ?class  }
+    OPTIONAL { ?substance wk:superclass ?super . ?super skos:prefLabel ?superclass }
 }
-GROUP BY ?inchikey ?substance_name ?chemont_label
 ORDER BY ?inchikey

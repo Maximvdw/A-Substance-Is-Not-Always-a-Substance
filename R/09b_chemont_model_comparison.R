@@ -47,6 +47,8 @@ library(purrr)
 library(readr)
 library(patchwork)
 
+reticulate::py_require("sentence-transformers")
+
 # ------------------------------------------------------------------------------
 # Configuration
 # ------------------------------------------------------------------------------
@@ -206,10 +208,10 @@ walk(models, function(m) {
   results |>
     filter(model_id == m$id, score_1 > score_threshold) |>
     arrange(desc(score_1)) |>
-    head(20) |>
+    head(200) |>
     select(substance_name, best_match, score_1) |>
     write_csv(here("output", "tables",
-                   sprintf("Analysis_9b_top20_%s.csv", m$id)))
+                   sprintf("Analysis_9b_top200_%s.csv", m$id)))
 })
 
 # ------------------------------------------------------------------------------

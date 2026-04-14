@@ -99,6 +99,8 @@ library(here)
 library(reticulate)
 library(purrr)
 library(stringr)
+
+reticulate::py_require("sentence-transformers")
 library(patchwork)
 
 # ------------------------------------------------------------------------------
@@ -121,6 +123,8 @@ chemont_rds <- here("data", "source", "ChemOnt_2_1.rds")
 chemont     <- readRDS(chemont_rds)
 chemont$substance_name <- chemont$label
 chemont <- chemont |> select("substance", "substance_name")
+
+score_threshold <- 0.80
 
 # ==============================================================================
 # Analysis 9a: Embed ChemOnt class labels
