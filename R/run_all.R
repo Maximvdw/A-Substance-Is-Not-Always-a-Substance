@@ -13,14 +13,17 @@ scripts <- c(
   "05_overlap_lists.R",                      # Analysis 5:  overlap between regulatory lists (UpSet)
   "06_coverage_linking.R",                   # Analysis 6:  coverage of structure-based linking per source
   "07_network_visualisation.R",              # Analysis 7:  bipartite substance ↔ list network
+  "09b_chemont_model_comparison.R",          # creates scibert/biobert embedding caches (required by 8i/8j)
   "08_embedding_clustering.R",               # Analysis 8:  sentence embedding and clustering of non-structure names
   "09_embedding_chemont.R",                  # Analysis 9:  cosine similarity matching to ChemOnt classes
   "10_workload.R",                           # Analysis 10: pairwise group-relation workload estimation
   "11_ambition_fte.R",                       # Analysis 11: FTE required to meet 2030 target
   "12_pairwise_overlap.R",                   # Analysis 12: pairwise Jaccard heatmap + obligation UpSet
   "13a_classyfire_coverage.R",               # Analysis 13: ChemOnt class coverage via ClassyFire cache
-  "13b_before_prioritisation_create_scheme.R", # Schema creation (prerequisite for 14)
-  "14_prioritization.R"                      # Analysis 14: composite priority scoring and visualisations
+  "13b_before_prioritisation_create_scheme.R", # Schema creation (prerequisite for 14); creates substances_taxonomy_levels.ttl
+  "09c_chemont_model_validation.R",          # Analysis 9c: requires substances_taxonomy_levels.ttl from 13b
+  "14_prioritization.R",                      # Analysis 14: composite priority scoring and visualisations
+
 )
 
 for (script in scripts) {
